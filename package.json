@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/jackdcrawford/five/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "mocha": "~1.20.1"
   }
 }
