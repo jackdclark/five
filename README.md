@@ -2,7 +2,7 @@
 
 A library to overcomplicate `5`.
 
-### Useage
+### Usage
 ##### Require the module
 ```javascript
 var five = require('five');
