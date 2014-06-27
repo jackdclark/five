@@ -1,6 +1,6 @@
 {
   "name": "five",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Gives you five",
   "main": "index.js",
   "scripts": {
