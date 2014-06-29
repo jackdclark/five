@@ -29,9 +29,11 @@ five() / five(); // 1
 ```
 
 ##### Different sorts of 5
+```javascript
 five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
+```
 
 ### Development
 ##### The code
