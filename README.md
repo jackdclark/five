@@ -33,11 +33,12 @@ five() / five(); // 1
 five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
+five.roman() // V
 ```
 
 ### Development
 ##### The code
-All of the logic & heavy lifting is achieved in one self-contained file: 
+All of the logic & heavy lifting is achieved in one self-contained file:
 ```
 ./index.js
 ```
