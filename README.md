@@ -1,5 +1,7 @@
 # five.js
 
+![travis](https://api.travis-ci.org/jackdcrawford/five.svg)
+
 A library to overcomplicate `5`.
 
 ### Usage
