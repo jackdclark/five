@@ -4,6 +4,7 @@ module.exports = five;
 
 five.upHigh = function() { return '⁵'; };
 five.downLow = function() { return '₅'; };
+five.roman = function() { return 'V'; };
 
 five.tooSlow = function() {
   var returnIn = new Date(new Date().valueOf() + 555);
