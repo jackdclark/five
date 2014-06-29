@@ -28,6 +28,11 @@ five() * five(); // 25
 five() / five(); // 1
 ```
 
+##### Different sorts of 5
+five.upHigh() // ⁵
+five.downLow() // ₅
+five.tooSlow() // 5, with a ~500 millisecond delay
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file: 
@@ -36,11 +41,6 @@ All of the logic & heavy lifting is achieved in one self-contained file:
 ```
 
 ##### Tests
-The tests are written with `mocha` and can be run with
-```
-mocha
-```
-or
 ```
 npm test
 ```
