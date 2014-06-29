@@ -7,6 +7,7 @@ assert.notEqual(6, five(), 'Five should not give you not five');
 assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5');
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
+assert.equal('Five', file.english(), 'A english five should be Five');
 
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
