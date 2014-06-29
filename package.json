@@ -4,7 +4,7 @@
   "description": "Gives you five",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node test && echo ✔"
   },
   "repository": {
     "type": "git",
