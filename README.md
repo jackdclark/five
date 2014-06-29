@@ -36,6 +36,7 @@ five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
+five.english() //Five
 ```
 
 ### Development
