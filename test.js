@@ -19,17 +19,6 @@ assert.equal('pięć', five.polish(), 'A polish five should be pięć');
 assert.equal('fem', five.swedish(), 'A swedish five should be fem');
 assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 
-five.arabic = function() { return 'خمسة' };
-five.czech = function() { return 'pět' };
-five.english = function() { return 'Five' };
-five.french = function() { return 'cinq' };
-five.german = function() { return 'fünf' };
-five.irish = function() { return 'cúig' };
-five.mongolian = function() { return 'таван' };
-five.polish = function() { return 'pięć' };
-five.swedish = function() { return 'fem' };
-five.thai = function() { return 'ห้า' };
-
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
 var finishes = new Date().valueOf();
