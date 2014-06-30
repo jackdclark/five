@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Five by jackdcrawford</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Five</h1>
+        <p class="header">Gives you five</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/jackdcrawford/five/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/jackdcrawford/five/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/jackdcrawford/five">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/jackdcrawford">jackdcrawford</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="fivejs" class="anchor" href="#fivejs"><span class="octicon octicon-link"></span></a>five.js</h1>
+
+<p><img src="https://api.travis-ci.org/jackdcrawford/five.svg" alt="travis"></p>
+
+<p>A library to overcomplicate <code>5</code>.</p>
+
+<h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<h5>
+<a name="require-the-module" class="anchor" href="#require-the-module"><span class="octicon octicon-link"></span></a>Require the module</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="kd">var</span> <span class="nx">five</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'five'</span><span class="p">);</span>
+</pre></div>
+
+<h5>
+<a name="basic-5" class="anchor" href="#basic-5"><span class="octicon octicon-link"></span></a>Basic 5</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">();</span> <span class="c1">// 5</span>
+</pre></div>
+
+<h5>
+<a name="addition" class="anchor" href="#addition"><span class="octicon octicon-link"></span></a>Addition</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">()</span> <span class="o">+</span> <span class="nx">five</span><span class="p">();</span> <span class="c1">// 10</span>
+</pre></div>
+
+<h5>
+<a name="multiplication" class="anchor" href="#multiplication"><span class="octicon octicon-link"></span></a>Multiplication</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">()</span> <span class="o">*</span> <span class="nx">five</span><span class="p">();</span> <span class="c1">// 25</span>
+</pre></div>
+
+<h5>
+<a name="division" class="anchor" href="#division"><span class="octicon octicon-link"></span></a>Division</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">()</span> <span class="o">/</span> <span class="nx">five</span><span class="p">();</span> <span class="c1">// 1</span>
+</pre></div>
+
+<h5>
+<a name="different-sorts-of-5" class="anchor" href="#different-sorts-of-5"><span class="octicon octicon-link"></span></a>Different sorts of 5</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">upHigh</span><span class="p">()</span> <span class="c1">// ⁵</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">downLow</span><span class="p">()</span> <span class="c1">// ₅</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">tooSlow</span><span class="p">()</span> <span class="c1">// 5, with a ~500 millisecond delay</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">roman</span><span class="p">()</span> <span class="c1">// V</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">english</span><span class="p">()</span> <span class="c1">// Five</span>
+</pre></div>
+
+<h3>
+<a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h3>
+
+<h5>
+<a name="the-code" class="anchor" href="#the-code"><span class="octicon octicon-link"></span></a>The code</h5>
+
+<p>All of the logic &amp; heavy lifting is achieved in one self-contained file:</p>
+
+<pre><code>./index.js
+</code></pre>
+
+<h5>
+<a name="tests" class="anchor" href="#tests"><span class="octicon octicon-link"></span></a>Tests</h5>
+
+<pre><code>npm test
+</code></pre>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
