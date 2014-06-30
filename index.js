@@ -5,7 +5,17 @@ module.exports = five;
 five.upHigh = function() { return '⁵'; };
 five.downLow = function() { return '₅'; };
 five.roman = function() { return 'V'; };
+
+five.arabic = function() { return 'خمسة' };
+five.czech = function() { return 'pět' };
 five.english = function() { return 'Five' };
+five.french = function() { return 'cinq' };
+five.german = function() { return 'fünf' };
+five.irish = function() { return 'cúig' };
+five.mongolian = function() { return 'таван' };
+five.polish = function() { return 'pięć' };
+five.swedish = function() { return 'fem' };
+five.thai = function() { return 'ห้า' };
 
 five.tooSlow = function() {
   var returnIn = new Date(new Date().valueOf() + 555);
