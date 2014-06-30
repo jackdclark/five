@@ -8,6 +8,17 @@ assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5'
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
 
+assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
+assert.equal('pět', five.czech(), 'A czech five should be pět');
+assert.equal('Five', five.english(), 'A english five should be Five');
+assert.equal('cinq', five.french(), 'A french five should be cinq');
+assert.equal('fünf', five.german(), 'A german five should be fünf');
+assert.equal('cúig', five.irish(), 'A irish five should be cúig');
+assert.equal('таван', five.mongolian(), 'A mongolian five should be таван');
+assert.equal('pięć', five.polish(), 'A polish five should be pięć');
+assert.equal('fem', five.swedish(), 'A swedish five should be fem');
+assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
+
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
 var finishes = new Date().valueOf();
