@@ -36,7 +36,20 @@ five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
+```
+
+##### 5 goes multilingual
+```javascript
+five.arabic() // خمسة
+five.czech() // pět
 five.english() // Five
+five.french() // cinq
+five.german() // fünf
+five.irish() // cúig
+five.mongolian() // таван
+five.polish() // pięć
+five.swedish() // fem
+five.thai() // ห้า
 ```
 
 ### Development
