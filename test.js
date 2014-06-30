@@ -1,5 +1,5 @@
 var assert = require('assert');
-var five = require('./');
+var five = require('./five.js');
 
 assert.equal(5, five(), 'Five should give you five');
 assert.notEqual(6, five(), 'Five should not give you not five');
