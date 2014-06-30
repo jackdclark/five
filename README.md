@@ -1,6 +1,6 @@
 # five.js
 
-![travis](https://api.travis-ci.org/jackdcrawford/five.svg)
+![travis](https://api.travis-ci.org/jackdcrawford/five.svg) [![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
 
 A library to overcomplicate `5`.
 
