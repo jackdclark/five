@@ -10,6 +10,11 @@ A library to overcomplicate `5`.
 var five = require('five');
 ```
 
+##### In the browser
+```html
+<script type="text/javascript" src="./five.js"></script>
+```
+
 ##### Basic 5
 ```javascript
 five(); // 5
@@ -56,7 +61,7 @@ five.thai() // ห้า
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
 ```
-./index.js
+./five.js
 ```
 
 ##### Tests

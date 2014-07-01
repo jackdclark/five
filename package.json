@@ -2,7 +2,7 @@
   "name": "five",
   "version": "0.2.0",
   "description": "Gives you five",
-  "main": "index.js",
+  "main": "five.js",
   "scripts": {
     "test": "node test && echo ✔"
   },
