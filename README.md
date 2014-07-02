@@ -1,8 +1,10 @@
 # five.js
 
+A library to overcomplicate `5`.
+
 ![travis](https://api.travis-ci.org/jackdcrawford/five.svg) [![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
 
-A library to overcomplicate `5`.
+[![NPM](https://nodei.co/npm/five.png?downloads=true)](https://nodei.co/npm/five)
 
 ### Usage
 ##### Require the module
