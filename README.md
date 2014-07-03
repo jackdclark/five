@@ -48,6 +48,7 @@ five.roman() // V
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.croatian() // pet
 five.czech() // pět
 five.english() // Five
 five.french() // cinq
