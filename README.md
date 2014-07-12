@@ -60,6 +60,15 @@ five.swedish() // fem
 five.thai() // ห้า
 ```
 
+##### 5 goes multinumerical
+```javascript
+five.one() // 1
+five.two() // 2
+five.three() // 3
+five.four() // 4
+five.five() // 5
+```
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:

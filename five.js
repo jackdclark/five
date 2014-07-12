@@ -25,6 +25,12 @@
     return five();
   };
 
+  five.one = function() { return Math.pow(five() + five() - five(), five() - five()); };
+  five.two = function() { return (five() + five() + five() - five()) / five(); };
+  five.three = function() { return five() - ((five() / five()) + (five() / five())); };
+  five.four = function() { return (five() + five() + five() + five()) / five(); };
+  five.five = function() { return five() + five() + five() - five() - five() };
+
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
   } else if (window) {

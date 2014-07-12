@@ -20,6 +20,17 @@ assert.equal('pięć', five.polish(), 'A polish five should be pięć');
 assert.equal('fem', five.swedish(), 'A swedish five should be fem');
 assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 
+assert.equal(1, five.one(), 'A five one should equal 1');
+assert.notEqual(5, five.one(), 'A five one should not equal 5');
+assert.equal(2, five.two(), 'A five two should equal 2');
+assert.notEqual(5, five.two(), 'A five two should not equal 5');
+assert.equal(3, five.three(), 'A five three should equal 3');
+assert.notEqual(5, five.three(), 'A five three should not equal 5');
+assert.equal(4, five.four(), 'A five four should equal 4');
+assert.notEqual(5, five.four(), 'A five four should not equal 5');
+assert.equal(5, five.five(), 'A five five should equal 5');
+assert.notEqual('five', five.five(), 'A five five should not equal five');
+
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
 var finishes = new Date().valueOf();
