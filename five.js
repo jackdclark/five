@@ -28,6 +28,7 @@
   five.korean = function() { return '오'; };
   five.latin = function() { return 'quinque'; };
   five.mongolian = function() { return 'таван'; };
+  five.persian = function() { return 'پنج'; };
   five.piglatin = function() { return 'ivefay'; };
   five.polish = function() { return 'pięć'; };
   five.portuguese = function () { return 'cinco'; };

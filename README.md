@@ -73,6 +73,7 @@ five.kannada() // ಐದು
 five.korean() // 오
 five.latin() // quinque
 five.mongolian() // таван
+five.persian() // پنج
 five.piglatin() // ivefay
 five.polish() // pięć
 five.portuguese() // cinco
