@@ -53,6 +53,7 @@ five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
 five.english() // Five
+five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
 five.irish() // cúig
