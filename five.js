@@ -40,6 +40,10 @@
   five.map = function(array) { return array.map(five); }
   five.reduce = function(array) { return array.reduce(five); }
 
+  five.fab = function() {
+    return ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"];
+  };
+
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
   } else if (window) {
