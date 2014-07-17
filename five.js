@@ -8,6 +8,7 @@
 
   five.arabic = function() { return 'خمسة'; };
   five.basque = function() { return 'bost'; };
+  five.bosnian = function() { return 'pet'; };
   five.bulgarian = function() { return 'пет'; };
   five.catalan = function() { return 'cinc'; };
   five.chinese = function() { return '五'; };
