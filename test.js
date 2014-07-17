@@ -26,6 +26,7 @@ assert.equal('ivefay', five.piglatin(), 'A piglatin five should be ivefay');
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
+assert.equal('o/', five.high(), 'Place your hand here')
 
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();

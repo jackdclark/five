@@ -76,6 +76,12 @@ five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```
 
+##### High Five
+```javascript
+five.high(); // o/
+```
+
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
