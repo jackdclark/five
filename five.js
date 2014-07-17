@@ -10,10 +10,12 @@
   five.croatian = function() { return 'pet' };
   five.czech = function() { return 'pět' };
   five.english = function() { return 'Five' };
+  five.farsi = function() { return 'پنج' };
   five.french = function() { return 'cinq' };
   five.german = function() { return 'fünf' };
   five.irish = function() { return 'cúig' };
   five.mongolian = function() { return 'таван' };
+  five.persian = function() { return 'پنج' };
   five.polish = function() { return 'pięć' };
   five.slovenian = function() { return 'pet' };
   five.swedish = function() { return 'fem' };
