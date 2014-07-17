@@ -1,0 +1,17 @@
+{
+  "name": "five",
+  "version": "0.4.1",
+  "authors": [
+    "Jack Crawford <jackcrawford19@gmail.com>"
+  ],
+  "description": "Gives you five",
+  "main": "five.js",
+  "keywords": [
+    "five"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/jackdcrawford/five",
+  "ignore": [
+    "node_modules"
+  ]
+}
