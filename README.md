@@ -63,6 +63,7 @@ five.thai() // ห้า
 ##### Different radices
 ```javascript
 five.binary(); // 101
+five.octal(); // 5
 ```
 
 ### Development
