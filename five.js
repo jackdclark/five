@@ -20,7 +20,7 @@
   five.thai = function() { return 'ห้า' };
   five.choctaw = function() { return 'tahlapi' };
   five.piglatin = function() { return 'ivefay' };
-  
+  five.romanian = function() { return 'cinci' };
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
