@@ -15,9 +15,10 @@
   five.irish = function() { return 'cúig' };
   five.mongolian = function() { return 'таван' };
   five.polish = function() { return 'pięć' };
+  five.portuguese = function() { return 'cinco' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
-  
+
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
