@@ -19,7 +19,7 @@ assert.equal('таван', five.mongolian(), 'A mongolian five should be тав�
 assert.equal('pięć', five.polish(), 'A polish five should be pięć');
 assert.equal('fem', five.swedish(), 'A swedish five should be fem');
 assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
-assert.equal('ciao', five.italian(), 'An italian five should be ciao');
+assert.equal('cinque', five.italian(), 'An italian five should be cinque');
 
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
