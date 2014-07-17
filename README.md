@@ -56,6 +56,7 @@ five.english() // Five
 five.french() // cinq
 five.german() // fünf
 five.irish() // cúig
+five.italian() // cinque
 five.mongolian() // таван
 five.piglatin() // ivefay
 five.polish() // pięć
