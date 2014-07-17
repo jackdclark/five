@@ -60,6 +60,11 @@ five.swedish() // fem
 five.thai() // ห้า
 ```
 
+##### Different radices
+```javascript
+five.binary(); // 101
+```
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
