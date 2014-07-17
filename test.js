@@ -10,6 +10,7 @@ assert.equal('V', five.roman(), 'A roman five should be a V');
 
 assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
 assert.equal('bost', five.basque(), 'A Basque five should be bost');
+assert.equal('пет', five.bulgarian(), 'A bulgarian five should be пет');
 assert.equal('五', five.chinese(), 'A chinese five should be 五');
 assert.equal('tahlapi', five.choctaw(), 'A choctaw five should be tahlapi');
 assert.equal('pet', five.croatian(), 'A croatian five should be pet');

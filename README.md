@@ -53,6 +53,7 @@ five.smooth() // S
 ```javascript
 five.arabic() // خمسة
 five.basque() // bost
+five.bulgarian() // пет
 five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
