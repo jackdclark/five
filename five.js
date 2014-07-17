@@ -20,7 +20,6 @@
   five.thai = function() { return 'ห้า' };
   five.choctaw = function() { return 'tahlapi' };
   five.piglatin = function() { return 'ivefay' };
-  
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
@@ -36,6 +35,11 @@
 
   five.map = function(array) { return array.map(five); }
   five.reduce = function(array) { return array.reduce(five); }
+
+  five.fab = function() {
+    return
+      ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"];
+  };
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
