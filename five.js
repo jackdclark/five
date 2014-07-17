@@ -13,6 +13,7 @@
   five.french = function() { return 'cinq' };
   five.german = function() { return 'fünf' };
   five.irish = function() { return 'cúig' };
+  five.italian = function() { return 'cinque' };
   five.mongolian = function() { return 'таван' };
   five.polish = function() { return 'pięć' };
   five.swedish = function() { return 'fem' };
