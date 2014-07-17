@@ -8,17 +8,18 @@ assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5'
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
 
-assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
-assert.equal('pet', five.croatian(), 'A croatian five should be pet');
-assert.equal('pět', five.czech(), 'A czech five should be pět');
-assert.equal('Five', five.english(), 'A english five should be Five');
-assert.equal('cinq', five.french(), 'A french five should be cinq');
-assert.equal('fünf', five.german(), 'A german five should be fünf');
-assert.equal('cúig', five.irish(), 'A irish five should be cúig');
-assert.equal('таван', five.mongolian(), 'A mongolian five should be таван');
-assert.equal('pięć', five.polish(), 'A polish five should be pięć');
-assert.equal('fem', five.swedish(), 'A swedish five should be fem');
-assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
+assert.equal('خمسة', five.arabic(), 'An Arabic five should be خمسة');
+assert.equal('pet', five.croatian(), 'A Croatian five should be pet');
+assert.equal('pět', five.czech(), 'A Czech five should be pět');
+assert.equal('Five', five.english(), 'An English five should be Five');
+assert.equal('cinq', five.french(), 'A French five should be cinq');
+assert.equal('fünf', five.german(), 'A German five should be fünf');
+assert.equal('cúig', five.irish(), 'An Irish five should be cúig');
+assert.equal('таван', five.mongolian(), 'A Mongolian five should be таван');
+assert.equal('pięć', five.polish(), 'A Polish five should be pięć');
+assert.equal('cinco', five.spanish(), 'A Spanish five should be cinco');
+assert.equal('fem', five.swedish(), 'A Swedish five should be fem');
+assert.equal('ห้า', five.thai(), 'A Thai five should be ห้า');
 
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
