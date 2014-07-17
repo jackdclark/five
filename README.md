@@ -76,6 +76,11 @@ five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```
 
+##### Novelty
+```javascript
+five.fab(); // ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"]
+```
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
