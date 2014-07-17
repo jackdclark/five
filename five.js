@@ -32,6 +32,9 @@
     return five();
   };
 
+  five.map = function(array) { return array.map(five); }
+  five.reduce = function(array) { return array.reduce(five); }
+
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
   } else if (window) {
