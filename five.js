@@ -18,6 +18,7 @@
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };
+  five.hebrew = function() { return 'חמש'; };
   five.hindi = function() { return 'पांच'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };

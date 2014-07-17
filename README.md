@@ -63,6 +63,7 @@ five.english() // Five
 five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
+five.hebrew() // חמש
 five.hindi() // पांच
 five.irish() // cúig
 five.italian() // cinque
