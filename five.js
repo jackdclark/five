@@ -22,6 +22,8 @@
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
+  
+  five.six = function() { return five() + five() / five(); }
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
