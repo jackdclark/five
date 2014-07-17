@@ -21,6 +21,7 @@
   five.choctaw = function() { return 'tahlapi' };
   five.piglatin = function() { return 'ivefay' };
 
+
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
