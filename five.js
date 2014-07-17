@@ -23,6 +23,8 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
+  five.japanese = function() { return '五' };
+  five.mayan = function() { return '—' };
 
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
