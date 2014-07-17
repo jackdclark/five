@@ -59,6 +59,7 @@ five.mongolian() // таван
 five.polish() // pięć
 five.swedish() // fem
 five.thai() // ห้า
+five.klingon() // vagh
 ```
 
 ##### Different radices
