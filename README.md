@@ -70,6 +70,7 @@ five.irish() // cúig
 five.italian() // cinque
 five.japanese() // 五
 five.kannada() // ಐದು
+five.klingon() // vagh
 five.korean() // 오
 five.latin() // quinque
 five.mongolian() // таван
