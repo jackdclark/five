@@ -9,6 +9,7 @@ assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5')
 assert.equal('V', five.roman(), 'A roman five should be a V');
 
 assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
+assert.equal('пет', five.bulgarian(), 'A bulgarian five should be пет');
 assert.equal('pet', five.croatian(), 'A croatian five should be pet');
 assert.equal('pět', five.czech(), 'A czech five should be pět');
 assert.equal('Five', five.english(), 'A english five should be Five');
