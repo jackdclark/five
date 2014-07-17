@@ -41,7 +41,7 @@
   five.reduce = function(array) { return array.reduce(five); }
 
   five.fab = function() {
-    return ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"];
+    return ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Webber"];
   };
 
   if(typeof module !== 'undefined' && module.exports) {
