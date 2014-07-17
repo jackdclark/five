@@ -29,6 +29,7 @@ assert.equal('cinco', five.spanish(), 'A spanish five should be cinco');
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
+assert.equal('5', five.random(), 'A random five should be 5');
 
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
