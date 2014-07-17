@@ -30,7 +30,7 @@
   five.octal = function() { return '5'; };
 
   five.tooSlow = function() {
-    var returnIn = new Date(new Date().valueOf() + 555);
+    var returnIn = new Date(new Date().valueOf() + (five() * 111));
 
     do {} while(new Date() < returnIn);
 
