@@ -20,6 +20,8 @@
   five.thai = function() { return 'ห้า' };
   five.choctaw = function() { return 'tahlapi' };
   five.piglatin = function() { return 'ivefay' };
+  five.tamil = function() {return 'ஐந்து'};
+  five.hindi = function() {return 'पाँच' };
   
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
