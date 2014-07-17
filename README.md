@@ -87,3 +87,5 @@ All of the logic & heavy lifting is achieved in one self-contained file:
 ```
 npm test
 ```
+### License
+MIT
