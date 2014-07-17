@@ -32,4 +32,7 @@ var finishes = new Date().valueOf();
 assert.equal(5, slowFive, 'A too slow five should still be five');
 assert.ok((finishes - now) > 500, 'A too slow five should take longer than 500 milliseconds to be returned, blocking execution and generally being a bad idea');
 
+assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
+assert.equal(5, five.reduce([1, 2, 3]));
+
 process.exit(0);
