@@ -29,11 +29,14 @@
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
-  
+  five.hexadecimal = function() { return '0x5'; };
+
   five.negative = function() { return -5; }
   five.loud = function() { return "FIVE"; }
   five.smooth = function() { return "S"; }
-  
+  five.flip = function() { return 'ϛ'; };
+  five.ascii = function() { return ' _____\n| ____|\n| |__\n|___ \\\n ___) | \n|____/'; };
+
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
 
