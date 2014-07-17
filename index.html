@@ -33,9 +33,11 @@
         <h1>
 <a name="fivejs" class="anchor" href="#fivejs"><span class="octicon octicon-link"></span></a>five.js</h1>
 
-<p><img src="https://api.travis-ci.org/jackdcrawford/five.svg" alt="travis"></p>
-
 <p>A library to overcomplicate <code>5</code>.</p>
+
+<p><img src="https://api.travis-ci.org/jackdcrawford/five.svg" alt="travis"><a href="https://codeclimate.com/github/jackdcrawford/five"><img src="https://codeclimate.com/github/jackdcrawford/five.png" alt="Code Climate"></a></p>
+
+<p><a href="https://nodei.co/npm/five"><img src="https://nodei.co/npm/five.png?downloads=true" alt="NPM"></a></p>
 
 <h3>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
@@ -44,6 +46,12 @@
 <a name="require-the-module" class="anchor" href="#require-the-module"><span class="octicon octicon-link"></span></a>Require the module</h5>
 
 <div class="highlight highlight-javascript"><pre><span class="kd">var</span> <span class="nx">five</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'five'</span><span class="p">);</span>
+</pre></div>
+
+<h5>
+<a name="in-the-browser" class="anchor" href="#in-the-browser"><span class="octicon octicon-link"></span></a>In the browser</h5>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"./five.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 </pre></div>
 
 <h5>
@@ -77,7 +85,30 @@
 <span class="nx">five</span><span class="p">.</span><span class="nx">downLow</span><span class="p">()</span> <span class="c1">// ₅</span>
 <span class="nx">five</span><span class="p">.</span><span class="nx">tooSlow</span><span class="p">()</span> <span class="c1">// 5, with a ~500 millisecond delay</span>
 <span class="nx">five</span><span class="p">.</span><span class="nx">roman</span><span class="p">()</span> <span class="c1">// V</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">morseCode</span><span class="p">()</span> <span class="c1">// di-di-di-di-dit</span>
+</pre></div>
+
+<h5>
+<a name="5-goes-multilingual" class="anchor" href="#5-goes-multilingual"><span class="octicon octicon-link"></span></a>5 goes multilingual</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">arabic</span><span class="p">()</span> <span class="c1">// خمسة</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">croatian</span><span class="p">()</span> <span class="c1">// pet</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">czech</span><span class="p">()</span> <span class="c1">// pět</span>
 <span class="nx">five</span><span class="p">.</span><span class="nx">english</span><span class="p">()</span> <span class="c1">// Five</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">french</span><span class="p">()</span> <span class="c1">// cinq</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">german</span><span class="p">()</span> <span class="c1">// fünf</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">irish</span><span class="p">()</span> <span class="c1">// cúig</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">mongolian</span><span class="p">()</span> <span class="c1">// таван</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">polish</span><span class="p">()</span> <span class="c1">// pięć</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">swedish</span><span class="p">()</span> <span class="c1">// fem</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">thai</span><span class="p">()</span> <span class="c1">// ห้า</span>
+</pre></div>
+
+<h5>
+<a name="different-radices" class="anchor" href="#different-radices"><span class="octicon octicon-link"></span></a>Different radices</h5>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">binary</span><span class="p">();</span> <span class="c1">// 101</span>
+<span class="nx">five</span><span class="p">.</span><span class="nx">octal</span><span class="p">();</span> <span class="c1">// 5</span>
 </pre></div>
 
 <h3>
@@ -88,7 +119,7 @@
 
 <p>All of the logic &amp; heavy lifting is achieved in one self-contained file:</p>
 
-<pre><code>./index.js
+<pre><code>./five.js
 </code></pre>
 
 <h5>
