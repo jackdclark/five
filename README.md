@@ -52,14 +52,19 @@ five.smooth() // S
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
 five.english() // Five
+five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
 five.irish() // cúig
+five.italian() // cinque
 five.mongolian() // таван
+five.piglatin() // ivefay
 five.polish() // pięć
+five.slovenian() // pet
 five.swedish() // fem
 five.thai() // ห้า
 ```
@@ -68,6 +73,12 @@ five.thai() // ห้า
 ```javascript
 five.binary(); // 101
 five.octal(); // 5
+```
+
+##### Map and Reduce
+```javascript
+five.map([1, 2, 3]); // [5, 5, 5]
+five.reduce([1, 2, 3]); // 5
 ```
 
 ### Development
@@ -81,3 +92,5 @@ All of the logic & heavy lifting is achieved in one self-contained file:
 ```
 npm test
 ```
+### License
+MIT
