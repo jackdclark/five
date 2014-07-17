@@ -65,6 +65,7 @@ five.thai() // ห้า
 ```javascript
 five.binary(); // 101
 five.octal(); // 5
+five.hex(); // 5
 ```
 
 ##### Map and Reduce
