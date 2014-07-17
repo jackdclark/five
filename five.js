@@ -17,6 +17,8 @@
   five.polish = function() { return 'pięć' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
+  five.japanese = function() { return '五'; };
+  five.chinese = function() { return '五'; };
   
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
