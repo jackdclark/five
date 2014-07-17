@@ -67,6 +67,12 @@ five.binary(); // 101
 five.octal(); // 5
 ```
 
+##### Map and Reduce
+```javascript
+five.map([1, 2, 3]); // [5, 5, 5]
+five.reduce([1, 2, 3]); // 5
+```
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
