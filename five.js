@@ -24,7 +24,6 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
-
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
