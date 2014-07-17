@@ -37,4 +37,7 @@ assert.ok((finishes - now) > 500, 'A too slow five should take longer than 500 m
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
 
+assert.equal('⁵', five.complex(117, 112, 72, 105, 103, 104));
+assert.throws(five.complex);
+
 process.exit(0);
