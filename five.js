@@ -1,4 +1,5 @@
 (function () {
+
   var five = function() { return 5; };
 
   five.upHigh = function() { return '⁵'; };
@@ -16,6 +17,8 @@
   five.polish = function() { return 'pięć' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
+  
+  five.binary = function() { return '101'; };
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
