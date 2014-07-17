@@ -38,6 +38,14 @@
 
     return five();
   };
+  
+  five.helloWorld = function(){
+    var base = 'Hello World ', result='';
+    for (i=0; i<5; i++){
+      result += base;
+    }
+    return result;
+  }
 
   five.map = function(array) { return array.map(five); }
   five.reduce = function(array) { return array.reduce(five); }
