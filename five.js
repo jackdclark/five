@@ -17,6 +17,7 @@
   five.polish = function() { return 'pięć' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
+  five.klingon = function() { return 'vagh' };
   
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
