@@ -10,13 +10,17 @@
   five.croatian = function() { return 'pet' };
   five.czech = function() { return 'pět' };
   five.english = function() { return 'Five' };
+  five.finnish = function() { return 'viisi' };
   five.french = function() { return 'cinq' };
   five.german = function() { return 'fünf' };
   five.irish = function() { return 'cúig' };
   five.mongolian = function() { return 'таван' };
   five.polish = function() { return 'pięć' };
+  five.slovenian = function() { return 'pet' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
+  five.choctaw = function() { return 'tahlapi' };
+  five.piglatin = function() { return 'ivefay' };
   
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
@@ -30,6 +34,9 @@
 
     return five();
   };
+
+  five.map = function(array) { return array.map(five); }
+  five.reduce = function(array) { return array.reduce(five); }
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
