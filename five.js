@@ -29,7 +29,7 @@
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
   five.stars = function() { return '*****';};
-  five.starReview = function() { return 'Outstanding! Would have no hestitation in recommending to friends and family';};
+  five.starReview = function() { return 'Outstanding! Would have no hesitation in recommending to friends and family';};
   
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
