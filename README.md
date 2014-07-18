@@ -72,7 +72,8 @@ five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
 five.thai() // ห้า
-five.japanese() // go
+five.japanese() // 五
+five.chinese() // 五
 five.norwegian() // fem
 five.greek() // ε
 ```
