@@ -67,6 +67,7 @@ five.swedish() // fem
 five.thai() // ห้า
 five.japanese() // go
 five.norwegian() // fem
+five.greek() // ε
 ```
 
 ##### Different radices
