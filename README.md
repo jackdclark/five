@@ -1,4 +1,4 @@
-# five.js
+﻿# five.js
 
 A library to overcomplicate `5`.
 
@@ -58,9 +58,9 @@ five.french() // cinq
 five.german() // fünf
 five.irish() // cúig
 five.italian() // cinque
-five.mongolian() // таван
-five.piglatin() // ivefay
 five.polish() // pięć
+five.piglatin() // ivefay
+five.polish() // piÄ™Ä‡
 five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
@@ -72,6 +72,11 @@ five.thai() // ห้า
 five.binary(); // 101
 five.octal(); // 5
 ```
+
+##### 5 Star Ratings
+five.stars(); // *****
+five.starReview(); // a short, but convincing, 5 star review
+
 
 ##### Map and Reduce
 ```javascript
