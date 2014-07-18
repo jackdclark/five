@@ -16,6 +16,7 @@
   five.irish = function() { return 'cúig' };
   five.mongolian = function() { return 'таван' };
   five.polish = function() { return 'pięć' };
+  five.russian = function() { return 'пять' };
   five.slovenian = function() { return 'pet' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
