@@ -31,6 +31,9 @@
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
 
+  five.fibonacci = function() { return 5; };
+  five.factorial = function() { return 120; };
+
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
 

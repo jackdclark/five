@@ -37,6 +37,12 @@ five() * five(); // 25
 five() / five(); // 1
 ```
 
+##### Maths
+```javascript
+five.fibonacci(); // 5
+five.factorial(); // 120
+```
+
 ##### Different sorts of 5
 ```javascript
 five.upHigh() // ⁵
