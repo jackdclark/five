@@ -65,6 +65,7 @@ five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
 five.thai() // ห้า
+five.japanese() // go
 ```
 
 ##### Different radices
