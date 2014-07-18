@@ -1,6 +1,6 @@
 (function () {
 
-  var five = function() { return 5; };
+  var five = function() { return !+[]+!![]+!![]+!![]+!![]; };
 
   five.upHigh = function() { return '⁵'; };
   five.downLow = function() { return '₅'; };
