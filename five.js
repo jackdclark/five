@@ -37,6 +37,8 @@
     return five();
   };
 
+  five.reverse = function(five) { return five.split("").reverse().join("") }; 
+
   five.map = function(array) { return array.map(five) }
   five.reduce = function(array) { return array.reduce(five) }
 

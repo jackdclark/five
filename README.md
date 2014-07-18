@@ -45,6 +45,7 @@ five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
 five.morseCode() // di-di-di-di-dit
 five.l33t() // f|v3
+five.reverse(five.morseCode) // tid-id-id-id-id 
 ```
 
 ##### 5 goes multilingual
