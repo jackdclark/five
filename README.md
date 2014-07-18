@@ -52,6 +52,7 @@ five.smooth() // S
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.azerbaijani() // beş
 five.basque() // bost
 five.bosnian() // pet
 five.bulgarian() // пет
