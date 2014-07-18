@@ -49,18 +49,18 @@ five.morseCode() // di-di-di-di-dit
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.chinese() // 五
 five.croatian() // pet
 five.czech() // pět
 five.english() // Five
 five.french() // cinq
 five.german() // fünf
 five.irish() // cúig
+five.japanese() // 五
 five.mongolian() // таван
 five.polish() // pięć
 five.swedish() // fem
 five.thai() // ห้า
-five.japanese() // 五
-five.chinese() // 五
 ```
 
 ##### Different radices
