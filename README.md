@@ -1,4 +1,4 @@
-# five.js
+﻿# five.js
 
 A library to overcomplicate `5`.
 
@@ -58,9 +58,9 @@ five.french() // cinq
 five.german() // fünf
 five.irish() // cúig
 five.italian() // cinque
-five.mongolian() // таван
-five.piglatin() // ivefay
 five.polish() // pięć
+five.piglatin() // ivefay
+five.polish() // piÄ™Ä‡
 five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
@@ -73,6 +73,11 @@ five.binary(); // 101
 five.octal(); // 5
 ```
 
+##### 5 Star Ratings
+five.stars(); // *****
+five.starReview(); // a short, but convincing, 5 star review
+
+
 ##### Map and Reduce
 ```javascript
 five.map([1, 2, 3]); // [5, 5, 5]
@@ -83,6 +88,10 @@ five.reduce([1, 2, 3]); // 5
 ```javascript
 five.fab(); // ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"]
 ```
+
+##### Star Ratings
+five.star(); // *****
+five.starReview(); // A fitting review for a 5 star rating
 
 ### Development
 ##### The code
