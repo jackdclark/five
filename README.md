@@ -61,7 +61,9 @@ five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
+five.dovah() // hen
 five.dutch() // vijf
+five.elvish() // lempe
 five.english() // Five
 five.finnish() // viisi
 five.french() // cinq

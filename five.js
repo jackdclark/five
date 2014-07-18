@@ -16,7 +16,9 @@
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
+  five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
+  five.elvish = function() { return 'lempe'; };
   five.english = function() { return 'five'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
