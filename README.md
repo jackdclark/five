@@ -89,6 +89,10 @@ five.reduce([1, 2, 3]); // 5
 five.fab(); // ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"]
 ```
 
+##### Star Ratings
+five.star(); // *****
+five.starReview(); // A fitting review for a 5 star rating
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
