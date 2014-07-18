@@ -9,6 +9,7 @@
   five.arabic = function() { return 'خمسة' };
   five.croatian = function() { return 'pet' };
   five.czech = function() { return 'pět' };
+  five.dutch = function() { return 'vijf' };
   five.english = function() { return 'Five' };
   five.finnish = function() { return 'viisi' };
   five.french = function() { return 'cinq' };
@@ -23,7 +24,6 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
-  five.dutch = function() { return 'vijf' };
 
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
