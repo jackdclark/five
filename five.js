@@ -24,6 +24,7 @@
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
   five.japanese = function() { return 'go' };
+  five.norwegian = function() { return 'fem' };
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
