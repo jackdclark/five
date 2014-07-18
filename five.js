@@ -23,7 +23,8 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
-  five.japanese = function() { return 'go' };
+  five.japanese = function() { return '五' };
+  five.chinese = five.japanese;
   five.norwegian = function() { return 'fem' };
   five.greek = function() { return 'ε' };
 
