@@ -52,6 +52,7 @@ five.arabic() // خمسة
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
+five.dutch() // vijf
 five.english() // Five
 five.finnish() // viisi
 five.french() // cinq
@@ -65,7 +66,6 @@ five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
 five.thai() // ห้า
-five.dutch() // vijf
 ```
 
 ##### Different radices
