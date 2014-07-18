@@ -49,6 +49,7 @@ five.morseCode() // di-di-di-di-dit
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
