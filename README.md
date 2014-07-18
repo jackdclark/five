@@ -50,6 +50,7 @@ five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
 five.morseCode() // di-di-di-di-dit
+five.bool() // true
 ```
 
 ##### 5 goes multilingual
