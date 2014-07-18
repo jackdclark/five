@@ -1,6 +1,6 @@
 {
   "name": "five",
-  "version": "0.4.0",
+  "version": "0.6.0",
   "description": "Gives you five",
   "main": "five.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "five"
   ],
   "author": "Jack Crawford <jackcrawford19@gmail.com>",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jackdcrawford/five/issues"
   }
