@@ -23,6 +23,7 @@
   five.mongolian = function() { return 'таван' };
   five.piglatin = function() { return 'ivefay' };
   five.polish = function() { return 'pięć' };
+  five.russian = function() { return 'пять' };
   five.slovenian = function() { return 'pet' };
   five.spanish = function() { return 'cinco' };
   five.swedish = function() { return 'fem' };
