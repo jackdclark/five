@@ -14,13 +14,14 @@
   five.german = function() { return 'fünf' };
   five.irish = function() { return 'cúig' };
   five.mongolian = function() { return 'таван' };
+  five.basque = function() { return 'bost' };
   five.polish = function() { return 'pięć' };
   five.slovenian = function() { return 'pet' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
   five.choctaw = function() { return 'tahlapi' };
   five.piglatin = function() { return 'ivefay' };
-  
+
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
