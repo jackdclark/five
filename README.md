@@ -52,6 +52,8 @@ five.arabic() // خمسة
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
+five.dovah() // hen
+five.elvish() // lempe
 five.english() // Five
 five.finnish() // viisi
 five.french() // cinq
@@ -82,6 +84,7 @@ five.reduce([1, 2, 3]); // 5
 ##### Novelty
 ```javascript
 five.fab(); // ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"]
+five.jackson(); // ["Jackie Jackson","Toriano Jackson","Jermaine Jackson","Marlon Jackson","Michael Jackson"]
 ```
 
 ### Development

@@ -9,6 +9,8 @@
   five.arabic = function() { return 'خمسة' };
   five.croatian = function() { return 'pet' };
   five.czech = function() { return 'pět' };
+  five.dovah = function() { return 'hen' };
+  five.elvish = function() { return 'lempe' };
   five.english = function() { return 'Five' };
   five.finnish = function() { return 'viisi' };
   five.french = function() { return 'cinq' };
@@ -42,6 +44,10 @@
 
   five.fab = function() {
     return ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"];
+  };
+  
+  five.jackson = function() {
+    return ["Jackie Jackson","Toriano Jackson","Jermaine Jackson","Marlon Jackson","Michael Jackson"];
   };
 
   if(typeof module !== 'undefined' && module.exports) {
