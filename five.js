@@ -15,6 +15,7 @@
   five.french = function() { return 'cinq' };
   five.german = function() { return 'fünf' };
   five.irish = function() { return 'cúig' };
+  five.latin = function() { return 'quinque' };
   five.mongolian = function() { return 'таван' };
   five.polish = function() { return 'pięć' };
   five.slovenian = function() { return 'pet' };
@@ -29,11 +30,11 @@
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
-  
+
   five.negative = function() { return -5; }
   five.loud = function() { return "FIVE"; }
   five.smooth = function() { return "S"; }
-  
+
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
 
