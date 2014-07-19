@@ -35,7 +35,7 @@
   five.fibonacci = function() { return 5; };
   five.factorial = function() { return 120; };
 
-  five.bool = function() { return true; };
+  five.bool = function() { return (five() === 5); };
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
