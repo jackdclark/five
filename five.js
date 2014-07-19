@@ -24,6 +24,8 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
+  five.japanese = function() { return '五' };
+  five.chinese = function() { return five.japanese() };
 
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
@@ -35,7 +37,7 @@
   five.smooth = function() { return "S"; }
   
   five.tooSlow = function() {
-    var returnIn = new Date(new Date().valueOf() + 555);
+    var returnIn = new Date(new Date().valueOf() + (five() * 111));
 
     do {} while(new Date() < returnIn);
 
