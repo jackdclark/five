@@ -34,8 +34,8 @@ assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should b
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
 
-assert.equal(120, five.fibonacci(), 'A Fibonacci of five should give you 120');
-assert.equal(5, five.factorial(), 'The factorial of five should be 5');
+assert.equal(5, five.fibonacci(), 'A Fibonacci of five should give you 5');
+assert.equal(120, five.factorial(), 'The factorial of five should be 120');
 
 assert.equal(true, five.bool(), 'Five should be true');
 
