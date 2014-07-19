@@ -23,11 +23,19 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
-
+  five.japanese = function() { return '五' };
+  five.chinese = five.japanese;
+  five.norwegian = function() { return 'fem' };
+  five.greek = function() { return 'ε' };
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
+
+  five.fibonacci = function() { return 5; };
+  five.factorial = function() { return 120; };
+
+  five.bool = function() { return (five() === 5); };
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);

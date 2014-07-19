@@ -37,6 +37,12 @@ five() * five(); // 25
 five() / five(); // 1
 ```
 
+##### Maths
+```javascript
+five.fibonacci(); // 5
+five.factorial(); // 120
+```
+
 ##### Different sorts of 5
 ```javascript
 five.upHigh() // ⁵
@@ -44,6 +50,7 @@ five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
 five.morseCode() // di-di-di-di-dit
+five.bool() // true
 ```
 
 ##### 5 goes multilingual
@@ -65,6 +72,10 @@ five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
 five.thai() // ห้า
+five.japanese() // 五
+five.chinese() // 五
+five.norwegian() // fem
+five.greek() // ε
 ```
 
 ##### Different radices
