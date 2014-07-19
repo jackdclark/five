@@ -29,11 +29,11 @@
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
-  
+
   five.negative = function() { return -5; }
   five.loud = function() { return "FIVE"; }
   five.smooth = function() { return "S"; }
-  
+
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
 
@@ -47,6 +47,9 @@
 
   five.fab = function() {
     return ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Webber"];
+  };
+  five.senses = function() {
+    return ["Sight", "Hearing", "Taste", "Smell", "Touch"];
   };
 
   if(typeof module !== 'undefined' && module.exports) {
