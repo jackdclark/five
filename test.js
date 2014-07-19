@@ -43,6 +43,7 @@ assert.equal(5, slowFive, 'A too slow five should still be five');
 assert.ok((finishes - now) > 500, 'A too slow five should take longer than 500 milliseconds to be returned, blocking execution and generally being a bad idea');
 
 assert.equal(JSON.stringify(["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Webber"]), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
+assert.equal(JSON.stringify(["Samuel Anders","Galen Tyrol","Tory Foster","Saul Tigh","Ellen Tigh"]), JSON.stringify(five.final()), 'The final five are the "unknown" five Cylon humanoid models');
 
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
