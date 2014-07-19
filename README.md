@@ -44,6 +44,9 @@ five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
 five.morseCode() // di-di-di-di-dit
+five.negative() // -5
+five.loud() // FIVE
+five.smooth() // S
 ```
 
 ##### 5 goes multilingual
@@ -52,6 +55,7 @@ five.arabic() // خمسة
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
+five.dutch() // vijf
 five.english() // Five
 five.finnish() // viisi
 five.french() // cinq
@@ -81,7 +85,7 @@ five.reduce([1, 2, 3]); // 5
 
 ##### Novelty
 ```javascript
-five.fab(); // ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Weber"]
+five.fab(); // ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Webber"]
 ```
 
 ### Development
