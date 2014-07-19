@@ -69,6 +69,7 @@ five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
 five.thai() // ห้า
+five.klingon() // vagh
 ```
 
 ##### Different radices
