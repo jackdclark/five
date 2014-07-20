@@ -37,6 +37,20 @@ five() * five(); // 25
 five() / five(); // 1
 ```
 
+##### Counting is simple
+```javascript
+five() + five() // 10
+five() + five() - five() / five() // 9
+five() + (five() + five() + five()) / five() // 8
+five() + (five() + five()) / five() // 7
+five() + five() / five() // 6
+five() // 5
+five() - five() / five() // 4
+five() - (five() + five()) / five() // 3
+(five() + five()) / five() // 2
+five() / five() // 1
+```
+
 ##### Different sorts of 5
 ```javascript
 five.upHigh() // ⁵
