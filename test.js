@@ -26,6 +26,11 @@ assert.equal('tahlapi', five.choctaw(), 'A choctaw five should be tahlapi');
 assert.equal('ivefay', five.piglatin(), 'A piglatin five should be ivefay');
 assert.equal('cinque', five.italian(), 'A italian five should be cinque');
 assert.equal('cinco', five.spanish(), 'A spanish five should be cinco');
+assert.equal('ஐந்து', five.tamil(), 'A tamil five should be ஐந்து');
+assert.equal('ఐదు', five.telugu(), 'A telugu five should be ఐదు');
+assert.equal('ಐದು', five.kannada(), 'A kannada five should be ಐದು');
+assert.equal('पांच', five.hindi(), 'A hindi five should be पांच');
+
 
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
