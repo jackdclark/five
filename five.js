@@ -24,6 +24,8 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
+  five.japanese = function() { return '五' };
+  five.mayan = function() { return '—' };
 
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
@@ -41,6 +43,14 @@
 
     return five();
   };
+  
+  five.helloWorld = function(){
+    var base = 'Hello World ', result='';
+    for (i=0; i<5; i++){
+      result += base;
+    }
+    return result;
+  }
 
   five.map = function(array) { return array.map(five); }
   five.reduce = function(array) { return array.reduce(five); }
