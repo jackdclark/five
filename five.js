@@ -7,7 +7,9 @@
   five.roman = function() { return 'V'; };
 
   five.arabic = function() { return 'خمسة' };
+  five.chinese = function() { return '五'; };
   five.croatian = function() { return 'pet' };
+  five.choctaw = function() { return 'tahlapi' };
   five.czech = function() { return 'pět' };
   five.dutch = function() { return 'vijf' };
   five.english = function() { return 'Five' };
@@ -15,16 +17,15 @@
   five.french = function() { return 'cinq' };
   five.german = function() { return 'fünf' };
   five.irish = function() { return 'cúig' };
+  five.italian = function() { return 'cinque' };
+  five.japanese = function() { return '五'; };
   five.mongolian = function() { return 'таван' };
+  five.piglatin = function() { return 'ivefay' };
   five.polish = function() { return 'pięć' };
   five.slovenian = function() { return 'pet' };
+  five.spanish = function() { return 'cinco' };
   five.swedish = function() { return 'fem' };
   five.thai = function() { return 'ห้า' };
-  five.choctaw = function() { return 'tahlapi' };
-  five.piglatin = function() { return 'ivefay' };
-  five.italian = function() { return 'cinque' };
-  five.spanish = function() { return 'cinco' };
-
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };

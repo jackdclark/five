@@ -52,6 +52,7 @@ five.smooth() // S
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
@@ -62,6 +63,7 @@ five.french() // cinq
 five.german() // fünf
 five.irish() // cúig
 five.italian() // cinque
+five.japanese() // 五
 five.mongolian() // таван
 five.piglatin() // ivefay
 five.polish() // pięć
