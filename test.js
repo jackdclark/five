@@ -31,6 +31,12 @@ assert.equal('cinco', five.spanish(), 'A spanish five should be cinco');
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
+assert.equal('0x5', five.hexadecimal(), 'A hexadecimal five should be 0x5');
+assert.equal('ϛ', five.flip(), 'A flip five should be ϛ');
+assert.equal(' _____\n| ____|\n| |__\n|___ \\\n ___) | \n|____/', five.ascii(), 'A ascii five should be\n _____\n| ____|\n| |__\n|___ \\\n ___) | \n|____/');
+assert.equal(25, five.pow(), 'Five to the power of 2 should be 25');
+assert.equal(125, five.pow(3), 'Five to the power of 3 should be 125');
+assert.equal(2.23606797749979, five.sqrt(), 'A square root of five should be 2.23606797749979');
 
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
