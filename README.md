@@ -70,6 +70,10 @@ five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
 five.thai() // ห้า
+five.tamil() // ஐந்து
+five.telugu() // ఐదు
+five.kannada() // ಐದು
+five.hindi() // पांच
 ```
 
 ##### Different radices

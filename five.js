@@ -25,7 +25,10 @@
   five.piglatin = function() { return 'ivefay' };
   five.italian = function() { return 'cinque' };
   five.spanish = function() { return 'cinco' };
-
+  five.tamil = function() { return 'ஐந்து' };
+  five.hindi = function() { return 'पांच' };
+  five.kannada = function() { return 'ಐದು'};
+  five.telugu = function() { return 'ఐదు'};
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
