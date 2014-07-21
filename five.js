@@ -7,6 +7,7 @@
   five.roman = function() { return 'V'; };
 
   five.arabic = function() { return 'خمسة' };
+  five.azerbaijani = function() { return 'beş' };
   five.croatian = function() { return 'pet' };
   five.czech = function() { return 'pět' };
   five.dutch = function() { return 'vijf' };
