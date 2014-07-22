@@ -29,10 +29,14 @@
   five.hindi = function() { return 'पांच' };
   five.kannada = function() { return 'ಐದು'};
   five.telugu = function() { return 'ఐదు'};
+  five.indonesian = function() { return 'lima'};
+  five.japanese = function() { return '五'};
+  five.russian = function() { return 'пять'};
 
   five.morseCode = function() { return 'di-di-di-di-dit' };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
+  five.hexadecimal = function() { return '5';};
   
   five.negative = function() { return -5; }
   five.loud = function() { return "FIVE"; }
