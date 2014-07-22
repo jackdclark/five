@@ -25,6 +25,7 @@
   five.german = function() { return 'fünf'; };
   five.hebrew = function() { return 'חמש'; };
   five.hindi = function() { return 'पांच'; };
+  five.indonesian = function() { return 'lima'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
   five.japanese = function() { return '五'; };
