@@ -53,6 +53,7 @@ five.smooth() // S
 ```javascript
 five.arabic() // خمسة
 five.basque() // bost
+five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
@@ -64,6 +65,7 @@ five.german() // fünf
 five.hindi() // पांच
 five.irish() // cúig
 five.italian() // cinque
+five.japanese() // 五
 five.kannada() // ಐದು
 five.mongolian() // таван
 five.piglatin() // ivefay

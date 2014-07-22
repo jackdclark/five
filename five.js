@@ -8,6 +8,7 @@
 
   five.arabic = function() { return 'خمسة' };
   five.basque = function() { return 'bost' };
+  five.chinese = function() { return '五' };
   five.choctaw = function() { return 'tahlapi' };
   five.croatian = function() { return 'pet' };
   five.czech = function() { return 'pět' };
@@ -19,6 +20,7 @@
   five.hindi = function() { return 'पांच' };
   five.irish = function() { return 'cúig' };
   five.italian = function() { return 'cinque' };
+  five.japanese = function() { return '五' };
   five.kannada = function() { return 'ಐದು'};
   five.mongolian = function() { return 'таван' };
   five.piglatin = function() { return 'ivefay' };
