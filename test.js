@@ -36,6 +36,7 @@ assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
+assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
