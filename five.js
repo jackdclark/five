@@ -7,28 +7,36 @@
   five.roman = function() { return 'V'; };
 
   five.arabic = function() { return 'خمسة'; };
+  five.basque = function() { return 'bost'; };
+  five.chinese = function() { return '五'; };
+  five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
   five.dutch = function() { return 'vijf'; };
-  five.english = function() { return 'Five'; };
+  five.english = function() { return 'five'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };
+  five.hindi = function() { return 'पांच'; };
   five.irish = function() { return 'cúig'; };
-  five.mongolian = function() { return 'таван'; };
-  five.polish = function() { return 'pięć'; };
-  five.slovenian = function() { return 'pet'; };
-  five.swedish = function() { return 'fem'; };
-  five.thai = function() { return 'ห้า'; };
-  five.choctaw = function() { return 'tahlapi'; };
-  five.piglatin = function() { return 'ivefay'; };
   five.italian = function() { return 'cinque'; };
+  five.japanese = function() { return '五'; };
+  five.kannada = function() { return 'ಐದು'; };
+  five.mongolian = function() { return 'таван'; };
+  five.piglatin = function() { return 'ivefay'; };
+  five.polish = function() { return 'pięć'; };
+  five.russian = function() { return 'пять'; };
+  five.slovenian = function() { return 'pet'; };
   five.spanish = function() { return 'cinco'; };
-
+  five.swedish = function() { return 'fem'; };
+  five.tamil = function() { return 'ஐந்து'; };
+  five.telugu = function() { return 'ఐదు'; };
+  five.thai = function() { return 'ห้า'; };
 
   five.morseCode = function() { return 'di-di-di-di-dit'; };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
+  five.hex = function() { return '5'; };
 
   five.negative = function() { return -5; }
   five.loud = function() { return "FIVE"; }
