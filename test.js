@@ -9,6 +9,8 @@ assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5')
 assert.equal('V', five.roman(), 'A roman five should be a V');
 
 assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
+assert.equal('bost', five.basque(), 'A Basque five should be bost');
+assert.equal('tahlapi', five.choctaw(), 'A choctaw five should be tahlapi');
 assert.equal('pet', five.croatian(), 'A croatian five should be pet');
 assert.equal('pět', five.czech(), 'A czech five should be pět');
 assert.equal('vijf', five.dutch(), 'A dutch five should be vijf');
@@ -16,22 +18,19 @@ assert.equal('Five', five.english(), 'A english five should be Five');
 assert.equal('viisi', five.finnish(), 'A finnish five should be viisi');
 assert.equal('cinq', five.french(), 'A french five should be cinq');
 assert.equal('fünf', five.german(), 'A german five should be fünf');
+assert.equal('पांच', five.hindi(), 'A hindi five should be पांच');
 assert.equal('cúig', five.irish(), 'A irish five should be cúig');
+assert.equal('cinque', five.italian(), 'A italian five should be cinque');
+assert.equal('ಐದು', five.kannada(), 'A kannada five should be ಐದು');
 assert.equal('таван', five.mongolian(), 'A mongolian five should be таван');
-assert.equal('bost', five.basque(), 'A Basque five should be bost');
+assert.equal('ivefay', five.piglatin(), 'A piglatin five should be ivefay');
 assert.equal('pięć', five.polish(), 'A polish five should be pięć');
 assert.equal('pet', five.slovenian(), 'A slovenian five should be pet');
-assert.equal('fem', five.swedish(), 'A swedish five should be fem');
-assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
-assert.equal('tahlapi', five.choctaw(), 'A choctaw five should be tahlapi');
-assert.equal('ivefay', five.piglatin(), 'A piglatin five should be ivefay');
-assert.equal('cinque', five.italian(), 'A italian five should be cinque');
 assert.equal('cinco', five.spanish(), 'A spanish five should be cinco');
+assert.equal('fem', five.swedish(), 'A swedish five should be fem');
 assert.equal('ஐந்து', five.tamil(), 'A tamil five should be ஐந்து');
 assert.equal('ఐదు', five.telugu(), 'A telugu five should be ఐదు');
-assert.equal('ಐದು', five.kannada(), 'A kannada five should be ಐದು');
-assert.equal('पांच', five.hindi(), 'A hindi five should be पांच');
-
+assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
