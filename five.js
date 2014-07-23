@@ -22,6 +22,7 @@
   five.italian = function() { return 'cinque'; };
   five.japanese = function() { return '五'; };
   five.kannada = function() { return 'ಐದು'; };
+  five.korean = function() { return '오'; };
   five.latin = function() { return 'quinque'; };
   five.mongolian = function() { return 'таван'; };
   five.piglatin = function() { return 'ivefay'; };
