@@ -4,6 +4,11 @@ var five = require('./');
 assert.equal(5, five(), 'Five should give you five');
 assert.notEqual(6, five(), 'Five should not give you not five');
 
+assert.equal(10, five.add(five()), 'An addition of two five should be 10');
+assert.equal(0, five.subtract(five()), 'An subtraction of two five should be 0');
+assert.equal(25, five.multiply(five()), 'An multiplication of two five should be 25');
+assert.equal(1, five.divide(five()), 'An division of to five should be 1');
+
 assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5');
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');

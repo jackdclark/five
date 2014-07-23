@@ -2,6 +2,11 @@
 
   var five = function() { return 5; };
 
+  five.add = function(n) { return five() + n; };
+  five.subtract = function(n) { return five() - n; };
+  five.multiply = function(n) { return five() * n; };
+  five.divide = function(n) { return five() / n; };
+
   five.upHigh = function() { return '⁵'; };
   five.downLow = function() { return '₅'; };
   five.roman = function() { return 'V'; };
