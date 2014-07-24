@@ -52,6 +52,8 @@ five.smooth() // S
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.basque() // bost
+five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
@@ -60,26 +62,30 @@ five.english() // Five
 five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
+five.hindi() // पांच
 five.irish() // cúig
 five.italian() // cinque
+five.japanese() // 五
+five.kannada() // ಐದು
+five.korean() // 오
+five.latin() // quinque
 five.mongolian() // таван
-five.basque() // bost
 five.piglatin() // ivefay
 five.polish() // pięć
+five.russian() // пять
 five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
-five.thai() // ห้า
 five.tamil() // ஐந்து
 five.telugu() // ఐదు
-five.kannada() // ಐದು
-five.hindi() // पांच
+five.thai() // ห้า
 ```
 
 ##### Different radices
 ```javascript
 five.binary(); // 101
 five.octal(); // 5
+five.hex(); // 5
 ```
 
 ##### Map and Reduce

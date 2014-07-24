@@ -6,6 +6,7 @@
   five.downLow = function() { return '₅'; };
   five.roman = function() { return 'V'; };
 
+<<<<<<< HEAD
   five.arabic = function() { return 'خمسة' };
   five.croatian = function() { return 'pet' };
   five.czech = function() { return 'pět' };
@@ -38,10 +39,46 @@
   five.octal = function() { return '5'; };
   five.hexadecimal = function() { return '5';};
   
+=======
+  five.arabic = function() { return 'خمسة'; };
+  five.basque = function() { return 'bost'; };
+  five.chinese = function() { return '五'; };
+  five.choctaw = function() { return 'tahlapi'; };
+  five.croatian = function() { return 'pet'; };
+  five.czech = function() { return 'pět'; };
+  five.dutch = function() { return 'vijf'; };
+  five.english = function() { return 'five'; };
+  five.finnish = function() { return 'viisi'; };
+  five.french = function() { return 'cinq'; };
+  five.german = function() { return 'fünf'; };
+  five.hindi = function() { return 'पांच'; };
+  five.irish = function() { return 'cúig'; };
+  five.italian = function() { return 'cinque'; };
+  five.japanese = function() { return '五'; };
+  five.kannada = function() { return 'ಐದು'; };
+  five.korean = function() { return '오'; };
+  five.latin = function() { return 'quinque'; };
+  five.mongolian = function() { return 'таван'; };
+  five.piglatin = function() { return 'ivefay'; };
+  five.polish = function() { return 'pięć'; };
+  five.russian = function() { return 'пять'; };
+  five.slovenian = function() { return 'pet'; };
+  five.spanish = function() { return 'cinco'; };
+  five.swedish = function() { return 'fem'; };
+  five.tamil = function() { return 'ஐந்து'; };
+  five.telugu = function() { return 'ఐదు'; };
+  five.thai = function() { return 'ห้า'; };
+
+  five.morseCode = function() { return 'di-di-di-di-dit'; };
+  five.binary = function() { return '101'; };
+  five.octal = function() { return '5'; };
+  five.hex = function() { return '5'; };
+
+>>>>>>> upstream/master
   five.negative = function() { return -5; }
   five.loud = function() { return "FIVE"; }
   five.smooth = function() { return "S"; }
-  
+
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
 
