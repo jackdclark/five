@@ -40,9 +40,9 @@
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
 
-  five.negative = function() { return -5; }
-  five.loud = function() { return "FIVE"; }
-  five.smooth = function() { return "S"; }
+  five.negative = function() { return -5; };
+  five.loud = function() { return 'FIVE'; };
+  five.smooth = function() { return 'S'; };
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
@@ -52,11 +52,11 @@
     return five();
   };
 
-  five.map = function(array) { return array.map(five); }
-  five.reduce = function(array) { return array.reduce(five); }
+  five.map = function(array) { return array.map(five); };
+  five.reduce = function(array) { return array.reduce(five); };
 
   five.fab = function() {
-    return ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Webber"];
+    return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
 
   if(typeof module !== 'undefined' && module.exports) {
