@@ -35,7 +35,12 @@
   five.telugu = function() { return 'ఐదు'; };
   five.thai = function() { return 'ห้า'; };
 
-  five.morseCode = function() { return 'di-di-di-di-dit'; };
+  five.morseCode = function() {
+    var t = 350;
+    navigator.vibrate && navigator.vibrate([t, t, t, t, t, t, t, t, t*2]);
+    return 'di-di-di-di-dit';
+  };
+  
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
