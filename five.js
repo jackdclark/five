@@ -37,7 +37,9 @@
 
   five.morseCode = function() {
     var t = 350;
-    navigator.vibrate && navigator.vibrate([t, t, t, t, t, t, t, t, t*2]);
+    if(typeof navigator === 'object' && navigator.vibrate) {
+      navigator.vibrate([t, t, t, t, t, t, t, t, t*2]);
+    }
     return 'di-di-di-di-dit';
   };
   
