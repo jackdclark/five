@@ -4,6 +4,7 @@ A library to overcomplicate `5`.
 
 [![Build Status](https://travis-ci.org/jackdcrawford/five.svg?branch=master)](https://travis-ci.org/jackdcrawford/five)
 [![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
+[![Test Coverage](https://codeclimate.com/github/jackdcrawford/five/coverage.png)](https://codeclimate.com/github/jackdcrawford/five)
 
 [![NPM](https://nodei.co/npm/five.png?downloads=true)](https://nodei.co/npm/five)
 
