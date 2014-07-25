@@ -2,7 +2,8 @@
 
 A library to overcomplicate `5`.
 
-![travis](https://api.travis-ci.org/jackdcrawford/five.svg) [![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
+[![Build Status](https://travis-ci.org/jackdcrawford/five.svg?branch=master)](https://travis-ci.org/jackdcrawford/five)
+[![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
 
 [![NPM](https://nodei.co/npm/five.png?downloads=true)](https://nodei.co/npm/five)
 
@@ -52,24 +53,38 @@ five.smooth() // S
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.azerbaijani() // beş
 five.basque() // bost
+five.bosnian() // pet
+five.bulgarian() // пет
+five.catalan() // cinc
 five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
+five.dovah() // hen
 five.dutch() // vijf
+five.elvish() // lempe
 five.english() // Five
 five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
+five.hebrew() // חמש
 five.hindi() // पांच
+five.indonesian() // lima
 five.irish() // cúig
 five.italian() // cinque
 five.japanese() // 五
 five.kannada() // ಐದು
+five.klingon() // vagh
+five.korean() // 오
+five.latin() // quinque
 five.mongolian() // таван
+five.persian() // پنج
 five.piglatin() // ivefay
 five.polish() // pięć
+five.portuguese() // cinco
+five.romanian() // cinci
 five.russian() // пять
 five.slovenian() // pet
 five.spanish() // cinco
@@ -94,7 +109,7 @@ five.reduce([1, 2, 3]); // 5
 
 ##### Novelty
 ```javascript
-five.fab(); // ["Juwan Howard","Ray Jackson","Jimmy King","Jalen Rose","Chris Webber"]
+five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 ```
 
 ### Development
