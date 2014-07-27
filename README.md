@@ -113,6 +113,12 @@ five.reduce([1, 2, 3]); // 5
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 ```
 
+##### Rotation
+```javascript
+five.rot("five.js"); //"knaj.ox"
+```
+
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
