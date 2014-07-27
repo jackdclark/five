@@ -8,6 +8,7 @@ assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5'
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
 
+
 assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
 assert.equal('beş', five.azerbaijani(), 'A azerbaijani five should be beş');
 assert.equal('bost', five.basque(), 'A basque five should be bost');
@@ -69,5 +70,10 @@ assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Ro
 
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
+
+assert.equal("5678901234", five.rot("0123456789"), "Numbers should be rotated");
+assert.equal("fghijklmnopqrstuvwxyzabcde", five.rot("abcdefghijklmnopqrstuvwxyz"), "Small letters should be rotated");
+assert.equal("FGHIJKLMNOPQRSTUVWXYZABCDE", five.rot("ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "Capital letters too");
+assert.equal("$_$ -,-' @.@?", five.rot("$_$ -,-' @.@?"), "Emoticons shouldn't be rotated");
 
 process.exit(0);
