@@ -70,4 +70,6 @@ assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Ro
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
 
+assert.equal('125', five.pow(3), '5 ^ 3 should give us 125');
+
 process.exit(0);

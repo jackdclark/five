@@ -76,4 +76,10 @@
   } else if (window) {
     window.five = five;
   }
+  five.pow = function (count) {
+    var ans = 1;
+    while count--
+       ans *= 5;
+    return ans;
+   };
 }());
