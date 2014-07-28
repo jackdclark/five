@@ -57,6 +57,8 @@ assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
 assert.equal('S', five.smooth(), 'A smooth five should be S');
+assert.equal('-5', five.reverse(5), 'A reverse five should be -5');
+assert.equal('EVIF', five.reverse(five.loud()), 'A reverse loud five should be EVIF');
 
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
