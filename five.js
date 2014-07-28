@@ -52,6 +52,7 @@
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
 
+  five.arrayIndice= function() { return five() - (five() / five()) };
   five.negative = function() { return -5; };
   five.loud = function() { return 'FIVE'; };
   five.smooth = function() { return 'S'; };
