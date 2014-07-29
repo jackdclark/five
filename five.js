@@ -78,7 +78,7 @@
   }
   five.pow = function (count) {
     var ans = 1;
-    while count--
+    while (count--)
        ans *= 5;
     return ans;
    };
