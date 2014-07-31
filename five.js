@@ -46,7 +46,7 @@
   five.tamil = function() { return 'ஐந்து'; };
   five.telugu = function() { return 'ఐదు'; };
   five.thai = function() { return 'ห้า'; };
-  fie.ukrainian = function() { return 'п’ять'; };
+  five.ukrainian = function() { return 'п’ять'; };
 
   five.morseCode = function() { return 'di-di-di-di-dit'; };
   five.binary = function() { return '101'; };

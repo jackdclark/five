@@ -48,6 +48,7 @@ assert.equal('fem', five.swedish(), 'A swedish five should be fem');
 assert.equal('ஐந்து', five.tamil(), 'A tamil five should be ஐந்து');
 assert.equal('ఐదు', five.telugu(), 'A telugu five should be ఐదు');
 assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
+assert.equal('п’ять', five.ukrainian(), 'A ukrainian five should be п’ять');
 
 assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
 assert.equal('101', five.binary(), 'A binary five should be 101');
