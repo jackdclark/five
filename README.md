@@ -49,6 +49,8 @@ five.morseCode() // di-di-di-di-dit
 five.negative() // -5
 five.loud() // FIVE
 five.smooth() // S
+five.reverse(five.loud) // EVIF
+five.reverse(five.five()) // -5
 ```
 
 ##### 5 goes multilingual

@@ -55,6 +55,14 @@
   five.negative = function() { return -5; };
   five.loud = function() { return 'FIVE'; };
   five.smooth = function() { return 'S'; };
+  five.reverse = function(five) { 
+    if (five % 1 == 0) {
+      return five * -1;
+    }
+    else {
+        return five.split("").reverse().join("") 
+    } 
+  };
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
