@@ -55,6 +55,7 @@ assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
 assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 
+assert.equal('4', five.arrayIndice(), 'A arrayIndice five should be 4');
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
 assert.equal('S', five.smooth(), 'A smooth five should be S');
