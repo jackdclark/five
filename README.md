@@ -26,17 +26,22 @@ five(); // 5
 
 ##### Addition
 ```javascript
-five() + five(); // 10
+five.add(five()); // 10
+```
+
+##### Subtraction
+```javascript
+five.subtract(five()); // 0
 ```
 
 ##### Multiplication
 ```javascript
-five() * five(); // 25
+five.multiply(five()); // 25
 ```
 
 ##### Division
 ```javascript
-five() / five(); // 1
+five.divide(five()); // 1
 ```
 
 ##### Different sorts of 5
