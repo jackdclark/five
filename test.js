@@ -87,4 +87,18 @@ assert.equal(five / five, 1);
 assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
 
-process.exit(0);
+var fiveEmitter = five.emitter();
+var emitterTested = false;
+
+fiveEmitter.on('five', function(e) {
+  assert.equal(5, e, 'Five event emitter should only emit 5');
+  emitterTested = true;
+});
+
+setTimeout(function() {
+  if(!emitterTested) {
+    console.error('The five event emitter did something unexpected! I hope you\'re not using this feature in production');
+    process.exit(1);
+  }
+  process.exit(0);
+}, 100);

@@ -83,6 +83,16 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
+
+  five.emitter = function() {
+    var ee = new (require('events').EventEmitter);
+
+    setInterval(function() {
+      ee.emit('five', 5);
+    }, 5);
+
+    return ee;
+  };
   
   five.rot = function(word) {
     if(typeof(word) != 'string') {
