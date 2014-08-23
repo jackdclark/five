@@ -76,4 +76,10 @@ assert.equal('fghijklmnopqrstuvwxyzabcde', five.rot('abcdefghijklmnopqrstuvwxyz'
 assert.equal('FGHIJKLMNOPQRSTUVWXYZABCDE', five.rot('ABCDEFGHIJKLMNOPQRSTUVWXYZ'), 'Capital letters too');
 assert.equal('$_$ -,- @.@?', five.rot('$_$ -,- @.@?'), 'Emoticons should not be rotated');
 
+assert.equal(five * five, 25);
+assert.equal(five + five, 10);
+assert.equal(five / five, 1);
+assert.equal(five - five, 0);
+assert.equal((five / five) * (five), five);
+
 process.exit(0);
