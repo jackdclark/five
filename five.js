@@ -6,16 +6,16 @@
   five.downLow = function() { return '₅'; };
   five.roman = function() { return 'V'; };
 
-  five.toSomeOtherNumber = function(theOtherNumber) {
+  five.convertTo = function(anotherNumber) {
     // If you need other numbers I'd strongly suggest you call
     // this function when your app starts up and cache the result.
     var oneFifthOfFive = five() / five();
 
-    while(theOtherNumber < oneFifthOfFive) {
-      theOtherNumber += oneFifthOfFive;
+    while(anotherNumber < oneFifthOfFive) {
+      anotherNumber += oneFifthOfFive;
     }
 
-    return theOtherNumber;
+    return anotherNumber;
   };
 
   five.arabic = function() { return 'خمسة'; };
