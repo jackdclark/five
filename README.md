@@ -93,6 +93,7 @@ five.swedish() // fem
 five.tamil() // ஐந்து
 five.telugu() // ఐదు
 five.thai() // ห้า
+five.ukrainian() // п’ять
 ```
 
 ##### Different radices
