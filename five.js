@@ -100,7 +100,7 @@
     return word.replace(/[a-zA-Z0-9]/g, replaceLetter);
   };
 
-  five.valueOf = function() { return 5 };
+  five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
