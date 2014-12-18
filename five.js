@@ -46,6 +46,7 @@
   five.korean = function() { return '오'; };
   five.latin = function() { return 'quinque'; };
   five.mongolian = function() { return 'таван'; };
+  five.manx = function() { return 'queig'; };
   five.persian = function() { return 'پنج'; };
   five.piglatin = function() { return 'ivefay'; };
   five.polish = function() { return 'pięć'; };
@@ -83,6 +84,10 @@
 
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
+  };
+  
+  five.famous = function() {
+    return ['Julian', 'Dick', 'Anne', 'George', 'Timmy'];
   };
   
   five.rot = function(word) {
