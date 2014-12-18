@@ -113,6 +113,7 @@ five.reduce([1, 2, 3]); // 5
 ##### Novelty
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
+five.famous(); // ['Julian', 'Dick', 'Anne', 'George', 'Timmy']
 ```
 
 ##### Rotation
