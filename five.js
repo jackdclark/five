@@ -52,6 +52,7 @@
   five.portuguese = function () { return 'cinco'; };
   five.romanian = function() { return 'cinci'; };
   five.russian = function() { return 'пять'; };
+  five.slovakian = function() { return 'päť'; };
   five.slovenian = function() { return 'pet'; };
   five.spanish = function() { return 'cinco'; };
   five.swedish = function() { return 'fem'; };
@@ -84,7 +85,7 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
-  
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
