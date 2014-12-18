@@ -40,6 +40,7 @@ assert.equal('ಐದು', five.kannada(), 'A kannada five should be ಐದು');
 assert.equal('vagh', five.klingon(), 'A klingon five should be vagh');
 assert.equal('오', five.korean(), 'A korean five should be 오');
 assert.equal('quinque', five.latin(), 'A latin five should be quinque');
+assert.equal('queig', five.manx(), 'A manx five should be queig, yessir');
 assert.equal('таван', five.mongolian(), 'A mongolian five should be таван');
 assert.equal('پنج', five.persian(), 'A persian five should be پنج');
 assert.equal('ivefay', five.piglatin(), 'A piglatin five should be ivefay');
@@ -73,6 +74,7 @@ assert.equal(5, slowFive, 'A too slow five should still be five');
 assert.ok((finishes - now) > 500, 'A too slow five should take longer than 500 milliseconds to be returned, blocking execution and generally being a bad idea');
 
 assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
+assert.equal(JSON.stringify(['Julian', 'Dick', 'Anne', 'George', 'Timmy']), JSON.stringify(five.famous()), 'A famous five should be Enid Blyton characters');
 
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
