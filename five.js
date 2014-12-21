@@ -37,6 +37,7 @@
   five.german = function() { return 'fünf'; };
   five.hebrew = function() { return 'חמש'; };
   five.hindi = function() { return 'पांच'; };
+  five.hungarian = function() { return 'öt'; };
   five.indonesian = function() { return 'lima'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
@@ -46,17 +47,20 @@
   five.korean = function() { return '오'; };
   five.latin = function() { return 'quinque'; };
   five.mongolian = function() { return 'таван'; };
+  five.norwegian = function() { return 'fem'; };
   five.persian = function() { return 'پنج'; };
   five.piglatin = function() { return 'ivefay'; };
   five.polish = function() { return 'pięć'; };
   five.portuguese = function () { return 'cinco'; };
   five.romanian = function() { return 'cinci'; };
   five.russian = function() { return 'пять'; };
+  five.slovakian = function() { return 'päť'; };
   five.slovenian = function() { return 'pet'; };
   five.spanish = function() { return 'cinco'; };
   five.swedish = function() { return 'fem'; };
   five.tamil = function() { return 'ஐந்து'; };
   five.telugu = function() { return 'ఐదు'; };
+  five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
 
@@ -93,7 +97,7 @@
 
     return ee;
   };
-  
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
@@ -110,7 +114,7 @@
     return word.replace(/[a-zA-Z0-9]/g, replaceLetter);
   };
 
-  five.valueOf = function() { return 5 };
+  five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;

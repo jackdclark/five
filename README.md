@@ -72,6 +72,7 @@ five.french() // cinq
 five.german() // fünf
 five.hebrew() // חמש
 five.hindi() // पांच
+five.hungarian() // öt
 five.indonesian() // lima
 five.irish() // cúig
 five.italian() // cinque
@@ -81,12 +82,14 @@ five.klingon() // vagh
 five.korean() // 오
 five.latin() // quinque
 five.mongolian() // таван
+five.norwegian() // fem
 five.persian() // پنج
 five.piglatin() // ivefay
 five.polish() // pięć
 five.portuguese() // cinco
 five.romanian() // cinci
 five.russian() // пять
+five.slovakian() // päť
 five.slovenian() // pet
 five.spanish() // cinco
 five.swedish() // fem
