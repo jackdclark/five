@@ -87,6 +87,10 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
+  
+  five.jackson = function() {
+    return ['Jackie','Tito','Jermaine','Marlon','Michael'];
+  };
 
   five.rot = function(word) {
     if(typeof(word) != 'string') {
