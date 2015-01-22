@@ -63,7 +63,8 @@
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
-
+  five.welsh = function() { return 'pump'; };
+  
   five.morseCode = function() { return 'di-di-di-di-dit'; };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
