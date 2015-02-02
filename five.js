@@ -71,7 +71,6 @@
   five.hex = function() { return '5'; };
 
   five.negative = function() { return -5; };
-  five.loud = function() { return 'FIVE'; };
   five.smooth = function() { return 'S'; };
 
   five.tooSlow = function() {
@@ -87,6 +86,10 @@
 
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
+  };
+  
+  String.prototype.loud = function () {
+    return this.toUpperCase();
   };
 
   five.rot = function(word) {
