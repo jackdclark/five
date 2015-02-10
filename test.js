@@ -82,7 +82,7 @@ var slowFive = five.tooSlowAsync(function(number){
   assert.equal(5, number, 'A too slow five should still be five');
 });
 var after = new Date().valueOf();
-assert.ok((after - now) < 500, 'An asyncronous too slow five should not block execution');
+assert.ok((after - now) < 500, 'An asynchronous too slow five should not block execution');
 
 assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
 
