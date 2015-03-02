@@ -58,6 +58,7 @@
   five.slovenian = function() { return 'pet'; };
   five.spanish = function() { return 'cinco'; };
   five.swedish = function() { return 'fem'; };
+  five.tagalog = function() { return 'lima'; };
   five.tamil = function() { return 'ஐந்து'; };
   five.telugu = function() { return 'ఐదు'; };
   five.turkish = function() { return 'beş'; };
