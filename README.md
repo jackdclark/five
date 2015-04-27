@@ -89,6 +89,7 @@ five.polish() // pięć
 five.portuguese() // cinco
 five.romanian() // cinci
 five.russian() // пять
+five.serbian() // pet
 five.slovakian() // päť
 five.slovenian() // pet
 five.spanish() // cinco
