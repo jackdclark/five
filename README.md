@@ -44,6 +44,7 @@ five() / five(); // 1
 five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
+five.tooSlowAsync(Function callback) // non-blocking version of tooSlow
 five.roman() // V
 five.morseCode() // di-di-di-di-dit
 five.negative() // -5
