@@ -53,6 +53,7 @@
   five.piglatin = function() { return 'ivefay'; };
   five.polish = function() { return 'pięć'; };
   five.portuguese = function () { return 'cinco'; };
+  five.punjabi = function () { return 'ਪੰਜ'; };
   five.romanian = function() { return 'cinci'; };
   five.russian = function() { return 'пять'; };
   five.serbian = function() { return 'pet'; };
