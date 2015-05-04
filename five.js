@@ -65,6 +65,7 @@
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
+  five.vietnamese = function() { return 'năm'; };
   five.welsh = function() { return 'pump'; };
   
   five.morseCode = function() { return 'di-di-di-di-dit'; };
