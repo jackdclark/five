@@ -56,6 +56,7 @@ five.smooth() // S
 five.arabic() // خمسة
 five.azerbaijani() // beş
 five.basque() // bost
+five.belarusian // пяць
 five.bosnian() // pet
 five.bulgarian() // пет
 five.catalan() // cinc
