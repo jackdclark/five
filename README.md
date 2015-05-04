@@ -53,6 +53,7 @@ five.smooth() // S
 
 ##### 5 goes multilingual
 ```javascript
+five.afrikaans() // vyf
 five.arabic() // خمسة
 five.azerbaijani() // beş
 five.basque() // bost
@@ -100,6 +101,7 @@ five.telugu() // ఐదు
 five.thai() // ห้า
 five.ukrainian() // п’ять
 five.welsh() // pump
+five.xhosa() // zintlanu
 ```
 
 ##### Different radices
@@ -118,6 +120,7 @@ five.reduce([1, 2, 3]); // 5
 ##### Novelty
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
+five.jackson() // ['Jackie','Tito','Jermaine','Marlon','Michael']
 ```
 
 ##### Rotation
