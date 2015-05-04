@@ -42,6 +42,7 @@ assert.equal('vagh', five.klingon(), 'A klingon five should be vagh');
 assert.equal('오', five.korean(), 'A korean five should be 오');
 assert.equal('quinque', five.latin(), 'A latin five should be quinque');
 assert.equal('pieci', five.latvian(), 'A latvian five should be pieci');
+assert.equal('mu', five.lojban(), 'A lojban five should be mu, see http://en.wikibooks.org/wiki/Lojban/Numbers');
 assert.equal('таван', five.mongolian(), 'A mongolian five should be таван');
 assert.equal('fem', five.norwegian(), 'A norwegian five should be fem');
 assert.equal('پنج', five.persian(), 'A persian five should be پنج');

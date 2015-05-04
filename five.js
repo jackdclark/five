@@ -47,6 +47,7 @@
   five.korean = function() { return '오'; };
   five.latin = function() { return 'quinque'; };
   five.latvian = function() { return 'pieci'; };
+  five.lojban = function() { return 'mu'; };
   five.mongolian = function() { return 'таван'; };
   five.norwegian = function() { return 'fem'; };
   five.persian = function() { return 'پنج'; };
