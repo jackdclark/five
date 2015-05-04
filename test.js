@@ -23,6 +23,7 @@ assert.equal('五', five.chinese(), 'A chinese five should be 五');
 assert.equal('tahlapi', five.choctaw(), 'A choctaw five should be tahlapi');
 assert.equal('pet', five.croatian(), 'A croatian five should be pet');
 assert.equal('pět', five.czech(), 'A czech five should be pět');
+assert.equal('fem', five.danish(), 'A danish five should be fem');
 assert.equal('hen', five.dovah(), 'A dovah five should be hen');
 assert.equal('vijf', five.dutch(), 'A dutch five should be vijf');
 assert.equal('lempe', five.elvish(), 'A elvish five should be lempe');
