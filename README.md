@@ -118,6 +118,7 @@ five.reduce([1, 2, 3]); // 5
 ##### Novelty
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
+five.law(); // The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.
 ```
 
 ##### Rotation
