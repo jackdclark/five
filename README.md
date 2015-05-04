@@ -99,6 +99,7 @@ five.tamil() // ஐந்து
 five.telugu() // ఐదు
 five.thai() // ห้า
 five.ukrainian() // п’ять
+five.vietnamese() // năm
 five.welsh() // pump
 ```
 
