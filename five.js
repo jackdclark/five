@@ -91,6 +91,12 @@
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
 
+  five.async = function(callback) {
+    process.nextTick(function() {
+      callback(null, 5);
+    });
+  };
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;

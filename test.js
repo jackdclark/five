@@ -93,4 +93,15 @@ assert.equal(five / five, 1);
 assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
 
-process.exit(0);
+var asyncTests = 1;
+five.async(function(err, five) {
+	assert.equal(err, null, 'Async should not result in an error.');
+	assert.equal(five, 5, 'Async should pass 5 to callback.');
+	asyncTests--;
+});
+
+setInterval(function() {
+	if (!asyncTests) {
+		process.exit(0);
+	}
+}, 100);
