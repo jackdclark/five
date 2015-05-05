@@ -93,7 +93,7 @@
 
   five.async = function(callback) {
     process.nextTick(function() {
-      callback(null, 5);
+      callback(null, five());
     });
   };
 
