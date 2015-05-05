@@ -91,6 +91,10 @@
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
 
+  five.johnny = function() {
+    return 'alive';
+  };
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
