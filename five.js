@@ -90,6 +90,9 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
+  five.arthur = function () {
+    return 'Three, Sir!';
+  };
 
   five.rot = function(word) {
     if(typeof(word) != 'string') {
