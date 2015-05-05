@@ -83,6 +83,12 @@
 
     return five();
   };
+  
+  five.tooSlowAsync = function (f) {
+    setTimeout(function () {
+      f(five());
+    }, 555);
+  };
 
   five.map = function(array) { return array.map(five); };
   five.reduce = function(array) { return array.reduce(five); };
