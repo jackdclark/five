@@ -91,6 +91,10 @@
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
 
+  five.engine = function() {
+    return {'name': "James", 'type': "tender", 'color': "red"};
+  }
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
