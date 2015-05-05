@@ -109,6 +109,11 @@ five.octal(); // 5
 five.hex(); // 5
 ```
 
+#### Factors
+```javascript
+five.factors(); // [1, 5]
+```
+
 ##### Map and Reduce
 ```javascript
 five.map([1, 2, 3]); // [5, 5, 5]
