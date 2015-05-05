@@ -98,6 +98,7 @@ five.swedish() // fem
 five.tamil() // ஐந்து
 five.telugu() // ఐదు
 five.thai() // ห้า
+five.turkish() // beş
 five.ukrainian() // п’ять
 five.welsh() // pump
 ```
