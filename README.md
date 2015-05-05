@@ -70,6 +70,7 @@ five.english() // Five
 five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
+five.greek() // πέντε
 five.hebrew() // חמש
 five.hindi() // पांच
 five.hungarian() // öt

@@ -35,6 +35,7 @@
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };
+  five.greek = function() { return 'πέντε'; };
   five.hebrew = function() { return 'חמש'; };
   five.hindi = function() { return 'पांच'; };
   five.hungarian = function() { return 'öt'; };
