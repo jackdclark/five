@@ -74,6 +74,7 @@
 
   five.negative = function() { return -5; };
   five.loud = function() { return 'FIVE'; };
+  five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
   five.smooth = function() { return 'S'; };
 
   five.tooSlow = function() {
