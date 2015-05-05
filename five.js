@@ -91,6 +91,8 @@
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
 
+  five.cards = function() { return ['5♠','5♦','5♣','5♥'] };
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
