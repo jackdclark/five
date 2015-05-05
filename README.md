@@ -118,6 +118,7 @@ five.reduce([1, 2, 3]); // 5
 ##### Novelty
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
+five.engine(); // {'name': "James", 'type': "tender", 'color': "red"}
 ```
 
 ##### Rotation
