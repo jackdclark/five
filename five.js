@@ -90,6 +90,9 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
+  five.arthurian = function () {
+    return 'Three, Sir!';
+  };
 
   five.async = function(callback) {
     process.nextTick(function() {
