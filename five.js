@@ -18,6 +18,7 @@
     return anotherNumber;
   };
 
+  five.afrikaans = function() { return 'vyf'; };
   five.arabic = function() { return 'خمسة'; };
   five.azerbaijani = function() { return 'beş'; };
   five.basque = function() { return 'bost'; };
@@ -66,6 +67,7 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
+  five.xhosa = function() { return 'zintlanu'; };
   
   five.morseCode = function() { return 'di-di-di-di-dit'; };
   five.binary = function() { return '101'; };
@@ -89,6 +91,9 @@
 
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
+  };
+  five.jackson = function() {
+    return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
 
   five.async = function(callback) {
