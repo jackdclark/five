@@ -45,7 +45,7 @@ five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
-five.morseCode() // di-di-di-di-dit
+five.morseCode() // di-di-di-di-dah
 five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY

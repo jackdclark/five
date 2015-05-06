@@ -62,7 +62,7 @@ assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 assert.equal('beş', five.turkish(), 'A turkish five should be beş');
 assert.equal('п’ять', five.ukrainian(), 'A ukrainian five should be п’ять');
 
-assert.equal('di-di-di-di-dit', five.morseCode(), 'A five in morse code should be di-di-di-di-dit');
+assert.equal('....-', five.morseCode(), 'A five in morse code should be ....-');
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
 assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
