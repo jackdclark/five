@@ -90,7 +90,7 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
-  five.arthur = function () {
+  five.arthurian = function () {
     return 'Three, Sir!';
   };
 
