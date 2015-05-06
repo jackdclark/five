@@ -125,6 +125,12 @@ five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris We
 five.rot("five.js"); //"knaj.ox"
 ```
 
+##### Asynchronous Usage
+```javascript
+five.async(function(err, five) {
+	// five === 5
+});
+```
 
 ### Development
 ##### The code
