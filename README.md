@@ -48,6 +48,7 @@ five.roman() // V
 five.morseCode() // di-di-di-di-dit
 five.negative() // -5
 five.loud() // FIVE
+five.loud('piglatin') // IVEFAY
 five.smooth() // S
 ```
 
