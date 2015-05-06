@@ -90,6 +90,10 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
+  
+  five.jackson = function() {
+    return ['Jackie','Tito','Jermaine','Marlon','Michael'];
+  };
 
   five.async = function(callback) {
     process.nextTick(function() {
