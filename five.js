@@ -101,7 +101,7 @@
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
    */
   five.luniz = function() {
-    return "I Got 5 on It";
+    return "I Got " + five() + " on It";
   }
 
   five.async = function(callback) {
