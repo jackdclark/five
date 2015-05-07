@@ -33,6 +33,7 @@
   five.dutch = function() { return 'vijf'; };
   five.elvish = function() { return 'lempe'; };
   five.english = function() { return 'five'; };
+  five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };
