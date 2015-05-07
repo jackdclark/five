@@ -86,6 +86,7 @@ five.klingon() // vagh
 five.korean() // 오
 five.latin() // quinque
 five.latvian() // pieci
+five.lithuanian() // penki
 five.mongolian() // таван
 five.norwegian() // fem
 five.persian() // پنج
