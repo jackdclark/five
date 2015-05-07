@@ -96,6 +96,14 @@
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
 
+  /*
+   * Members of the "Famous Five" children's novel series.
+   * http://en.wikipedia.org/wiki/The_Famous_Five_%28series%29
+   */
+  five.famous = function() {
+    return ['Julian', 'Dick', 'George', 'Anne', 'Timmy'];
+  }
+
   five.async = function(callback) {
     process.nextTick(function() {
       callback(null, five());
