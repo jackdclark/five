@@ -111,6 +111,8 @@ five.async(function(err, five) {
 
 assert.equal(five.letterWord().length, 5);
 
+assert.equal(five.aDay().length, 5);
+
 setInterval(function() {
 	if (!asyncTests) {
 		process.exit(0);
