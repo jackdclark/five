@@ -62,6 +62,7 @@ five.bosnian() // pet
 five.bulgarian() // пет
 five.catalan() // cinc
 five.chinese() // 五
+five.traditionalChinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
