@@ -25,7 +25,15 @@
   five.bosnian = function() { return 'pet'; };
   five.bulgarian = function() { return 'пет'; };
   five.catalan = function() { return 'cinc'; };
-  five.chinese = function() { return '五'; };
+  five.chinese = function(type) {
+    switch(type) {
+      case 'pinyin': return 'wǔ';
+      case 'financial': return '伍';
+      case 'simplified':
+      case 'traditional':
+      default: return '五';
+    }
+  };
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
@@ -70,7 +78,7 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-  
+
   five.morseCode = function() { return '....-'; };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
@@ -94,7 +102,7 @@
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
-  
+
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
