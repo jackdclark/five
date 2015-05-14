@@ -11,7 +11,12 @@ assert.equal(five.convertTo(665456), 665456);
 assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5');
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
-
+assert.equal('V', five.roman('upper'), 'A roman five in upper should be a V');
+assert.equal('v', five.roman('lower'), 'A roman five in lower should be a v');
+assert.equal('5', five.num(), 'A String five should be a "5"');
+assert.equal('⑤', five.num('format0'), 'A String five in format0 should be a "5"');
+assert.equal('㈤', five.num('format1'), 'A String five in format1 should be a ㈤');
+assert.equal('⒌', five.num('format2'), 'A String five in format2 should be a ⒌');
 
 assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
 assert.equal('beş', five.azerbaijani(), 'A azerbaijani five should be beş');

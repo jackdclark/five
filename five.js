@@ -4,8 +4,21 @@
 
   five.upHigh = function() { return '⁵'; };
   five.downLow = function() { return '₅'; };
-  five.roman = function() { return 'V'; };
-
+  five.roman = function(type) { 
+    switch(type) {
+      case 'upper': return 'V';
+      case 'lower': return 'v';
+      default: return 'V';
+    }
+  };
+  five.num = function(type) {
+    switch(type) {
+      case 'format0': return '⑤';
+      case 'format1': return '㈤';
+      case 'format2': return '⒌';
+      default: return '5';
+    }
+  }
   five.convertTo = function(anotherNumber) {
     // If you need other numbers I'd strongly suggest you call
     // this function when your app starts up and cache the result.
@@ -31,6 +44,7 @@
       case 'financial': return '伍';
       case 'simplified': return '五';
       case 'traditional': return '伍';
+      case 'zheng': return '正';
       default: return '五';
     }
   };

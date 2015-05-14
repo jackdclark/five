@@ -45,11 +45,17 @@ five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
+five.roman('upper') // V
+five.roman('lower') // v
 five.morseCode() // di-di-di-di-dah
 five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+five.num() // 5 ps: It is String.
+five.num('format0') // ⑤
+five.num('format1') // ㈤
+five.num('format2') // ⒌
 ```
 
 ##### 5 goes multilingual
@@ -62,6 +68,10 @@ five.bosnian() // pet
 five.bulgarian() // пет
 five.catalan() // cinc
 five.chinese() // 五
+five.chinese('pinyin') // wǔ
+five.chinese('financial') // 伍
+five.chinese('simplified') // 五
+five.chinese('traditional') // 伍
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
@@ -110,6 +120,7 @@ five.welsh() // pump
 
 ##### Different radices
 ```javascript
+fiev.five.morseCode(); // ....-
 five.binary(); // 101
 five.octal(); // 5
 five.hex(); // 5
