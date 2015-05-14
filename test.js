@@ -76,6 +76,8 @@ assert.equal('IVEFAY', five.loud('piglatin'), 'A loud five in Pig Latin should b
 assert.equal('ПЯТЬ', five.loud('russian'), 'A loud five in Russian should be ПЯТЬ');
 assert.equal('S', five.smooth(), 'A smooth five should be S');
 
+assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
+
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
 var finishes = new Date().valueOf();
