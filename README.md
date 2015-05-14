@@ -139,6 +139,11 @@ five.async(function(err, five) {
 });
 ```
 
+##### Unicode
+```javascript
+five.oclock(); // '🕔'
+```
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:

@@ -121,6 +121,8 @@
     return word.replace(/[a-zA-Z0-9]/g, replaceLetter);
   };
 
+  five.oclock = function() { return '🕔'; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
