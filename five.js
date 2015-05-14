@@ -25,7 +25,15 @@
   five.bosnian = function() { return 'pet'; };
   five.bulgarian = function() { return 'пет'; };
   five.catalan = function() { return 'cinc'; };
-  five.chinese = function() { return '五'; };
+  five.chinese = function(type) {
+    switch(type) {
+      case 'pinyin': return 'wǔ';
+      case 'financial': return '伍';
+      case 'simplified': return '五';
+      case 'traditional': return '伍';
+      default: return '五';
+    }
+  };
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
