@@ -29,8 +29,6 @@
     switch(type) {
       case 'pinyin': return 'wǔ';
       case 'financial': return '伍';
-      case 'simplified':
-      case 'traditional':
       default: return '五';
     }
   };
