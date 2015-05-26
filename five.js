@@ -19,6 +19,7 @@
   };
 
   five.arabic = function() { return 'خمسة'; };
+  five.armenian = function() { return 'հինգ'; }
   five.azerbaijani = function() { return 'beş'; };
   five.basque = function() { return 'bost'; };
   five.belarusian = function() { return 'пяць'; };
@@ -36,6 +37,7 @@
   five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
+  five.georgian = function() { return 'ხუთი'; }
   five.german = function() { return 'fünf'; };
   five.greek = function() { return 'πέντε'; };
   five.hebrew = function() { return 'חמש'; };
