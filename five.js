@@ -71,7 +71,7 @@
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
   
-  five.morseCode = function() { return '....-'; };
+  five.morseCode = function() { return '.....'; };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
