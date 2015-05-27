@@ -80,6 +80,7 @@ five.hungarian() // öt
 five.indonesian() // lima
 five.irish() // cúig
 five.italian() // cinque
+five.icelandic() // fimm
 five.japanese() // 五
 five.kannada() // ಐದು
 five.klingon() // vagh
