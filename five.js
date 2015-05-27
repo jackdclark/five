@@ -44,6 +44,7 @@
   five.indonesian = function() { return 'lima'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
+  five.icelandic = function() { return 'fimm'; };
   five.japanese = function() { return '五'; };
   five.kannada = function() { return 'ಐದು'; };
   five.klingon = function() { return 'vagh'; };
