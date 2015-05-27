@@ -127,6 +127,8 @@
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
+  } else if (typeof define === 'function' && define.amd){
+    return five;
   } else if (window) {
     window.five = five;
   }
