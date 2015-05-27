@@ -8,6 +8,7 @@ assert.equal(five.convertTo(5), 5);
 assert.equal(five.convertTo(3), 3);
 assert.equal(five.convertTo(665456), 665456);
 
+assert.equal('ϛ', five.flipside(), 'A five on the flipside should be upside down');
 assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5');
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
