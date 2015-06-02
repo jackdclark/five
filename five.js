@@ -41,6 +41,7 @@
   five.hebrew = function() { return 'חמש'; };
   five.hindi = function() { return 'पांच'; };
   five.hungarian = function() { return 'öt'; };
+  five.icelandic = function() { return 'fimm'; };
   five.indonesian = function() { return 'lima'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
