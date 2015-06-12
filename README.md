@@ -8,38 +8,38 @@ A library to overcomplicate `5`.
 
 [![NPM](https://nodei.co/npm/five.png?downloads=true)](https://nodei.co/npm/five)
 
-### Usage
-##### Require the module
+## Usage
+### Require the module
 ```javascript
 var five = require('five');
 ```
 
-##### In the browser
+### In the browser
 ```html
 <script type="text/javascript" src="./five.js"></script>
 ```
 
-##### Basic 5
+### Basic 5
 ```javascript
 five(); // 5
 ```
 
-##### Addition
+### Addition
 ```javascript
 five() + five(); // 10
 ```
 
-##### Multiplication
+### Multiplication
 ```javascript
 five() * five(); // 25
 ```
 
-##### Division
+### Division
 ```javascript
 five() / five(); // 1
 ```
 
-##### Different sorts of 5
+### Different sorts of 5
 ```javascript
 five.upHigh() // ⁵
 five.downLow() // ₅
@@ -52,7 +52,7 @@ five.loud('piglatin') // IVEFAY
 five.smooth() // S
 ```
 
-##### 5 goes multilingual
+### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
 five.azerbaijani() // beş
@@ -109,20 +109,20 @@ five.ukrainian() // п’ять
 five.welsh() // pump
 ```
 
-##### Different radices
+### Different radices
 ```javascript
 five.binary(); // 101
 five.octal(); // 5
 five.hex(); // 5
 ```
 
-##### Map and Reduce
+### Map and Reduce
 ```javascript
 five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```
 
-##### Novelty
+### Novelty
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
@@ -145,16 +145,16 @@ five.async(function(err, five) {
 five.oclock(); // '🕔'
 ```
 
-### Development
-##### The code
+## Development
+### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
 ```
 ./five.js
 ```
 
-##### Tests
+### Tests
 ```
 npm test
 ```
-### License
+## License
 MIT
