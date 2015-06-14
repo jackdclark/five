@@ -11,7 +11,12 @@ assert.equal(five.convertTo(665456), 665456);
 assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5');
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
-
+assert.equal('V', five.roman('upper'), 'A roman five in upper should be a V');
+assert.equal('v', five.roman('lower'), 'A roman five in lower should be a v');
+assert.equal('5', five.num(), 'A String five should be a "5"');
+assert.equal('⑤', five.num('format0'), 'A String five in format0 should be a "5"');
+assert.equal('㈤', five.num('format1'), 'A String five in format1 should be a ㈤');
+assert.equal('⒌', five.num('format2'), 'A String five in format2 should be a ⒌');
 
 assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
 assert.equal('beş', five.azerbaijani(), 'A azerbaijani five should be beş');
@@ -21,6 +26,10 @@ assert.equal('pet', five.bosnian(), 'A bosnian five should be pet');
 assert.equal('пет', five.bulgarian(), 'A bulgarian five should be пет');
 assert.equal('cinc', five.catalan(), 'A catalan five should be cinc');
 assert.equal('五', five.chinese(), 'A chinese five should be 五');
+assert.equal('wǔ', five.chinese('pinyin'), 'A chinese five in Pīnyīn should be wǔ');
+assert.equal('伍', five.chinese('financial'), 'A chinese five in financial contexts should be 伍');
+assert.equal('五', five.chinese('simplified'), 'A chinese five in simplified should be 五');
+assert.equal('伍', five.chinese('traditional'), 'A chinese five in traditional should be 伍');
 assert.equal('tahlapi', five.choctaw(), 'A choctaw five should be tahlapi');
 assert.equal('pet', five.croatian(), 'A croatian five should be pet');
 assert.equal('pět', five.czech(), 'A czech five should be pět');
