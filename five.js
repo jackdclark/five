@@ -76,6 +76,9 @@
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
+  five.toFloat = function() {
+    return Math.random() < (five / 10) ? 5.000000000000001 : 4.999999999999999;
+  };
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
