@@ -77,7 +77,7 @@
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
   five.toFloat = function() {
-    return Math.random() < (five / 10) ? 5.000000000000001 : 4.999999999999999;
+    return Math.random() < (five / (five + five)) ? (five + 0.000000000000001) : (five - 0.000000000000001);
   };
 
   five.negative = function() { return -5; };
