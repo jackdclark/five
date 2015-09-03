@@ -6,7 +6,7 @@
     <title>Five by jackdcrawford</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -31,7 +31,7 @@
       </header>
       <section>
         <h1>
-<a name="fivejs" class="anchor" href="#fivejs"><span class="octicon octicon-link"></span></a>five.js</h1>
+<a id="fivejs" class="anchor" href="#fivejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>five.js</h1>
 
 <p>A library to overcomplicate <code>5</code>.</p>
 
@@ -42,134 +42,122 @@
 <p><a href="https://nodei.co/npm/five"><img src="https://nodei.co/npm/five.png?downloads=true" alt="NPM"></a></p>
 
 <h3>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
 
 <h5>
-<a name="require-the-module" class="anchor" href="#require-the-module"><span class="octicon octicon-link"></span></a>Require the module</h5>
+<a id="require-the-module" class="anchor" href="#require-the-module" aria-hidden="true"><span class="octicon octicon-link"></span></a>Require the module</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="kd">var</span> <span class="nx">five</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'five'</span><span class="p">);</span>
-</pre></div>
-
-<h5>
-<a name="in-the-browser" class="anchor" href="#in-the-browser"><span class="octicon octicon-link"></span></a>In the browser</h5>
-
-<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"./five.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> five <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>five<span class="pl-pds">'</span></span>);</pre></div>
 
 <h5>
-<a name="basic-5" class="anchor" href="#basic-5"><span class="octicon octicon-link"></span></a>Basic 5</h5>
+<a id="in-the-browser" class="anchor" href="#in-the-browser" aria-hidden="true"><span class="octicon octicon-link"></span></a>In the browser</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">();</span> <span class="c1">// 5</span>
-</pre></div>
-
-<h5>
-<a name="addition" class="anchor" href="#addition"><span class="octicon octicon-link"></span></a>Addition</h5>
-
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">()</span> <span class="o">+</span> <span class="nx">five</span><span class="p">();</span> <span class="c1">// 10</span>
-</pre></div>
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>./five.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
 
 <h5>
-<a name="multiplication" class="anchor" href="#multiplication"><span class="octicon octicon-link"></span></a>Multiplication</h5>
+<a id="basic-5" class="anchor" href="#basic-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic 5</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">()</span> <span class="o">*</span> <span class="nx">five</span><span class="p">();</span> <span class="c1">// 25</span>
-</pre></div>
-
-<h5>
-<a name="division" class="anchor" href="#division"><span class="octicon octicon-link"></span></a>Division</h5>
-
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">()</span> <span class="o">/</span> <span class="nx">five</span><span class="p">();</span> <span class="c1">// 1</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre>five(); <span class="pl-c">// 5</span></pre></div>
 
 <h5>
-<a name="different-sorts-of-5" class="anchor" href="#different-sorts-of-5"><span class="octicon octicon-link"></span></a>Different sorts of 5</h5>
+<a id="addition" class="anchor" href="#addition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Addition</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">upHigh</span><span class="p">()</span> <span class="c1">// ⁵</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">downLow</span><span class="p">()</span> <span class="c1">// ₅</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">tooSlow</span><span class="p">()</span> <span class="c1">// 5, with a ~500 millisecond delay</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">roman</span><span class="p">()</span> <span class="c1">// V</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">morseCode</span><span class="p">()</span> <span class="c1">// di-di-di-di-dit</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">negative</span><span class="p">()</span> <span class="c1">// -5</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">loud</span><span class="p">()</span> <span class="c1">// FIVE</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">smooth</span><span class="p">()</span> <span class="c1">// S</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre>five() <span class="pl-k">+</span> five(); <span class="pl-c">// 10</span></pre></div>
 
 <h5>
-<a name="5-goes-multilingual" class="anchor" href="#5-goes-multilingual"><span class="octicon octicon-link"></span></a>5 goes multilingual</h5>
+<a id="multiplication" class="anchor" href="#multiplication" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multiplication</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">arabic</span><span class="p">()</span> <span class="c1">// خمسة</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">azerbaijani</span><span class="p">()</span> <span class="c1">// beş</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">basque</span><span class="p">()</span> <span class="c1">// bost</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">bosnian</span><span class="p">()</span> <span class="c1">// pet</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">bulgarian</span><span class="p">()</span> <span class="c1">// пет</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">catalan</span><span class="p">()</span> <span class="c1">// cinc</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">chinese</span><span class="p">()</span> <span class="c1">// 五</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">choctaw</span><span class="p">()</span> <span class="c1">// tahlapi</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">croatian</span><span class="p">()</span> <span class="c1">// pet</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">czech</span><span class="p">()</span> <span class="c1">// pět</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">dovah</span><span class="p">()</span> <span class="c1">// hen</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">dutch</span><span class="p">()</span> <span class="c1">// vijf</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">elvish</span><span class="p">()</span> <span class="c1">// lempe</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">english</span><span class="p">()</span> <span class="c1">// Five</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">finnish</span><span class="p">()</span> <span class="c1">// viisi</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">french</span><span class="p">()</span> <span class="c1">// cinq</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">german</span><span class="p">()</span> <span class="c1">// fünf</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">hebrew</span><span class="p">()</span> <span class="c1">// חמש</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">hindi</span><span class="p">()</span> <span class="c1">// पांच</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">indonesian</span><span class="p">()</span> <span class="c1">// lima</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">irish</span><span class="p">()</span> <span class="c1">// cúig</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">italian</span><span class="p">()</span> <span class="c1">// cinque</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">japanese</span><span class="p">()</span> <span class="c1">// 五</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">kannada</span><span class="p">()</span> <span class="c1">// ಐದು</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">klingon</span><span class="p">()</span> <span class="c1">// vagh</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">korean</span><span class="p">()</span> <span class="c1">// 오</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">latin</span><span class="p">()</span> <span class="c1">// quinque</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">mongolian</span><span class="p">()</span> <span class="c1">// таван</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">persian</span><span class="p">()</span> <span class="c1">// پنج</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">piglatin</span><span class="p">()</span> <span class="c1">// ivefay</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">polish</span><span class="p">()</span> <span class="c1">// pięć</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">portuguese</span><span class="p">()</span> <span class="c1">// cinco</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">romanian</span><span class="p">()</span> <span class="c1">// cinci</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">russian</span><span class="p">()</span> <span class="c1">// пять</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">slovenian</span><span class="p">()</span> <span class="c1">// pet</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">spanish</span><span class="p">()</span> <span class="c1">// cinco</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">swedish</span><span class="p">()</span> <span class="c1">// fem</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">tamil</span><span class="p">()</span> <span class="c1">// ஐந்து</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">telugu</span><span class="p">()</span> <span class="c1">// ఐదు</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">thai</span><span class="p">()</span> <span class="c1">// ห้า</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre>five() <span class="pl-k">*</span> five(); <span class="pl-c">// 25</span></pre></div>
 
 <h5>
-<a name="different-radices" class="anchor" href="#different-radices"><span class="octicon octicon-link"></span></a>Different radices</h5>
+<a id="division" class="anchor" href="#division" aria-hidden="true"><span class="octicon octicon-link"></span></a>Division</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">binary</span><span class="p">();</span> <span class="c1">// 101</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">octal</span><span class="p">();</span> <span class="c1">// 5</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">hex</span><span class="p">();</span> <span class="c1">// 5</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre>five() <span class="pl-k">/</span> five(); <span class="pl-c">// 1</span></pre></div>
 
 <h5>
-<a name="map-and-reduce" class="anchor" href="#map-and-reduce"><span class="octicon octicon-link"></span></a>Map and Reduce</h5>
+<a id="different-sorts-of-5" class="anchor" href="#different-sorts-of-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Different sorts of 5</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">map</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]);</span> <span class="c1">// [5, 5, 5]</span>
-<span class="nx">five</span><span class="p">.</span><span class="nx">reduce</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]);</span> <span class="c1">// 5</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre>five.upHigh() <span class="pl-c">// ⁵</span>
+five.downLow() <span class="pl-c">// ₅</span>
+five.tooSlow() <span class="pl-c">// 5, with a ~500 millisecond delay</span>
+five.roman() <span class="pl-c">// V</span>
+five.morseCode() <span class="pl-c">// di-di-di-di-dit</span>
+five.negative() <span class="pl-c">// -5</span>
+five.loud() <span class="pl-c">// FIVE</span>
+five.smooth() <span class="pl-c">// S</span></pre></div>
 
 <h5>
-<a name="novelty" class="anchor" href="#novelty"><span class="octicon octicon-link"></span></a>Novelty</h5>
+<a id="5-goes-multilingual" class="anchor" href="#5-goes-multilingual" aria-hidden="true"><span class="octicon octicon-link"></span></a>5 goes multilingual</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">fab</span><span class="p">();</span> <span class="c1">// ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre>five.arabic() <span class="pl-c">// خمسة</span>
+five.azerbaijani() <span class="pl-c">// beş</span>
+five.basque() <span class="pl-c">// bost</span>
+five.bosnian() <span class="pl-c">// pet</span>
+five.bulgarian() <span class="pl-c">// пет</span>
+five.catalan() <span class="pl-c">// cinc</span>
+five.chinese() <span class="pl-c">// 五</span>
+five.choctaw() <span class="pl-c">// tahlapi</span>
+five.croatian() <span class="pl-c">// pet</span>
+five.czech() <span class="pl-c">// pět</span>
+five.dovah() <span class="pl-c">// hen</span>
+five.dutch() <span class="pl-c">// vijf</span>
+five.elvish() <span class="pl-c">// lempe</span>
+five.english() <span class="pl-c">// Five</span>
+five.finnish() <span class="pl-c">// viisi</span>
+five.french() <span class="pl-c">// cinq</span>
+five.german() <span class="pl-c">// fünf</span>
+five.hebrew() <span class="pl-c">// חמש</span>
+five.hindi() <span class="pl-c">// पांच</span>
+five.indonesian() <span class="pl-c">// lima</span>
+five.irish() <span class="pl-c">// cúig</span>
+five.italian() <span class="pl-c">// cinque</span>
+five.japanese() <span class="pl-c">// 五</span>
+five.kannada() <span class="pl-c">// ಐದು</span>
+five.klingon() <span class="pl-c">// vagh</span>
+five.korean() <span class="pl-c">// 오</span>
+five.latin() <span class="pl-c">// quinque</span>
+five.mongolian() <span class="pl-c">// таван</span>
+five.persian() <span class="pl-c">// پنج</span>
+five.piglatin() <span class="pl-c">// ivefay</span>
+five.polish() <span class="pl-c">// pięć</span>
+five.portuguese() <span class="pl-c">// cinco</span>
+five.romanian() <span class="pl-c">// cinci</span>
+five.russian() <span class="pl-c">// пять</span>
+five.slovenian() <span class="pl-c">// pet</span>
+five.spanish() <span class="pl-c">// cinco</span>
+five.swedish() <span class="pl-c">// fem</span>
+five.tamil() <span class="pl-c">// ஐந்து</span>
+five.telugu() <span class="pl-c">// ఐదు</span>
+five.thai() <span class="pl-c">// ห้า</span></pre></div>
 
 <h5>
-<a name="rotation" class="anchor" href="#rotation"><span class="octicon octicon-link"></span></a>Rotation</h5>
+<a id="different-radices" class="anchor" href="#different-radices" aria-hidden="true"><span class="octicon octicon-link"></span></a>Different radices</h5>
 
-<div class="highlight highlight-javascript"><pre><span class="nx">five</span><span class="p">.</span><span class="nx">rot</span><span class="p">(</span><span class="s2">"five.js"</span><span class="p">);</span> <span class="c1">//"knaj.ox"</span>
-</pre></div>
+<div class="highlight highlight-javascript"><pre>five.binary(); <span class="pl-c">// 101</span>
+five.octal(); <span class="pl-c">// 5</span>
+five.hex(); <span class="pl-c">// 5</span></pre></div>
+
+<h5>
+<a id="map-and-reduce" class="anchor" href="#map-and-reduce" aria-hidden="true"><span class="octicon octicon-link"></span></a>Map and Reduce</h5>
+
+<div class="highlight highlight-javascript"><pre>five.map([<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>]); <span class="pl-c">// [5, 5, 5]</span>
+five.reduce([<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>]); <span class="pl-c">// 5</span></pre></div>
+
+<h5>
+<a id="novelty" class="anchor" href="#novelty" aria-hidden="true"><span class="octicon octicon-link"></span></a>Novelty</h5>
+
+<div class="highlight highlight-javascript"><pre>five.fab(); <span class="pl-c">// ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']</span></pre></div>
+
+<h5>
+<a id="rotation" class="anchor" href="#rotation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rotation</h5>
+
+<div class="highlight highlight-javascript"><pre>five.rot(<span class="pl-s"><span class="pl-pds">"</span>five.js<span class="pl-pds">"</span></span>); <span class="pl-c">//"knaj.ox"</span></pre></div>
 
 <h3>
-<a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h3>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h3>
 
 <h5>
-<a name="the-code" class="anchor" href="#the-code"><span class="octicon octicon-link"></span></a>The code</h5>
+<a id="the-code" class="anchor" href="#the-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>The code</h5>
 
 <p>All of the logic &amp; heavy lifting is achieved in one self-contained file:</p>
 
@@ -177,18 +165,18 @@
 </code></pre>
 
 <h5>
-<a name="tests" class="anchor" href="#tests"><span class="octicon octicon-link"></span></a>Tests</h5>
+<a id="tests" class="anchor" href="#tests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tests</h5>
 
 <pre><code>npm test
 </code></pre>
 
 <h3>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
 
 <p>MIT</p>
       </section>
       <footer>
-        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
