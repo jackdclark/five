@@ -8,6 +8,8 @@ A library to overcomplicate `5`.
 
 [![NPM](https://nodei.co/npm/five.png?downloads=true)](https://nodei.co/npm/five)
 
+DONATE: [Give us five](https://www.paypal.me/fivejs/send?currencyCode=GBP&amount=5)
+
 ### Usage
 ##### Require the module
 ```javascript
