@@ -52,6 +52,7 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 ```
 
 ##### 5 goes multilingual

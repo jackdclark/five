@@ -77,6 +77,7 @@
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
+  five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
