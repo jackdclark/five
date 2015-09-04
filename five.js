@@ -130,6 +130,8 @@
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
+  } else if (typeof define === 'function' && define.amd){
+    define(five);
   } else if (window) {
     window.five = five;
   }
