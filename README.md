@@ -120,8 +120,14 @@ five.octal(); // 5
 five.hex(); // 5
 ```
 
-##### Map and Reduce
+##### Assertion
 ```javascript
+five.isFive(10); // false
+```
+
+##### Filter, Map and Reduce
+```javascript
+five.filter([5, true, 5]); // [5, 5]
 five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```

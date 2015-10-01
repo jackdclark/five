@@ -72,7 +72,7 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-  
+
   five.morseCode = function() { return '.....'; };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
@@ -91,13 +91,16 @@
     return five();
   };
 
+  five.isFive = function(a) { return a === five(); };
+
   five.map = function(array) { return array.map(five); };
+  five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
-  
+
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
