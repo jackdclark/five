@@ -39,7 +39,7 @@
 <a href="https://codeclimate.com/github/jackdcrawford/five"><img src="https://codeclimate.com/github/jackdcrawford/five.png" alt="Code Climate"></a>
 <a href="https://codeclimate.com/github/jackdcrawford/five"><img src="https://codeclimate.com/github/jackdcrawford/five/coverage.png" alt="Test Coverage"></a></p>
 
-<p><img src="https://camo.githubusercontent.com/998f93c5cf3c1f6ff1d29a697e6a7f2a103c0c8b/68747470733a2f2f736c61636b2d66696c65732e636f6d2f66696c65732d7072692d736166652f54303234473052314a2d4630413352473536572f756e6f6666696369616c5f666976655f6a735f6c6f676f2e7376673f633d313434313238353430302d61326462326339373530353762353234656131626337343033623762373730333463643337663031" width="300" alt="logo"></p>
+<p><img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo"></p>
 
 <p>DONATE: <a href="https://www.paypal.me/fivejs/5/">Give us five</a></p>
 
@@ -87,7 +87,8 @@ five.morseCode() <span class="pl-c">// .....</span>
 five.negative() <span class="pl-c">// -5</span>
 five.loud() <span class="pl-c">// FIVE</span>
 five.loud(<span class="pl-s"><span class="pl-pds">'</span>piglatin<span class="pl-pds">'</span></span>) <span class="pl-c">// IVEFAY</span>
-five.smooth() <span class="pl-c">// S</span></pre></div>
+five.smooth() <span class="pl-c">// S</span>
+five.mdFive() <span class="pl-c">// 30056e1cab7a61d256fc8edd970d14f5</span></pre></div>
 
 <h5>
 <a id="5-goes-multilingual" class="anchor" href="#5-goes-multilingual" aria-hidden="true"><span class="octicon octicon-link"></span></a>5 goes multilingual</h5>
@@ -155,9 +156,15 @@ five.octal(); <span class="pl-c">// 5</span>
 five.hex(); <span class="pl-c">// 5</span></pre></div>
 
 <h5>
-<a id="map-and-reduce" class="anchor" href="#map-and-reduce" aria-hidden="true"><span class="octicon octicon-link"></span></a>Map and Reduce</h5>
+<a id="assertion" class="anchor" href="#assertion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Assertion</h5>
 
-<div class="highlight highlight-source-js"><pre>five.map([<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>]); <span class="pl-c">// [5, 5, 5]</span>
+<div class="highlight highlight-source-js"><pre>five.isFive(<span class="pl-c1">10</span>); <span class="pl-c">// false</span></pre></div>
+
+<h5>
+<a id="filter-map-and-reduce" class="anchor" href="#filter-map-and-reduce" aria-hidden="true"><span class="octicon octicon-link"></span></a>Filter, Map and Reduce</h5>
+
+<div class="highlight highlight-source-js"><pre>five.filter([<span class="pl-c1">5</span>, <span class="pl-c1">true</span>, <span class="pl-c1">5</span>]); <span class="pl-c">// [5, 5]</span>
+five.map([<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>]); <span class="pl-c">// [5, 5, 5]</span>
 five.reduce([<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>]); <span class="pl-c">// 5</span></pre></div>
 
 <h5>
