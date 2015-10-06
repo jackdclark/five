@@ -17,5 +17,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jackdcrawford/five/issues"
+  },
+  "dependencies": {
+    "btoa": "^1.1.2"
   }
 }
