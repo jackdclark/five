@@ -78,6 +78,7 @@
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
   five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
+  five.sha1Five = function() { return 'ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4'; };
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};

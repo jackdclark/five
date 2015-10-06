@@ -72,6 +72,7 @@ assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
 assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
+assert.equal('ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4', five.sha1Five(), 'sha1 checksum of "five" should be ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4');
 
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
