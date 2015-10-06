@@ -54,6 +54,7 @@ five.loud('piglatin') // IVEFAY
 five.smooth() // S
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 five.sha1Five() // ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4
+five.btoaFive() // NQ==
 ```
 
 ##### 5 goes multilingual
