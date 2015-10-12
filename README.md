@@ -73,6 +73,7 @@ five.dovah() // hen
 five.dutch() // vijf
 five.elvish() // lempe
 five.english() // Five
+five.esperanto() // kvin
 five.estonian() // viis
 five.finnish() // viisi
 five.french() // cinq
