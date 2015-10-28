@@ -131,6 +131,10 @@ five.filter([5, true, 5]); // [5, 5]
 five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```
+##### Random number generation
+```javascript
+five.random() // Returns a five randomly selected out of five candidates
+```
 
 ##### Novelty
 ```javascript
