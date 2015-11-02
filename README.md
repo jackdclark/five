@@ -10,6 +10,8 @@ A library to overcomplicate `5`.
 
 DONATE: [Give us five](https://www.paypal.me/fivejs/5/)
 
+> *Seriously, we'll be printing stickers and mailing to all contributors of the project. All remaining money will be passed on to a charity.*
+
 ### Usage
 ##### Require the module
 ```javascript
