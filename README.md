@@ -138,6 +138,8 @@ five.reduce([1, 2, 3]); // 5
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
+five.letterWord(); // Returns a random 5 letter english word
+five.aDay(); // Returns you 5 fruit/veg suggestions
 ```
 
 ##### Rotation
