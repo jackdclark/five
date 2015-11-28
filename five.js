@@ -72,12 +72,13 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-  
+
   five.morseCode = function() { return '.....'; };
   five.base = function(i) { return five().toString(i); }
   five.binary = function() { return five.base(2); };
   five.octal = function() { return five.base(8); };
   five.hex = function() { return five.base(16); };
+  five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
@@ -91,13 +92,16 @@
     return five();
   };
 
+  five.isFive = function(a) { return a === five(); };
+
   five.map = function(array) { return array.map(five); };
+  five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
-  
+
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
@@ -130,6 +134,8 @@
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
+  } else if (typeof define === 'function' && define.amd){
+    define(five);
   } else if (window) {
     window.five = five;
   }

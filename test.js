@@ -73,6 +73,7 @@ assert.equal('11', five.base(4), 'An quaternary five should be 11')
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
 assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
+assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
 
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
@@ -94,6 +95,10 @@ assert.equal(JSON.stringify(['Jackie','Tito','Jermaine','Marlon','Michael']), JS
 
 assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
 
+assert.equal(true, five.isFive(five()));
+assert.equal(false, five.isFive(10));
+
+assert.equal(JSON.stringify([5, 5]), JSON.stringify(five.filter([5, true, 5])));
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
 

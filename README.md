@@ -6,7 +6,11 @@ A library to overcomplicate `5`.
 [![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
 [![Test Coverage](https://codeclimate.com/github/jackdcrawford/five/coverage.png)](https://codeclimate.com/github/jackdcrawford/five)
 
-[![NPM](https://nodei.co/npm/five.png?downloads=true)](https://nodei.co/npm/five)
+<img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo" />
+
+DONATE: [Give us five](https://www.paypal.me/fivejs/5/)
+
+> *Seriously, we'll be printing stickers and mailing to all contributors of the project. All remaining money will be passed on to a charity.*
 
 ### Usage
 ##### Require the module
@@ -50,6 +54,7 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 ```
 
 ##### 5 goes multilingual
@@ -119,8 +124,14 @@ five.base(4); // 11
 five.base(3); // 12
 ```
 
-##### Map and Reduce
+##### Assertion
 ```javascript
+five.isFive(10); // false
+```
+
+##### Filter, Map and Reduce
+```javascript
+five.filter([5, true, 5]); // [5, 5]
 five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```
