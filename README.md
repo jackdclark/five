@@ -6,7 +6,11 @@ A library to overcomplicate `5`.
 [![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
 [![Test Coverage](https://codeclimate.com/github/jackdcrawford/five/coverage.png)](https://codeclimate.com/github/jackdcrawford/five)
 
-[![NPM](https://nodei.co/npm/five.png?downloads=true)](https://nodei.co/npm/five)
+<img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo" />
+
+DONATE: [Give us five](https://www.paypal.me/fivejs/5/)
+
+> *Seriously, we'll be printing stickers and mailing to all contributors of the project. All remaining money will be passed on to a charity.*
 
 ### Usage
 ##### Require the module
@@ -45,11 +49,12 @@ five.upHigh() // ⁵
 five.downLow() // ₅
 five.tooSlow() // 5, with a ~500 millisecond delay
 five.roman() // V
-five.morseCode() // di-di-di-di-dah
+five.morseCode() // .....
 five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 ```
 
 ##### 5 goes multilingual
@@ -65,16 +70,20 @@ five.chinese() // 五
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
+five.dothraki() // mek
 five.dovah() // hen
 five.dutch() // vijf
 five.elvish() // lempe
 five.english() // Five
+five.estonian() // viis
 five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
+five.greek() // πέντε
 five.hebrew() // חמש
 five.hindi() // पांच
 five.hungarian() // öt
+five.icelandic() // fimm
 five.indonesian() // lima
 five.irish() // cúig
 five.italian() // cinque
@@ -84,6 +93,7 @@ five.klingon() // vagh
 five.korean() // 오
 five.latin() // quinque
 five.latvian() // pieci
+five.lithuanian() // penki
 five.mongolian() // таван
 five.norwegian() // fem
 five.persian() // پنج
@@ -112,8 +122,14 @@ five.octal(); // 5
 five.hex(); // 5
 ```
 
-##### Map and Reduce
+##### Assertion
 ```javascript
+five.isFive(10); // false
+```
+
+##### Filter, Map and Reduce
+```javascript
+five.filter([5, true, 5]); // [5, 5]
 five.map([1, 2, 3]); // [5, 5, 5]
 five.reduce([1, 2, 3]); // 5
 ```
@@ -135,6 +151,11 @@ five.rot("five.js"); //"knaj.ox"
 five.async(function(err, five) {
 	// five === 5
 });
+```
+
+##### Unicode
+```javascript
+five.oclock(); // '🕔'
 ```
 
 ### Development
