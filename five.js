@@ -29,16 +29,20 @@
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
+  five.dothraki = function() { return 'mek'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
   five.elvish = function() { return 'lempe'; };
   five.english = function() { return 'five'; };
+  five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };
+  five.greek = function() { return 'πέντε'; };
   five.hebrew = function() { return 'חמש'; };
   five.hindi = function() { return 'पांच'; };
   five.hungarian = function() { return 'öt'; };
+  five.icelandic = function() { return 'fimm'; };
   five.indonesian = function() { return 'lima'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
@@ -48,6 +52,7 @@
   five.korean = function() { return '오'; };
   five.latin = function() { return 'quinque'; };
   five.latvian = function() { return 'pieci'; };
+  five.lithuanian = function() { return 'penki'; };
   five.mongolian = function() { return 'таван'; };
   five.norwegian = function() { return 'fem'; };
   five.persian = function() { return 'پنج'; };
@@ -67,11 +72,12 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-  
-  five.morseCode = function() { return '....-'; };
+
+  five.morseCode = function() { return '.....'; };
   five.binary = function() { return '101'; };
   five.octal = function() { return '5'; };
   five.hex = function() { return '5'; };
+  five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
@@ -85,13 +91,16 @@
     return five();
   };
 
+  five.isFive = function(a) { return a === five(); };
+
   five.map = function(array) { return array.map(five); };
+  five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
-  
+
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
@@ -126,10 +135,14 @@
     return word.replace(/[a-zA-Z0-9]/g, replaceLetter);
   };
 
+  five.oclock = function() { return '🕔'; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
+  } else if (typeof define === 'function' && define.amd){
+    define(five);
   } else if (window) {
     window.five = five;
   }
