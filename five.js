@@ -20,6 +20,7 @@
 
   five.arabic = function() { return 'خمسة'; };
   five.azerbaijani = function() { return 'beş'; };
+  five.backwards = function() { return 'evif'; };
   five.basque = function() { return 'bost'; };
   five.belarusian = function() { return 'пяць'; };
   five.bosnian = function() { return 'pet'; };
@@ -51,6 +52,7 @@
   five.klingon = function() { return 'vagh'; };
   five.korean = function() { return '오'; };
   five.latin = function() { return 'quinque'; };
+  five.leet = function() { return 'ph1\\/3'; };
   five.latvian = function() { return 'pieci'; };
   five.lithuanian = function() { return 'penki'; };
   five.mongolian = function() { return 'таван'; };
