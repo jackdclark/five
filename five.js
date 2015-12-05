@@ -74,9 +74,10 @@
   five.welsh = function() { return 'pump'; };
 
   five.morseCode = function() { return '.....'; };
-  five.binary = function() { return '101'; };
-  five.octal = function() { return '5'; };
-  five.hex = function() { return '5'; };
+  five.base = function(i) { return five().toString(i); }
+  five.binary = function() { return five.base(2); };
+  five.octal = function() { return five.base(8); };
+  five.hex = function() { return five.base(16); };
   five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
 
   five.negative = function() { return -5; };
