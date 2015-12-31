@@ -17,8 +17,8 @@
 
     return anotherNumber;
   };
-
   five.arabic = function() { return 'خمسة'; };
+  five.armenian = function() {return 'հինգ'; };
   five.azerbaijani = function() { return 'beş'; };
   five.basque = function() { return 'bost'; };
   five.belarusian = function() { return 'пяць'; };
