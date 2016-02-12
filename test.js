@@ -115,6 +115,13 @@ assert.equal(five / five, 1);
 assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
 
+assert.deepEqual(five.timesTable(), [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]);
+
+assert.equal(five.squared(), 25);
+assert.equal(five.cubed(), 125);
+assert.equal(five.root(), 2.23606797749979);
+assert.equal(five.toThePower(five), 3125);
+
 var asyncTests = 1;
 five.async(function(err, five) {
 	assert.equal(err, null, 'Async should not result in an error.');

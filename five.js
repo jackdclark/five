@@ -138,6 +138,21 @@
 
   five.oclock = function() { return '🕔'; };
 
+  five.timesTable = function() {
+    var count = 1;
+    var table = []
+    while(count <= 12) {
+      table.push(five() * count);
+      count++;
+    };
+    return table;
+  };
+
+  five.squared = function() { return five.toThePower(2); };
+  five.cubed = function() { return five.toThePower(3); };
+  five.root = function() { return five.toThePower(0.5); };
+  five.toThePower = function (i) { return Math.pow(five(), i); };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
