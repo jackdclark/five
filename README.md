@@ -160,6 +160,11 @@ five.async(function(err, five) {
 five.oclock(); // '🕔'
 ```
 
+##### Game
+```javascript
+five.game(); // Type '5' or 'five' to win.
+```
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
