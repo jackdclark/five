@@ -138,6 +138,18 @@
 
   five.oclock = function() { return '🕔'; };
 
+  five.game = function() { 
+    var res = String.trim(prompt('Type five:'));
+    var mesg = 'You lose! -5 points';
+
+    if (res == 5 || res == 'five') {
+        mesg = 'You won! +5 points';
+    }
+
+    alert(mesg);
+    return mesg;
+  }
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
