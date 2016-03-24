@@ -64,7 +64,6 @@
   five.serbian = function() { return 'pet'; };
   five.slovakian = function() { return 'päť'; };
   five.slovenian = function() { return 'pet'; };
-  five.swissGerman = function() { return 'füüf'; };
   five.spanish = function() { return 'cinco'; };
   five.swedish = function() { return 'fem'; };
   five.tamil = function() { return 'ஐந்து'; };
@@ -73,6 +72,21 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
+
+  /**
+  * Swiss german varations of spelling five
+  * see https://en.wikipedia.org/wiki/Cantons_of_Switzerland#List
+  */
+  var cantons = {
+    'SG': 'füüf'  
+  };
+
+  five.swissGerman = function (canton) { 
+    if (canton && cantons[canton.toUpperCase()]) {
+      return cantons[canton.toUpperCase()];
+    }
+    throw new Error('No or invalid value for canton provided.');
+  };
 
   five.morseCode = function() { return '.....'; };
   five.base = function(i) { return five().toString(i); }
