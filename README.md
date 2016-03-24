@@ -112,6 +112,7 @@ five.telugu() // ఐదు
 five.thai() // ห้า
 five.turkish() // beş
 five.ukrainian() // п’ять
+five.vietnamese() // năm
 five.welsh() // pump
 ```
 
