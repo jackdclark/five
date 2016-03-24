@@ -67,6 +67,7 @@
   five.spanish = function() { return 'cinco'; };
   five.swedish = function() { return 'fem'; };
   five.tamil = function() { return 'ஐந்து'; };
+  five.tagalog = function() { return 'lima'; };
   five.telugu = function() { return 'ఐదు'; };
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
