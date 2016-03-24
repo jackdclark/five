@@ -93,6 +93,8 @@
   };
 
   five.isFive = function(a) { return a === five(); };
+  five.more = function() { return Math.floor(Math.random() * (Number.MAX_SAFE_INTEGER - five())) + five() + 1; }
+  five.not = function(a) { return a === five() ? five.more() : a; };
 
   five.map = function(array) { return array.map(five); };
   five.filter = function(array) { return array.filter(five.isFive); };

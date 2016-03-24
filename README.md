@@ -55,6 +55,8 @@ five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
+five.more() // anything more than five()
+five.not(5) // anything other than input if it's five()
 ```
 
 ##### 5 goes multilingual
