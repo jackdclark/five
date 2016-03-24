@@ -139,7 +139,7 @@
   five.oclock = function() { return '🕔'; };
 
   five.game = function() { 
-    var res = String.trim(prompt('Type five:'));
+    var res = String.trim(prompt('Type ' + five.english() + ':'));
     var mesg = 'You lose! ' + this.negative() + ' points';
 
     if (res == this || res == this.english()) {
