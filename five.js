@@ -74,6 +74,7 @@
   five.welsh = function() { return 'pump'; };
 
   five.morseCode = function() { return '.....'; };
+  five.braille = function() { return '\u283C\u2811'; };
   five.base = function(i) { return five().toString(i); }
   five.binary = function() { return five.base(2); };
   five.octal = function() { return five.base(8); };
