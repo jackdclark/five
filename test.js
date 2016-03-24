@@ -114,6 +114,7 @@ assert.equal(five + five, 10);
 assert.equal(five / five, 1);
 assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
+assert.equal(five.emoji(), '5️⃣', 'Should always return emoji');
 
 var asyncTests = 1;
 five.async(function(err, five) {

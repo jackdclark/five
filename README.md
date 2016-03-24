@@ -158,6 +158,7 @@ five.async(function(err, five) {
 ##### Unicode
 ```javascript
 five.oclock(); // '🕔'
+five.emoji(); // '5️⃣'
 ```
 
 ### Development

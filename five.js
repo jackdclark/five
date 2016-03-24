@@ -137,6 +137,7 @@
   };
 
   five.oclock = function() { return '🕔'; };
+  five.emoji = function() { return '5️⃣'; };
 
   five.valueOf = five;
 
