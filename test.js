@@ -122,7 +122,7 @@ five.async(function(err, five) {
 	asyncTests--;
 });
 
-five.promiseFive().then(function(data){
+five.promise().then(function(data){
     assert.equal(data, 5);
     asyncTests--;
 })

@@ -120,8 +120,8 @@
     });
   };
 
-  five.promiseFive =function(){
-    return Promise.resolve(5);
+  five.promise =function(){
+    return Promise.resolve(five());
   }
 
   five.rot = function(word) {
