@@ -140,10 +140,10 @@
 
   five.game = function() { 
     var res = String.trim(prompt('Type five:'));
-    var mesg = 'You lose! -5 points';
+    var mesg = 'You lose! ' + this.negative() + ' points';
 
-    if (res == 5 || res == 'five') {
-        mesg = 'You won! +5 points';
+    if (res == this || res == this.english()) {
+        mesg = 'You won! +' + this + ' points';
     }
 
     alert(mesg);
