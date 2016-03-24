@@ -64,6 +64,7 @@
   five.serbian = function() { return 'pet'; };
   five.slovakian = function() { return 'päť'; };
   five.slovenian = function() { return 'pet'; };
+  five.swissGerman = function() { return 'füüf'; };
   five.spanish = function() { return 'cinco'; };
   five.swedish = function() { return 'fem'; };
   five.tamil = function() { return 'ஐந்து'; };
