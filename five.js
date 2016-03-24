@@ -137,6 +137,7 @@
   };
 
   five.oclock = function() { return '🕔'; };
+  five.oh = function() { return '👮'; };
 
   five.valueOf = five;
 
