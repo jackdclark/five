@@ -62,7 +62,7 @@ five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 five.arabic() // خمسة
 five.azerbaijani() // beş
 five.basque() // bost
-five.belarusian // пяць
+five.belarusian() // пяць
 five.bosnian() // pet
 five.bulgarian() // пет
 five.catalan() // cinc
