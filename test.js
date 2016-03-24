@@ -2,7 +2,7 @@ var assert = require('assert');
 var five = require('./');
 
 assert.equal(5, five(), 'Five should give you five');
-assert.notEqual(6, five(), 'Six should not give you five');
+assert.notEqual(6, five(), 'Five should give you five and nothing but five');
 
 assert.equal(five.convertTo(5), 5);
 assert.equal(five.convertTo(3), 3);
