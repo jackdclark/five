@@ -20,12 +20,17 @@ var five = require('five');
 
 ##### In the browser
 ```html
-<script type="text/javascript" src="./five.js"></script>
+<script type="text/javascript" src="./dist/five.js"></script>
 ```
 
 ##### Basic 5
 ```javascript
 five(); // 5
+```
+
+##### Left Pad
+```javascript
+five.leftPad(five(), 0) // "00005"
 ```
 
 ##### Addition

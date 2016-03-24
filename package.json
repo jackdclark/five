@@ -4,7 +4,8 @@
   "description": "Gives you five",
   "main": "five.js",
   "scripts": {
-    "test": "node test && echo ✔"
+    "test": "node test && echo ✔",
+    "prepublish": "browserify -e ./five.js -o ./dist/five.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jackdcrawford/five/issues"
+  },
+  "dependencies": {
+    "left-pad": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0"
   }
 }
