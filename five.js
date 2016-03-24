@@ -49,7 +49,8 @@
   five.japanese = function() { return '五'; };
   five.kannada = function() { return 'ಐದು'; };
   five.klingon = function() { return 'vagh'; };
-  five.korean = function() { return '오'; };
+  five.koreanSino = function() { return '오'; };
+  five.koreanNative = function() { return '다섯'; };
   five.latin = function() { return 'quinque'; };
   five.latvian = function() { return 'pieci'; };
   five.lithuanian = function() { return 'penki'; };
