@@ -34,6 +34,7 @@
   five.dutch = function() { return 'vijf'; };
   five.elvish = function() { return 'lempe'; };
   five.english = function() { return 'five'; };
+  five.esperanto = function () { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
