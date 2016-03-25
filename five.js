@@ -94,7 +94,13 @@
 
   five.isFive = function(a) { return a === five(); };
 
-  five.map = function(array) { return array.map(five); };
+  five.map = function(array) {
+  	if (Array.isArray(array)) {
+  	  return array.map(five);
+	} else {
+	  return new Array(array.length + 1).join('5');
+	}
+  };
   five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
