@@ -61,6 +61,7 @@
   five.portuguese = function () { return 'cinco'; };
   five.romanian = function() { return 'cinci'; };
   five.russian = function() { return 'пять'; };
+  five.sanskrit = function() { return '५'; };
   five.serbian = function() { return 'pet'; };
   five.slovakian = function() { return 'päť'; };
   five.slovenian = function() { return 'pet'; };
