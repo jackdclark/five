@@ -34,6 +34,7 @@
   five.dutch = function() { return 'vijf'; };
   five.elvish = function() { return 'lempe'; };
   five.english = function() { return 'five'; };
+  five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
@@ -43,7 +44,9 @@
   five.hindi = function() { return 'पांच'; };
   five.hungarian = function() { return 'öt'; };
   five.icelandic = function() { return 'fimm'; };
+  five.ido = function() { return 'kin'; };
   five.indonesian = function() { return 'lima'; };
+  five.interlingua = function() { return 'cinque'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
   five.japanese = function() { return '五'; };
