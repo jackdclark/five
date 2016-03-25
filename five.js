@@ -152,11 +152,11 @@
     }
 
     return str;
-  }
+  };
 
   five.fiveFiveLeftPad = function (str) {
     return five.fiveLeftPad(str, 5);
-  }
+  };
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
