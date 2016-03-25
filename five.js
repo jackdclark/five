@@ -140,6 +140,24 @@
 
   five.valueOf = five;
 
+  five.fiveLeftPad = function (str, len) {
+    str = String(str);
+
+    var i = -1;
+
+    len = len - str.length;
+
+    while (++i < len) {
+      str = five() + str;
+    }
+
+    return str;
+  }
+
+  five.fiveFiveLeftPad = function (str) {
+    return five.fiveLeftPad(str, 5);
+  }
+
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
   } else if (typeof define === 'function' && define.amd){
