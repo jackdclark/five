@@ -102,6 +102,7 @@ assert.equal(false, five.isFive(10));
 
 assert.equal(JSON.stringify([5, 5]), JSON.stringify(five.filter([5, true, 5])));
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
+assert.equal(JSON.stringify('55555'), JSON.stringify(five.map('fives')));
 assert.equal(5, five.reduce([1, 2, 3]));
 
 assert.equal('5678901234', five.rot('0123456789'), 'Numbers should be rotated');
