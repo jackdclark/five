@@ -106,6 +106,10 @@
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
 
+  five.furious = function() {
+    return ['Tigress','Viper','Crane','Monkey','Mantis'];
+  };
+
   /**
    * References "I got 5 on it" by Luniz.
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
