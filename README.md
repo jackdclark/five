@@ -154,6 +154,11 @@ five.async(function(err, five) {
 	// five === 5
 });
 ```
+##### String manipulation
+```javascript
+five.fiveLeftPad('hello', 10); // '55555hello'
+five.fiveFiveLeftPad('five'); //'5five'
+```
 
 ##### Unicode
 ```javascript
