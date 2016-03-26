@@ -1,1 +1,1 @@
-module.exports = require('./five.js');
+module.exports = require('./five.js')

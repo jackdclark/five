@@ -15,7 +15,7 @@ DONATE: [Give us five](https://www.paypal.me/fivejs/5/)
 ### Usage
 ##### Require the module
 ```javascript
-var five = require('five');
+let five = require('five')
 ```
 
 ##### In the browser
@@ -25,22 +25,22 @@ var five = require('five');
 
 ##### Basic 5
 ```javascript
-five(); // 5
+five() // 5
 ```
 
 ##### Addition
 ```javascript
-five() + five(); // 10
+five() + five() // 10
 ```
 
 ##### Multiplication
 ```javascript
-five() * five(); // 25
+five() * five() // 25
 ```
 
 ##### Division
 ```javascript
-five() / five(); // 1
+five() / five() // 1
 ```
 
 ##### Different sorts of 5
@@ -117,47 +117,47 @@ five.welsh() // pump
 
 ##### Different radices
 ```javascript
-five.binary(); // 101
-five.octal(); // 5
-five.hex(); // 5
-five.base(4); // 11
-five.base(3); // 12
+five.binary() // 101
+five.octal() // 5
+five.hex() // 5
+five.base(4) // 11
+five.base(3) // 12
 ```
 
 ##### Assertion
 ```javascript
-five.isFive(10); // false
+five.isFive(10) // false
 ```
 
 ##### Filter, Map and Reduce
 ```javascript
-five.filter([5, true, 5]); // [5, 5]
-five.map([1, 2, 3]); // [5, 5, 5]
-five.reduce([1, 2, 3]); // 5
+five.filter([5, true, 5]) // [5, 5]
+five.map([1, 2, 3]) // [5, 5, 5]
+five.reduce([1, 2, 3]) // 5
 ```
 
 ##### Novelty
 ```javascript
-five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
-five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
-five.luniz(); // ‘I Got 5 on It’
+five.fab() // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
+five.jackson() // ['Jackie','Tito','Jermaine','Marlon','Michael']
+five.luniz() // ‘I Got 5 on It’
 ```
 
 ##### Rotation
 ```javascript
-five.rot("five.js"); //"knaj.ox"
+five.rot("five.js") //"knaj.ox"
 ```
 
 ##### Asynchronous Usage
 ```javascript
 five.async(function(err, five) {
 	// five === 5
-});
+})
 ```
 
 ##### Unicode
 ```javascript
-five.oclock(); // '🕔'
+five.oclock() // '🕔'
 ```
 
 ### Development
