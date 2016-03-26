@@ -74,7 +74,7 @@ five.dothraki() // mek
 five.dovah() // hen
 five.dutch() // vijf
 five.elvish() // lempe
-five.english() // Five
+five.english() // five
 five.estonian() // viis
 five.finnish() // viisi
 five.french() // cinq
