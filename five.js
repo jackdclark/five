@@ -92,7 +92,7 @@
     return five();
   };
   
-  five.toSlowAsync = function(cb) {
+  five.tooSlowAsync = function(cb) {
     setTimeout(function() {
       cb(null, five());
     }, 500)
