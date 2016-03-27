@@ -124,6 +124,7 @@ five.async(function(err, five) {
 five.tooSlowAsync(function(err, give) {
 	assert.equal(err, null, 'Too Slow Async should not result in an error');
 	assert.equal(five, 5, 'Too Slow Async should pass 5 to callback');
+	asyncTests--;
 })
 
 setInterval(function() {
