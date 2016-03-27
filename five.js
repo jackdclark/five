@@ -91,6 +91,12 @@
 
     return five();
   };
+  
+  five.toSlowAsync = function(cb) {
+    setTimeout(function() {
+      cb(null, five());
+    }, 500)
+  }
 
   five.isFive = function(a) { return a === five(); };
 
