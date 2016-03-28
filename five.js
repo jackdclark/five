@@ -98,12 +98,32 @@
   five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
+  five.daveClark = function() {
+    return ['Mike Smith', 'Lenny Davidson', 'Denis Payton', 'Rick Huxley', 'Dave Clark'];
+  };
+
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };
 
+  five.furious = function() {
+    return ['Melle Mel', 'The Kidd Creole', 'Keith Cowboy', 'Mr. Ness/Scorpio', 'Rahiem'];
+  };
+
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
+  };
+
+  five.jurassic = function() {
+    return ['Akil', 'Zaakir', 'Marc 7', 'DJ Nu-Mark', 'Chali 2na', 'Cut Chemist'];
+  };
+
+  five.maroon = function () {
+    return ['Mickey Madden', 'Adam Levine', 'James Valentine', 'Jesse Carmichael', 'PJ Morton', 'Matt Flynn'];
+  };
+
+  five.mc = function () {
+    return ['Rob Tyner', 'Wayne Kramer', 'Fred "Sonic" Smith', 'Michael Davis', 'Dennis Thompson'];
   };
 
   /**

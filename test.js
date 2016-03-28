@@ -90,10 +90,19 @@ var finishes = new Date().valueOf();
 assert.equal(5, slowFive, 'A too slow five should still be five');
 assert.ok((finishes - now) > 500, 'A too slow five should take longer than 500 milliseconds to be returned, blocking execution and generally being a bad idea');
 
+assert.equal(JSON.stringify(['Mike Smith', 'Lenny Davidson', 'Denis Payton', 'Rick Huxley', 'Dave Clark']), JSON.stringify(five.daveClark()), 'A daveClark five should be the members of the english pop rock group The Dave Clark Five');
 
 assert.equal(JSON.stringify(['Jackie','Tito','Jermaine','Marlon','Michael']), JSON.stringify(five.jackson()), 'A Jackson five should be the five members of the 70\'s pop family group the Jackson 5');
 
 assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
+
+assert.equal(JSON.stringify(['Melle Mel', 'The Kidd Creole', 'Keith Cowboy', 'Mr. Ness/Scorpio', 'Rahiem']), JSON.stringify(five.furious()), 'A furious five should be the members of the hip hop group The Furious Five');
+
+assert.equal(JSON.stringify(['Akil', 'Zaakir', 'Marc 7', 'DJ Nu-Mark', 'Chali 2na', 'Cut Chemist']), JSON.stringify(five.jurassic()), 'A jurassic five should be the members of the hip hop group Jurassic Five');
+
+assert.equal(JSON.stringify(['Mickey Madden', 'Adam Levine', 'James Valentine', 'Jesse Carmichael', 'PJ Morton', 'Matt Flynn']), JSON.stringify(five.maroon()), 'A maroon five should be the members of the pop rock group Maroon Five');
+
+assert.equal(JSON.stringify(['Rob Tyner', 'Wayne Kramer', 'Fred "Sonic" Smith', 'Michael Davis', 'Dennis Thompson']), JSON.stringify(five.mc()), 'A mc five should be the members of the rock group MC5');
 
 assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song title of their most famous hit');
 
