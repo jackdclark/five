@@ -26,6 +26,7 @@ assert.equal('伍', five.chinese('financial'), 'A chinese five in financial cont
 assert.equal('tahlapi', five.choctaw(), 'A choctaw five should be tahlapi');
 assert.equal('pet', five.croatian(), 'A croatian five should be pet');
 assert.equal('pět', five.czech(), 'A czech five should be pět');
+assert.equal('mek', five.dothraki(), 'A dothraki five should be mek');
 assert.equal('hen', five.dovah(), 'A dovah five should be hen');
 assert.equal('vijf', five.dutch(), 'A dutch five should be vijf');
 assert.equal('lempe', five.elvish(), 'A elvish five should be lempe');
@@ -38,6 +39,7 @@ assert.equal('πέντε', five.greek(), 'A greek five should be πέντε');
 assert.equal('חמש', five.hebrew(), 'A hebrew five should be חמש');
 assert.equal('पांच', five.hindi(), 'A hindi five should be पांच');
 assert.equal('öt', five.hungarian(), 'A hungarian five should be öt');
+assert.equal('fimm', five.icelandic(), 'An icelandic five should be fimm');
 assert.equal('lima', five.indonesian(), 'A indonesian five should be lima');
 assert.equal('cúig', five.irish(), 'A irish five should be cúig');
 assert.equal('cinque', five.italian(), 'A italian five should be cinque');
@@ -67,16 +69,21 @@ assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 assert.equal('beş', five.turkish(), 'A turkish five should be beş');
 assert.equal('п’ять', five.ukrainian(), 'A ukrainian five should be п’ять');
 
-assert.equal('....-', five.morseCode(), 'A five in morse code should be ....-');
+assert.equal('.....', five.morseCode(), 'A five in morse code should be .....');
+assert.equal('10', five.base(5), 'A quinary five should be 10');
+assert.equal('11', five.base(4), 'An quaternary five should be 11')
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
 assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
+assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
 
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
 assert.equal('IVEFAY', five.loud('piglatin'), 'A loud five in Pig Latin should be IVEFAY');
 assert.equal('ПЯТЬ', five.loud('russian'), 'A loud five in Russian should be ПЯТЬ');
 assert.equal('S', five.smooth(), 'A smooth five should be S');
+
+assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
 
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
@@ -90,6 +97,12 @@ assert.equal(JSON.stringify(['Jackie','Tito','Jermaine','Marlon','Michael']), JS
 
 assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
 
+assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song title of their most famous hit');
+
+assert.equal(true, five.isFive(five()));
+assert.equal(false, five.isFive(10));
+
+assert.equal(JSON.stringify([5, 5]), JSON.stringify(five.filter([5, true, 5])));
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
 

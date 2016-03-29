@@ -35,6 +35,7 @@
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
+  five.dothraki = function() { return 'mek'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
   five.elvish = function() { return 'lempe'; };
@@ -47,6 +48,7 @@
   five.hebrew = function() { return 'חמש'; };
   five.hindi = function() { return 'पांच'; };
   five.hungarian = function() { return 'öt'; };
+  five.icelandic = function() { return 'fimm'; };
   five.indonesian = function() { return 'lima'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
@@ -77,10 +79,12 @@
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
 
-  five.morseCode = function() { return '....-'; };
-  five.binary = function() { return '101'; };
-  five.octal = function() { return '5'; };
-  five.hex = function() { return '5'; };
+  five.morseCode = function() { return '.....'; };
+  five.base = function(i) { return five().toString(i); }
+  five.binary = function() { return five.base(2); };
+  five.octal = function() { return five.base(8); };
+  five.hex = function() { return five.base(16); };
+  five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
@@ -94,7 +98,10 @@
     return five();
   };
 
+  five.isFive = function(a) { return a === five(); };
+
   five.map = function(array) { return array.map(five); };
+  five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
   five.fab = function() {
@@ -104,6 +111,14 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
+
+  /**
+   * References "I got 5 on it" by Luniz.
+   * http://en.wikipedia.org/wiki/I_Got_5_on_It
+   */
+  five.luniz = function() {
+    return "I Got " + five() + " on It";
+  }
 
   five.async = function(callback) {
     process.nextTick(function() {
@@ -127,10 +142,14 @@
     return word.replace(/[a-zA-Z0-9]/g, replaceLetter);
   };
 
+  five.oclock = function() { return '🕔'; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
+  } else if (typeof define === 'function' && define.amd){
+    define(five);
   } else if (window) {
     window.five = five;
   }

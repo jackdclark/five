@@ -11,3 +11,5 @@ script:
   - istanbul cover test.js
 after_script:
   - cat coverage/lcov.info | codeclimate
+
+sudo: false
