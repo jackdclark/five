@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "0.10"
+  - "5.7"
 
 env:
   - CODECLIMATE_REPO_TOKEN=cde88a99fc1d8a2cac90f1e57edb59b4785de0afb8264722d3a4a42174e30578

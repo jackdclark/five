@@ -120,6 +120,10 @@
     });
   };
 
+  five.promise =function(){
+    return Promise.resolve(five());
+  }
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
