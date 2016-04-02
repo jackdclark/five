@@ -98,6 +98,7 @@ five.mongolian() // таван
 five.norwegian() // fem
 five.persian() // پنج
 five.piglatin() // ivefay
+five.pinyin() // wu
 five.polish() // pięć
 five.portuguese() // cinco
 five.romanian() // cinci
