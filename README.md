@@ -128,6 +128,8 @@ five.base(3); // 12
 ##### Assertion
 ```javascript
 five.isFive(10); // false
+five.isMultipleOfFive(10); // true
+five.isFiveBy(function(x) { return x / 2; })(10); // true
 ```
 
 ##### Filter, Map and Reduce

@@ -101,6 +101,16 @@ assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song tit
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));
 
+assert.equal(true, five.isFiveBy(function(a) {
+  return a / five();
+})(five() * five()));
+assert.equal(false, five.isFiveBy(function(a) {
+  return a + five();
+})(five()));
+
+assert.equal(true, five.isMultipleOfFive(five() + five()));
+assert.equal(false, five.isMultipleOfFive(five() + (five() / five())));
+
 assert.equal(JSON.stringify([5, 5]), JSON.stringify(five.filter([5, true, 5])));
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
