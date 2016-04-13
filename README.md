@@ -141,6 +141,7 @@ five.reduce([1, 2, 3]); // 5
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
 five.luniz(); // ‘I Got 5 on It’
+five.r(); // '£5'
 ```
 
 ##### Rotation
