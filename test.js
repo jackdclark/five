@@ -4,6 +4,8 @@ var five = require('./');
 assert.equal(5, five(), 'Five should give you five');
 assert.notEqual(6, five(), 'Five should not give you not five');
 
+assert.equal('00005', five.leftPad(five(), 0));
+
 assert.equal(five.convertTo(5), 5);
 assert.equal(five.convertTo(3), 3);
 assert.equal(five.convertTo(665456), 665456);
