@@ -160,6 +160,8 @@ five.async(function(err, five) {
 ##### Unicode
 ```javascript
 five.oclock(); // '🕔'
+
+five.guys(); // '🍔'
 ```
 
 ### Development
