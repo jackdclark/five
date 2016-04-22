@@ -144,6 +144,8 @@
 
   five.oclock = function() { return '🕔'; };
 
+  five.guys = function() { return '🍔'; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
