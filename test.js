@@ -82,6 +82,7 @@ assert.equal('ПЯТЬ', five.loud('russian'), 'A loud five in Russian should be
 assert.equal('S', five.smooth(), 'A smooth five should be S');
 
 assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
+assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
 
 var now = new Date().valueOf();
 var slowFive = five.tooSlow();
@@ -96,6 +97,8 @@ assert.equal(JSON.stringify(['Jackie','Tito','Jermaine','Marlon','Michael']), JS
 assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
 
 assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song title of their most famous hit');
+
+assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
 
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));
