@@ -142,6 +142,7 @@ five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris We
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
 five.luniz(); // ‘I Got 5 on It’
 five.r(); // '£5'
+five.funk(); // '5 bad boys with the power to rock you'
 ```
 
 ##### Rotation
