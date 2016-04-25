@@ -108,11 +108,9 @@
    */
   five.luniz = () => "I Got " + five() + " on It"
 
-  five.async = function(callback) {
-    process.nextTick(() => {
-      callback(null, five())
-    })
-  }
+  five.async = callback => process.nextTick( () => callback(null, five()) )
+  
+  five.r = () => '£5'
 
   five.rot = word => {
     if (typeof (word) != 'string')
