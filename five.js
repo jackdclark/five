@@ -142,6 +142,8 @@
 
   five.valueOf = five;
 
+  five.degrees = function() { return '5°' };
+
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
   } else if (typeof define === 'function' && define.amd){
