@@ -4,6 +4,8 @@ var five = require('./');
 assert.equal(5, five(), 'Five should give you five');
 assert.notEqual(6, five(), 'Five should not give you not five');
 
+assert.equal('The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.', five.law(), 'The Law of Fives should never be wrong');
+
 assert.equal(five.convertTo(5), 5);
 assert.equal(five.convertTo(3), 3);
 assert.equal(five.convertTo(665456), 665456);
