@@ -106,6 +106,8 @@ assert.equal(5, five.reduce([1, 2, 3]));
 
 assert.equal('£5', five.r(), 'A fiver should be 5 GBP');
 
+assert.equal(JSON.stringify(['Citrus', 'Passionate Peach', 'Berry Blast', 'Tropical', 'Pomegranate', 'Invigorating Blend', 'Winter Crop']), JSON.stringify(five.alive()), 'Five Alive should be all their varieties of juice');
+
 assert.equal('5678901234', five.rot('0123456789'), 'Numbers should be rotated');
 assert.equal('fghijklmnopqrstuvwxyzabcde', five.rot('abcdefghijklmnopqrstuvwxyz'), 'Small letters should be rotated');
 assert.equal('FGHIJKLMNOPQRSTUVWXYZABCDE', five.rot('ABCDEFGHIJKLMNOPQRSTUVWXYZ'), 'Capital letters too');
