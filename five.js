@@ -74,7 +74,7 @@
   five.welsh = function() { return 'pump'; };
 
   five.morseCode = function() { return '.....'; };
-  five.base = function(i) { return five().toString(i); }
+  five.base = function(i) { return five().toString(i); };
   five.binary = function() { return five.base(2); };
   five.octal = function() { return five.base(8); };
   five.hex = function() { return five.base(16); };
@@ -112,7 +112,7 @@
    */
   five.luniz = function() {
     return "I Got " + five() + " on It";
-  }
+  };
 
   five.async = function(callback) {
     process.nextTick(function() {
@@ -137,6 +137,8 @@
     }
     return word.replace(/[a-zA-Z0-9]/g, replaceLetter);
   };
+
+  five.factorize = function() { return [5]; };
 
   five.oclock = function() { return '🕔'; };
 
