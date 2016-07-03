@@ -105,6 +105,26 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
+  
+  five.famous = function() {
+    return ['Julian','Dick','George','Anne','Timmy'];
+  }
+  
+  five.wizards = function() {
+    return ['Saruman','Gandalf','Radagast','Alatar','Pallando'];
+  }
+  
+  five.keypad = function() {
+    return ['J','K','L'];
+  }
+
+  five.amendment = function() {
+    return "No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.";
+  }
+  
+  five.law = function() {
+    return "The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.";
+  }
 
   /**
    * References "I got 5 on it" by Luniz.
@@ -139,7 +159,9 @@
   };
 
   five.oclock = function() { return '🕔'; };
-
+  
+  five.element = function() { return 'Boron'; };
+  
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
