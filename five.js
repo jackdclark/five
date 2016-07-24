@@ -74,7 +74,11 @@
   five.welsh = function() { return 'pump'; };
 
   five.morseCode = function() { return '.....'; };
-  five.base = function(i) { return five().toString(i); }
+  five.base = function(i) {
+    if (i === 64) { return 'NQ=='};
+    return five().toString(i);
+  }
+
   five.binary = function() { return five.base(2); };
   five.octal = function() { return five.base(8); };
   five.hex = function() { return five.base(16); };

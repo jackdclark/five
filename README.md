@@ -122,6 +122,7 @@ five.octal(); // 5
 five.hex(); // 5
 five.base(4); // 11
 five.base(3); // 12
+five.base(64); // NQ==
 ```
 
 ##### Assertion
