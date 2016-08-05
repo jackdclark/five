@@ -161,6 +161,11 @@ five.async(function(err, five) {
 five.oclock(); // '🕔'
 ```
 
+##### Prime
+```javascript
+five.prime(); // 'true'
+```
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:

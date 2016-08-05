@@ -140,6 +140,8 @@
 
   five.oclock = function() { return '🕔'; };
 
+  five.prime = function() { return true; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
