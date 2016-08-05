@@ -75,11 +75,16 @@ assert.equal('5', five.octal(), 'An octal five should be 5');
 assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
 
+assert.equal(53, five.ascii(), 'An ASCII code for 5 should be 53');
+assert.equal(35, five.unicode(), 'An UNICODE for 5 should be 35');
+assert.equal('&#53;', five.html(), 'A HTML code for 5 should be &#53;');
+
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
 assert.equal('IVEFAY', five.loud('piglatin'), 'A loud five in Pig Latin should be IVEFAY');
 assert.equal('ПЯТЬ', five.loud('russian'), 'A loud five in Russian should be ПЯТЬ');
 assert.equal('S', five.smooth(), 'A smooth five should be S');
+assert.equal('rgb(5, 5, 5)', five.rgb(), 'A color of 5 should be rgb(5, 5, 5)');
 
 assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
 
