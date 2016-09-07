@@ -95,6 +95,7 @@ five.latin() // quinque
 five.latvian() // pieci
 five.lithuanian() // penki
 five.mongolian() // таван
+five.nepali() // पाँच
 five.norwegian() // fem
 five.persian() // پنج
 five.piglatin() // ivefay
