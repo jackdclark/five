@@ -113,7 +113,11 @@
   five.luniz = function() {
     return "I Got " + five() + " on It";
   }
-
+  
+  five.funk = function(){
+    return five() + " bad boys with the power to rock you"
+  }
+  
   five.async = function(callback) {
     process.nextTick(function() {
       callback(null, five());
@@ -139,6 +143,8 @@
   };
 
   five.oclock = function() { return '🕔'; };
+
+  five.guys = function() { return '🍔'; };
 
   five.valueOf = five;
 
