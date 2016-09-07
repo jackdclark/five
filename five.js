@@ -56,6 +56,7 @@
   five.latin = function() { return 'quinque'; };
   five.latvian = function() { return 'pieci'; };
   five.lithuanian = function() { return 'penki'; };
+  five.malay = function() { return 'lima'; };
   five.mongolian = function() { return 'таван'; };
   five.nepali = function() { return 'पाँच'; };
   five.norwegian = function() { return 'fem'; };
