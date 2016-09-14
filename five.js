@@ -37,6 +37,7 @@
   five.dutch = function() { return 'vijf'; };
   five.elvish = function() { return 'lempe'; };
   five.english = function() { return 'five'; };
+  five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
@@ -46,7 +47,9 @@
   five.hindi = function() { return 'पांच'; };
   five.hungarian = function() { return 'öt'; };
   five.icelandic = function() { return 'fimm'; };
+  five.ido = function() { return 'kin'; };
   five.indonesian = function() { return 'lima'; };
+  five.interlingua = function() { return 'cinque'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
   five.japanese = function() { return '五'; };
@@ -56,6 +59,7 @@
   five.latin = function() { return 'quinque'; };
   five.latvian = function() { return 'pieci'; };
   five.lithuanian = function() { return 'penki'; };
+  five.lojban = function() { return 'vo'; };
   five.mongolian = function() { return 'таван'; };
   five.nepali = function() { return 'पाँच'; };
   five.norwegian = function() { return 'fem'; };
@@ -72,6 +76,7 @@
   five.swedish = function() { return 'fem'; };
   five.tamil = function() { return 'ஐந்து'; };
   five.telugu = function() { return 'ఐదు'; };
+  five.tokipona = function() { return 'tu tu wan'; };
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
