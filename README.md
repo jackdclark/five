@@ -64,6 +64,7 @@ five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 
 ##### 5 goes multilingual
 ```javascript
+five.aegean() // 𐄋
 five.arabic() // خمسة
 five.azerbaijani() // beş
 five.basque() // bost
