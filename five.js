@@ -128,11 +128,15 @@
   five.luniz = function() {
     return "I Got " + five() + " on It";
   }
-  
+
   five.funk = function(){
     return five() + " bad boys with the power to rock you"
   }
-  
+
+  five.jurassic = function() {
+    return ['Cut Chemist', 'DJ Nu-Mark', 'Soup', 'Chali 2na', 'Akil', 'Marc 7'];
+  };
+
   five.async = function(callback) {
     process.nextTick(function() {
       callback(null, five());

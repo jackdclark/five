@@ -104,6 +104,8 @@ assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song tit
 
 assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
 
+assert.equal(JSON.stringify(five.jurassic()), JSON.stringify(['Cut Chemist', 'DJ Nu-Mark', 'Soup', 'Chali 2na', 'Akil', 'Marc 7']), 'It\s the j, u, r, a, capital s, another s ic 5 mc\'s in the flesh.');
+
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));
 
