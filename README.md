@@ -99,6 +99,7 @@ five.korean() // 오
 five.latin() // quinque
 five.latvian() // pieci
 five.lithuanian() // penki
+five.maltese() // ħamsa
 five.mongolian() // таван
 five.nepali() // पाँच
 five.norwegian() // fem
