@@ -97,6 +97,16 @@
     return five();
   };
 
+  five.emitter = function() {
+    var ee = new (require('events').EventEmitter);
+
+    setInterval(function() {
+      ee.emit('five', 5);
+    }, 5);
+
+    return ee;
+  };
+
   five.isFive = function(a) { return a === five(); };
 
   five.map = function(array) { return array.map(five); };
