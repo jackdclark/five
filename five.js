@@ -106,7 +106,11 @@
 
     return ee;
   };
-
+  five.golden = function() {
+    // Φ or 'Phive' = 5 ^ .5 * .5 + .5
+    var pointFive = five() / (five() + five())
+    return Math.pow(five(), pointFive) * pointFive + pointFive;
+  };
   five.isFive = function(a) { return a === five(); };
 
   five.map = function(array) { return array.map(five); };
