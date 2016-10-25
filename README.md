@@ -65,7 +65,7 @@ five.golden() // 1.618033988749895
 ##### Cryptography
 ```javascript
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
-five.publicKey() // 21
+five.publicKey() // {k: 21, e: 5}
 five.rsaEncode(5) // 17
 five.rsaDecode(17) // 5
 ```

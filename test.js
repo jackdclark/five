@@ -80,7 +80,7 @@ assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 assert.equal('1.618033988749895', five.golden(), 'A golden five is Phive');
 
 assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
-assert.equal('21', five.publicKey().k, 'five\'s public key is 21');
+assert.deepEqual({k: 21, e: 5}, five.publicKey(), 'five has a public key of 21 with e of 5');
 assert.equal('17', five.rsaEncode(5), 'can encode a number using five\'s public key');
 assert.equal('5', five.rsaDecode(17), 'can decode a public key encrypted number');
 assert.equal('5', five.rsaDecode(five.rsaEncode(5)), 'encode + decode returns same as input');
