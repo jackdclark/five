@@ -89,6 +89,25 @@
     // Φ or 'Phive' = 5 ^ .5 * .5 + .5
     var pointFive = five() / (five() + five())
     return Math.pow(five(), pointFive) * pointFive + pointFive;
+  five.publicKey = function(){
+    var p = five() - 2;
+    var q = five() + 2;
+    return {
+      k: p * q, // 3 * 7 = 21
+      e: five() // is relatively prime to (p − 1)(q − 1) = (2)(6) = 12
+    }
+  };
+  five.rsaEncode = function(message){
+    var pk = five.publicKey();
+    return Math.pow(message, pk.e) % pk.k // C = M^e(mod N)
+  };
+  five.rsaDecode = function(message){
+    var pk = five.publicKey();
+    // (p − 1)(q − 1) = (2)(6) = 12
+    // find d such that, (pk.e * d) % 12 == 1
+    var d = five(); // 5 × 5 = 25 = 2(12) + 1 = 1(mod 12).
+    // calculate C^d(mod N)
+    return Math.pow(message, d) % pk.k;
   };
 
   five.negative = function() { return -5; };

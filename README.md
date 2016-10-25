@@ -59,12 +59,15 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+five.golden() // 1.618033988749895
 ```
 
 ##### Cryptography
 ```javascript
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
-five.golden() // 1.618033988749895
+five.publicKey() // 21
+five.rsaEncode(5) // 17
+five.rsaDecode(17) // 5
 ```
 
 ##### 5 goes multilingual
