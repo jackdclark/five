@@ -83,16 +83,17 @@
   five.binary = function() { return five.base(2); };
   five.octal = function() { return five.base(8); };
   five.hex = function() { return five.base(16); };
-  five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
 
-  five.negative = function() { return -5; };
-  five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
-  five.smooth = function() { return 'S'; };
+  five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
   five.golden = function() {
     // Φ or 'Phive' = 5 ^ .5 * .5 + .5
     var pointFive = five() / (five() + five())
     return Math.pow(five(), pointFive) * pointFive + pointFive;
   };
+
+  five.negative = function() { return -5; };
+  five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
+  five.smooth = function() { return 'S'; };
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
