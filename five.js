@@ -88,6 +88,11 @@
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
   five.smooth = function() { return 'S'; };
+  five.golden = function() {
+    // Φ or 'Phive' = 5 ^ .5 * .5 + .5
+    var pointFive = five() / (five() + five())
+    return Math.pow(five(), pointFive) * pointFive + pointFive;
+  };
 
   five.tooSlow = function() {
     var returnIn = new Date(new Date().valueOf() + 555);
@@ -128,11 +133,11 @@
   five.luniz = function() {
     return "I Got " + five() + " on It";
   }
-  
+
   five.funk = function(){
     return five() + " bad boys with the power to rock you"
   }
-  
+
   five.async = function(callback) {
     process.nextTick(function() {
       callback(null, five());

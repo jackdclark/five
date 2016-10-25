@@ -84,6 +84,7 @@ assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
 assert.equal('IVEFAY', five.loud('piglatin'), 'A loud five in Pig Latin should be IVEFAY');
 assert.equal('ПЯТЬ', five.loud('russian'), 'A loud five in Russian should be ПЯТЬ');
 assert.equal('S', five.smooth(), 'A smooth five should be S');
+assert.equal('1.618033988749895', five.golden(), 'A golden five is Phive');
 
 assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
 assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
