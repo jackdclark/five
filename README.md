@@ -147,6 +147,7 @@ five.reduce([1, 2, 3]); // 5
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
+five.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
 five.luniz(); // ‘I Got 5 on It’
 five.r(); // '£5'
 five.funk(); // '5 bad boys with the power to rock you'
