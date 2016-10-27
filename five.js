@@ -123,6 +123,10 @@
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
 
+  five.maroon = function() {
+    return ['Mickey Madden','Adam Levine','James Valentine','Jesse Carmichael','PJ Morton','Matt Flynn'];
+  };
+
   /**
    * References "I got 5 on it" by Luniz.
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
