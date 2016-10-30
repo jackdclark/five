@@ -89,6 +89,7 @@
     // Φ or 'Phive' = 5 ^ .5 * .5 + .5
     var pointFive = five() / (five() + five())
     return Math.pow(five(), pointFive) * pointFive + pointFive;
+  };
   five.publicKey = function(){
     var p = five() - 2;
     var q = five() + 2;
