@@ -173,6 +173,8 @@
 
   five.guys = function() { return '🍔'; };
 
+  five.nights = function() { return '🐻'; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {

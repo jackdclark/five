@@ -176,6 +176,8 @@ five.async(function(err, five) {
 five.oclock(); // '🕔'
 
 five.guys(); // '🍔'
+
+five.nights(); // '🐻'
 ```
 
 ### Development
