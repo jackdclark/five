@@ -2,6 +2,9 @@
 
   var five = function() { return 5; };
 
+  // Quote: Malaclypse the Younger, Principia Discordia, Page 00016
+  five.law = function() { return 'The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.'; };
+
   five.upHigh = function() { return '⁵'; };
   five.downLow = function() { return '₅'; };
   five.roman = function() { return 'V'; };
@@ -53,7 +56,9 @@
   five.latin = function() { return 'quinque'; };
   five.latvian = function() { return 'pieci'; };
   five.lithuanian = function() { return 'penki'; };
+  five.maltese = function() { return 'ħamsa'; };
   five.mongolian = function() { return 'таван'; };
+  five.nepali = function() { return 'पाँच'; };
   five.norwegian = function() { return 'fem'; };
   five.persian = function() { return 'پنج'; };
   five.piglatin = function() { return 'ivefay'; };
@@ -78,7 +83,13 @@
   five.binary = function() { return five.base(2); };
   five.octal = function() { return five.base(8); };
   five.hex = function() { return five.base(16); };
+
   five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
+  five.golden = function() {
+    // Φ or 'Phive' = 5 ^ .5 * .5 + .5
+    var pointFive = five() / (five() + five())
+    return Math.pow(five(), pointFive) * pointFive + pointFive;
+  };
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
@@ -91,6 +102,18 @@
 
     return five();
   };
+
+  five.emitter = function() {
+    var ee = new (require('events').EventEmitter);
+
+    setInterval(function() {
+      ee.emit('five', 5);
+    }, 5);
+
+    return ee;
+  };
+
+  five.high = function() { return "o/"; };
 
   five.isFive = function(a) { return a === five(); };
 
@@ -105,7 +128,7 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
-
+  
   five.members = function() {
     return ['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love'];
   };
@@ -118,12 +141,20 @@
     return ['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday'];
   }
 
+  five.furious = function() {
+    return ['Tigress','Viper','Crane','Monkey','Mantis'];
+  };
+
   /**
    * References "I got 5 on it" by Luniz.
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
    */
   five.luniz = function() {
     return "I Got " + five() + " on It";
+  }
+
+  five.funk = function(){
+    return five() + " bad boys with the power to rock you"
   }
 
   five.async = function(callback) {
@@ -151,6 +182,8 @@
   };
 
   five.oclock = function() { return '🕔'; };
+
+  five.guys = function() { return '🍔'; };
 
   five.valueOf = five;
 
