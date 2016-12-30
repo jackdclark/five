@@ -104,6 +104,12 @@ assert.equal(JSON.stringify(['Jackie','Tito','Jermaine','Marlon','Michael']), JS
 
 assert.equal(JSON.stringify(['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']), JSON.stringify(five.fab()), 'A fab five should be the 1991-1993 Michigan Mens Basketball Team');
 
+assert.equal(JSON.stringify(['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']), JSON.stringify(five.members()), 'A five five should be the 90\'s boy band 5ive');
+
+assert.equal(JSON.stringify(['5ive', 'Invincible', 'Kingsize']), JSON.stringify(five.discography()), 'A five discography should be the studio albums released by the 90\'s boy band 5ive');
+
+assert.equal(JSON.stringify(['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']), JSON.stringify(five.singles()), 'A five singles should be the singles released by the 90\'s boy band 5ive');
+
 assert.equal(JSON.stringify(['Tigress','Viper','Crane','Monkey','Mantis']), JSON.stringify(five.furious()), 'A Furious five should be the five fictional members of the ninja group Furious Five from the movie Kung-Fu Panda');
 
 assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song title of their most famous hit');

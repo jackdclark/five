@@ -128,6 +128,18 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
+  
+  five.members = function() {
+    return ['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love'];
+  };
+
+  five.discography = function() {
+    return ['5ive', 'Invincible', 'Kingsize'];
+  };
+
+  five.singles = function() {
+    return ['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday'];
+  }
 
   five.furious = function() {
     return ['Tigress','Viper','Crane','Monkey','Mantis'];
