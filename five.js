@@ -37,6 +37,7 @@
   five.dutch = function() { return 'vijf'; };
   five.elvish = function() { return 'lempe'; };
   five.english = function() { return 'five'; };
+  five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
@@ -76,6 +77,7 @@
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
+  five.urdu = function() { return 'پانچ'; };
   five.welsh = function() { return 'pump'; };
 
   five.morseCode = function() { return '.....'; };
