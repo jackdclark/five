@@ -28,6 +28,11 @@ var five = require('five');
 five(); // 5
 ```
 
+## The Law of Fives
+```javascript
+five.law(); // The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.
+```
+
 ##### Addition
 ```javascript
 five() + five(); // 10
@@ -54,7 +59,12 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+```
+
+##### Cryptography
+```javascript
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
+five.golden() // 1.618033988749895
 ```
 
 ##### 5 goes multilingual
@@ -94,7 +104,9 @@ five.korean() // 오
 five.latin() // quinque
 five.latvian() // pieci
 five.lithuanian() // penki
+five.maltese() // ħamsa
 five.mongolian() // таван
+five.nepali() // पाँच
 five.norwegian() // fem
 five.persian() // پنج
 five.piglatin() // ivefay
@@ -140,9 +152,15 @@ five.reduce([1, 2, 3]); // 5
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
+five.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
 five.luniz(); // ‘I Got 5 on It’
 five.r(); // '£5'
 five.alive(); // '['Citrus', 'Passionate Peach', 'Berry Blast', 'Tropical', 'Pomegranate', 'Invigorating Blend', 'Winter Crop']'
+five.funk(); // '5 bad boys with the power to rock you'
+five.high(); // 'o/'
+five.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
+five.discography(); //['5ive', 'Invincible', 'Kingsize']
+five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
 ```
 
 ##### Rotation
@@ -160,6 +178,8 @@ five.async(function(err, five) {
 ##### Unicode
 ```javascript
 five.oclock(); // '🕔'
+
+five.guys(); // '🍔'
 ```
 
 ### Development
