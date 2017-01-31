@@ -28,6 +28,7 @@
   five.bosnian = function() { return 'pet'; };
   five.bulgarian = function() { return 'пет'; };
   five.catalan = function() { return 'cinc'; };
+  five.cornish = function() { return 'pemp'; };
   five.chinese = function() { return '五'; };
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
