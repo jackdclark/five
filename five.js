@@ -25,6 +25,7 @@
   five.azerbaijani = function() { return 'beş'; };
   five.basque = function() { return 'bost'; };
   five.belarusian = function() { return 'пяць'; };
+  five.bengali = function() { return 'পাঁচ'; };
   five.bosnian = function() { return 'pet'; };
   five.bulgarian = function() { return 'пет'; };
   five.catalan = function() { return 'cinc'; };
