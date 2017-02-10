@@ -88,6 +88,7 @@ five.english() // five
 five.esperanto() // kvin
 five.estonian() // viis
 five.finnish() // viisi
+five.filipino() // lima
 five.french() // cinq
 five.german() // fünf
 five.greek() // πέντε
