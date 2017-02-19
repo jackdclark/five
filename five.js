@@ -29,6 +29,7 @@
   five.bulgarian = function() { return 'пет'; };
   five.catalan = function() { return 'cinc'; };
   five.chinese = function() { return '五'; };
+  five.circled = function() { return '⑤'; };
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
