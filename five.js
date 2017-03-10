@@ -166,6 +166,9 @@
   }
 
   five.async = function(callback) {
+    if (!callback && typeof Promise !== 'undefined') {
+      return Promise.resolve(five());
+    }
     process.nextTick(function() {
       callback(null, five());
     });
