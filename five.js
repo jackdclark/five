@@ -85,7 +85,9 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-
+  five.sinhala = function() { return 'පහ'; };
+  five.serbian = function() { return 'пет'; };
+  
   five.morseCode = function() { return '.....'; };
   five.base = function(i) { return five().toString(i); }
   five.binary = function() { return five.base(2); };
