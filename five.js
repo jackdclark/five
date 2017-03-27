@@ -75,6 +75,7 @@
   five.romanian = function() { return 'cinci'; };
   five.russian = function() { return 'пять'; };
   five.serbian = function() { return 'pet'; };
+  five.sinhala = function() { return 'පහ'; };
   five.slovakian = function() { return 'päť'; };
   five.slovenian = function() { return 'pet'; };
   five.spanish = function() { return 'cinco'; };
@@ -85,8 +86,7 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-  five.sinhala = function() { return 'පහ'; };
-  
+
   five.morseCode = function() { return '.....'; };
   five.base = function(i) { return five().toString(i); }
   five.binary = function() { return five.base(2); };
