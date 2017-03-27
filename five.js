@@ -191,6 +191,7 @@
   };
 
   five.oclock = function() { return '🕔'; };
+  five.oh = function() { return '👮'; };
 
   five.guys = function() { return '🍔'; };
 
