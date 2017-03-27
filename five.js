@@ -191,6 +191,15 @@
   };
 
   five.oclock = function() { return '🕔'; };
+  
+  five.imaginary = function() {
+    // mathjs compatibility
+    if(typeof math !== 'undefined' && math.imaginary) {
+      return new math.complex("5i");
+    } else {
+      return "5i";
+    }
+  }
 
   five.guys = function() { return '🍔'; };
 
