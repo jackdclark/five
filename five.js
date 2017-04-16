@@ -111,6 +111,12 @@
 
     return five();
   };
+  
+  five.tooSlowAsync = function (f) {
+    setTimeout(function () {
+      f(five());
+    }, 555);
+  };
 
   five.emitter = function() {
     var ee = new (require('events').EventEmitter);
