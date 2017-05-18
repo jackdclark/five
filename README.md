@@ -183,6 +183,8 @@ five.async(function(err, five) {
 ```javascript
 five.oclock(); // '🕔'
 
+five.oclockSomewhere(); // '🍺'
+
 five.guys(); // '🍔'
 ```
 
