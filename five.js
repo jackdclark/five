@@ -191,6 +191,8 @@
   };
 
   five.oclock = function() { return '🕔'; };
+  
+  five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
 
