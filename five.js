@@ -21,6 +21,7 @@
     return anotherNumber;
   };
 
+  five.amharic = function() { return 'ኣምስት'; };
   five.arabic = function() { return 'خمسة'; };
   five.azerbaijani = function() { return 'beş'; };
   five.basque = function() { return 'bost'; };
@@ -82,6 +83,7 @@
   five.swedish = function() { return 'fem'; };
   five.tamil = function() { return 'ஐந்து'; };
   five.telugu = function() { return 'ఐదు'; };
+  five.tigrinya = function() { return 'ሓሙሽተ'; };
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
