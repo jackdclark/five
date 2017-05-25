@@ -126,7 +126,13 @@
 
   five.isFive = function(a) { return a === five(); };
 
-  five.map = function(array) { return array.map(five); };
+  five.map = function(array) {
+  	if (Array.isArray(array)) {
+  	  return array.map(five);
+	} else {
+	  return new Array(array.length + 1).join('5');
+	}
+  };
   five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
@@ -159,8 +165,8 @@
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
    */
   five.luniz = function() {
-    return "I Got " + five() + " on It";
-  }
+    return 'I Got ' + five() + ' on It';
+  };
 
   five.funk = function(){
     return five() + " bad boys with the power to rock you"
