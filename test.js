@@ -13,6 +13,7 @@ assert.equal(five.convertTo(665456), 665456);
 assert.equal('⁵', five.upHigh(), 'An up high five should be a superscripted 5');
 assert.equal('₅', five.downLow(), 'A down low five should be a subscripted 5');
 assert.equal('V', five.roman(), 'A roman five should be a V');
+assert.equal('⒌', five.fullStop(), 'A full stop five should be a ⒌');
 
 
 assert.equal('خمسة', five.arabic(), 'A arabic five should be خمسة');
