@@ -96,6 +96,12 @@ assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should b
 assert.equal('🍺', five.oclockSomewhere(), 'A unicode symbol for \'It\'s five o\'clock somewhere\' should be U+1F37A');
 assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
 
+assert.equal(JSON.stringify(['Faith','Prayer','Charity','Fasting','Hajj']), JSON.stringify(five.pillars("islam")), 'Praise be Allah!');
+
+assert.equal(JSON.stringify(['Faith','Atonement','Inspiration','Trinity','Holiness']), JSON.stringify(five.pillars("christianity")), 'Praise the Lord!');
+
+assert.equal('You must be an Atheist or Jewish or Buddhist or Hindu or something else.', five.pillars(), 'Your deity is in another castle!');
+
 assert.equal('o/', five.high(), 'A High five should be o/');
 
 var now = new Date().valueOf();
