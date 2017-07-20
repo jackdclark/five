@@ -99,6 +99,10 @@
     var pointFive = five() / (five() + five())
     return Math.pow(five(), pointFive) * pointFive + pointFive;
   };
+  five.factorial = function() {
+    // returns 5*4*3*2*1 optimized at 500% normal factorial runtime;
+    return 120;
+  }
 
   five.negative = function() { return -5; };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
