@@ -66,7 +66,10 @@ five.smooth() // S
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
 five.golden() // 1.618033988749895
 ```
-
+##### Combinatorics
+```javascript
+five.factorial() // 120
+```
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
