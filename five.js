@@ -41,7 +41,13 @@
   five.dothraki = function() { return 'mek'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
-  five.elvish = function() { return 'lempe'; };
+  five.elvish = function(type) {
+    switch(type) {
+      case 'quenya': return 'lempë';
+      case 'sindarin': return 'leben';
+      default: return 'lempë';
+    }
+  };
   five.english = function() { return 'five'; };
   five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
