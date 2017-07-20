@@ -118,6 +118,8 @@ assert.equal(JSON.stringify(['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'G
 
 assert.equal(JSON.stringify(['Tigress','Viper','Crane','Monkey','Mantis']), JSON.stringify(five.furious()), 'A Furious five should be the five fictional members of the ninja group Furious Five from the movie Kung-Fu Panda');
 
+assert.equal(JSON.stringify(['Julian', 'Dick', 'George', 'Anne', 'Timmy']), JSON.stringify(five.famous()), 'A Famous five should be the five central characters of the series of Enid Blighton novels');
+
 assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song title of their most famous hit');
 
 assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
