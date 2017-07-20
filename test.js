@@ -31,7 +31,26 @@ assert.equal('pět', five.czech(), 'A czech five should be pět');
 assert.equal('mek', five.dothraki(), 'A dothraki five should be mek');
 assert.equal('hen', five.dovah(), 'A dovah five should be hen');
 assert.equal('vijf', five.dutch(), 'A dutch five should be vijf');
-assert.equal('lempe', five.elvish(), 'A elvish five should be lempe');
+assert.equal('lempë', five.elvish(), 'An elvish five should be Quenya');
+(function() {
+  var realWarn = console.warn.bind(console);
+  var called = false;
+  var calledWith = null;
+  console.warn = function(arg) {
+    called = true;
+    calledWith = arg;
+  };
+
+  five.elvish();
+  assert.equal(called, true,
+               'An elvish five should warn');
+  assert.notEqual(calledWith.match(/deprecated/), null,
+                  'An elvish five should be deprecated');
+  
+  console.warn = realWarn;
+})();
+assert.equal('lempë', five.quenya(), 'A Quenya five should be Quenya');
+assert.equal('leben', five.sindarin(), 'A Sindarin five should be Quenya');
 assert.equal('five', five.english(), 'A english five should be five');
 assert.equal('kvin', five.esperanto(), 'An esperanto five should be kvin');
 assert.equal('viis', five.estonian(), 'An estonian five should be viis');
