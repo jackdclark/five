@@ -173,6 +173,8 @@
   };
 
   five.r = function () { return '£5'; };
+  
+  five.euro = function() { return '5€' };
 
   five.rot = function(word) {
     if(typeof(word) != 'string') {
