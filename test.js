@@ -100,7 +100,7 @@ assert.equal(JSON.stringify(['Faith','Prayer','Charity','Fasting','Hajj']), JSON
 
 assert.equal(JSON.stringify(['Faith','Atonement','Inspiration','Trinity','Holiness']), JSON.stringify(five.pillars("christianity")), 'Praise the Lord!');
 
-assert.equal('You must be an Atheist or Jewish or Buddhist or Hindu or something else.', five.pillars(), 'Your deity is in another castle!');
+assert.equal('You must be an Atheist or Jewish or Buddhist or Hindu or something else.', five.pillars("Other"), 'Your deity is in another castle!');
 
 assert.equal('o/', five.high(), 'A High five should be o/');
 

@@ -171,7 +171,7 @@ five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Fee
 ```javascript
 five.pillars("Islam"); // ['Faith','Prayer','Charity','Fasting','Hajj']
 five.pillars("Christianity"); // ['Faith','Atonement','Inspiration','Trinity','Holiness']
-five.pillars(); //You must be an Atheist or Jewish or Buddhist or Hindu or something else.
+five.pillars("Other"); //You must be an Atheist or Jewish or Buddhist or Hindu or something else.
 ```
 
 ##### Rotation
