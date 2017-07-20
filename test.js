@@ -128,6 +128,7 @@ assert.equal(false, five.isFive(10));
 assert.equal(JSON.stringify([5, 5]), JSON.stringify(five.filter([5, true, 5])));
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
+assert.equal(120, five.factorial());
 
 assert.equal('£5', five.r(), 'A fiver should be 5 GBP');
 
