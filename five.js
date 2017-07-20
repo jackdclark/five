@@ -166,8 +166,13 @@
   }
 
   five.async = function(callback) {
-    if (!callback && typeof Promise !== 'undefined') {
-      return Promise.resolve(five());
+    if (typeof Promise !== 'undefined' && !callback) {
+      return new Promise(function(resolve, reject) {
+        five.async(function(err, five) {
+          if (err) reject(err);
+          else resolve(five);
+        });
+      });
     }
     process.nextTick(function() {
       callback(null, five());
