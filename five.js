@@ -100,7 +100,7 @@
     return Math.pow(five(), pointFive) * pointFive + pointFive;
   };
 
-  five.negative = function() { return -5; };
+  five.negative = function() { return -five(); };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
   five.smooth = function() { return 'S'; };
 
