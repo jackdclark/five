@@ -47,6 +47,10 @@ five() * five(); // 25
 ```javascript
 five() / five(); // 1
 ```
+##### Combinatoris
+```javascript
+five.factorial(); // 120
+```
 
 ##### Different sorts of 5
 ```javascript
