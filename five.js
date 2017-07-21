@@ -80,6 +80,7 @@
   five.punjabi = function () { return 'ਪੰਜ'; };
   five.romanian = function() { return 'cinci'; };
   five.russian = function() { return 'пять'; };
+  five.sanskrit = function() { return '५'; };
   five.serbian = function() { return 'pet'; };
   five.sinhala = function() { return 'පහ'; };
   five.slovakian = function() { return 'päť'; };
