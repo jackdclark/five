@@ -188,6 +188,11 @@
 
   five.r = function () { return '£5'; };
 
+  five.alive = function() {
+    return ['Citrus', 'Passionate Peach', 'Berry Blast',
+     'Tropical', 'Pomegranate', 'Invigorating Blend', 'Winter Crop'];
+  };
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
