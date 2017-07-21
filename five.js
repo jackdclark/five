@@ -75,7 +75,7 @@
   five.norwegian = function() { return 'fem'; };
   five.persian = function() { return 'پنج'; };
   five.piglatin = function() { return 'ivefay'; };
-  five.polish = function() { return 'pięć'; };
+  five.polish = function() { return 'piątka'; };
   five.portuguese = function () { return 'cinco'; };
   five.punjabi = function () { return 'ਪੰਜ'; };
   five.romanian = function() { return 'cinci'; };
