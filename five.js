@@ -41,7 +41,13 @@
   five.dothraki = function() { return 'mek'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
-  five.elvish = function() { return 'lempe'; };
+  five.elvish = function(type) {
+    switch(type) {
+      case 'quenya': return 'lempë';
+      case 'sindarin': return 'leben';
+      default: return 'lempë';
+    }
+  };
   five.english = function() { return 'five'; };
   five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
@@ -99,8 +105,12 @@
     var pointFive = five() / (five() + five())
     return Math.pow(five(), pointFive) * pointFive + pointFive;
   };
+  five.factorial = function() {
+    // returns 5*4*3*2*1 optimized at 500% normal factorial runtime;
+    return 120;
+  }
 
-  five.negative = function() { return -5; };
+  five.negative = function() { return -five(); };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
   five.smooth = function() { return 'S'; };
 
@@ -154,6 +164,10 @@
     return ['Tigress','Viper','Crane','Monkey','Mantis'];
   };
 
+  five.famous = function() {
+    return ['Julian', 'Dick', 'George', 'Anne', 'Timmy'];
+  };
+
   /**
    * References "I got 5 on it" by Luniz.
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
@@ -195,6 +209,8 @@
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
+  
+  five.bucks = function() { return '$' + five() + '.00'; };
 
   five.footlong = function() { return '$5 footlong' };
 

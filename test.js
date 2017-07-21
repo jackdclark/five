@@ -31,7 +31,9 @@ assert.equal('pět', five.czech(), 'A czech five should be pět');
 assert.equal('mek', five.dothraki(), 'A dothraki five should be mek');
 assert.equal('hen', five.dovah(), 'A dovah five should be hen');
 assert.equal('vijf', five.dutch(), 'A dutch five should be vijf');
-assert.equal('lempe', five.elvish(), 'A elvish five should be lempe');
+assert.equal('lempë', five.elvish(), 'An elvish five should be lempë');
+assert.equal('lempë', five.elvish('quenya'), 'An elvish five in Quenya should be lempë');
+assert.equal('leben', five.elvish('sindarin'), 'An elvish five in Sindarin should be leben');
 assert.equal('five', five.english(), 'A english five should be five');
 assert.equal('kvin', five.esperanto(), 'An esperanto five should be kvin');
 assert.equal('viis', five.estonian(), 'An estonian five should be viis');
@@ -95,6 +97,7 @@ assert.equal('S', five.smooth(), 'A smooth five should be S');
 assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
 assert.equal('🍺', five.oclockSomewhere(), 'A unicode symbol for \'It\'s five o\'clock somewhere\' should be U+1F37A');
 assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
+assert.equal('$5.00', five.bucks(), 'Five bucks in USD should be $5.00');
 
 assert.equal('$5 footlong', five.footlong(), 'A footlong five should be a five dollar footlong');
 
@@ -120,6 +123,8 @@ assert.equal(JSON.stringify(['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'G
 
 assert.equal(JSON.stringify(['Tigress','Viper','Crane','Monkey','Mantis']), JSON.stringify(five.furious()), 'A Furious five should be the five fictional members of the ninja group Furious Five from the movie Kung-Fu Panda');
 
+assert.equal(JSON.stringify(['Julian', 'Dick', 'George', 'Anne', 'Timmy']), JSON.stringify(five.famous()), 'A Famous five should be the five central characters of the series of Enid Blighton novels');
+
 assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song title of their most famous hit');
 
 assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
@@ -143,6 +148,7 @@ assert.equal(five + five, 10);
 assert.equal(five / five, 1);
 assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
+assert.equal(120, five.factorial());
 
 var fiveEmitter = five.emitter();
 var emitterTested = false;
