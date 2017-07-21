@@ -209,6 +209,8 @@
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
+  
+  five.bucks = function() { return '$' + five() + '.00'; };
 
   five.valueOf = five;
 
