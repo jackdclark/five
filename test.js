@@ -170,6 +170,11 @@ setTimeout(function() {
   process.exit(0);
 }, 100);
 
+assert.equal(five.fiveLeftPad('hello', 10), '55555hello');
+assert.equal(five.fiveLeftPad('helloworld', 10), 'helloworld');
+
+assert.equal(five.fiveFiveLeftPad('five'), '5five');
+
 var asyncTests = 1;
 five.async(function(err, five) {
 	assert.equal(err, null, 'Async should not result in an error.');
