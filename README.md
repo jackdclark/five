@@ -163,6 +163,7 @@ five.r(); // '£5'
 five.funk(); // '5 bad boys with the power to rock you'
 five.high(); // 'o/'
 five.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
+five.powerRangers(); //['Jason Lee Scott', 'Kimberly Hart', 'Zack Taylor', 'Trini Kwan', 'Billy Cranston']
 five.discography(); //['5ive', 'Invincible', 'Kingsize']
 five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
 ```
