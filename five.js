@@ -137,7 +137,7 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
-  
+
   five.members = function() {
     return ['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love'];
   };
@@ -191,10 +191,12 @@
   };
 
   five.oclock = function() { return '🕔'; };
-  
+
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
+
+  five.footlong = function() { return '$' + five() + ' footlong' };
 
   five.valueOf = five;
 

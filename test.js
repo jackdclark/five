@@ -96,6 +96,8 @@ assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should b
 assert.equal('🍺', five.oclockSomewhere(), 'A unicode symbol for \'It\'s five o\'clock somewhere\' should be U+1F37A');
 assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
 
+assert.equal('$5 footlong', five.footlong(), 'A footlong five should be a five dollar footlong');
+
 assert.equal('o/', five.high(), 'A High five should be o/');
 
 var now = new Date().valueOf();
