@@ -93,6 +93,21 @@
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
 
+  /**
+  * Swiss german varations of spelling five
+  * see https://en.wikipedia.org/wiki/Cantons_of_Switzerland#List
+  */
+  var cantons = {
+    'SG': 'füüf'  
+  };
+
+  five.swissGerman = function (canton) { 
+    if (canton && cantons[canton.toUpperCase()]) {
+      return cantons[canton.toUpperCase()];
+    }
+    throw new Error('No or invalid value for canton provided.');
+  };
+
   five.morseCode = function() { return '.....'; };
   five.base = function(i) { return five().toString(i); }
   five.binary = function() { return five.base(2); };
