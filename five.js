@@ -221,7 +221,9 @@
   five.bucks = function() { return '$' + five() + '.00'; };
 
   five.valueOf = five;
-
+  
+  five.ASCIIArt = function() { return ' _____ \n| ____|\n| |__  \n|___ \\ \n ___) |\n|____/'; };
+  
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
   } else if (typeof define === 'function' && define.amd){
