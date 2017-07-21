@@ -154,6 +154,16 @@
     return ['Tigress','Viper','Crane','Monkey','Mantis'];
   };
 
+  five.prayer = function(religion) {
+    var religion;
+    religion = religion.toLowerCase();
+    if(religion === 'islam'){
+      return ('Fajr','Dhuhr','Asr','Maghrib','Isha\'a');
+    }else{
+      return 'That religion does not seem to have 5 prayers';
+    }
+  };
+
   /**
    * References "I got 5 on it" by Luniz.
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
