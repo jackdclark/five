@@ -86,12 +86,14 @@
   five.slovenian = function() { return 'pet'; };
   five.spanish = function() { return 'cinco'; };
   five.swedish = function() { return 'fem'; };
+  five.swahili = function() { return 'tano'; };
   five.tamil = function() { return 'ஐந்து'; };
   five.telugu = function() { return 'ఐదు'; };
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
+  five.vietnamese = function() { return 'năm'; };
 
   five.morseCode = function() { return '.....'; };
   five.base = function(i) { return five().toString(i); }
