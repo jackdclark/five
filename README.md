@@ -149,6 +149,11 @@ five.base(3); // 12
 five.isFive(10); // false
 ```
 
+##### Comparison
+```javascript
+five.isFiveOrGreater(10); // true
+```
+
 ##### Filter, Map and Reduce
 ```javascript
 five.filter([5, true, 5]); // [5, 5]
