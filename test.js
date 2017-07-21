@@ -127,6 +127,8 @@ assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song tit
 
 assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
 
+assert.equal(JSON.stringify(['Alan Cranston', 'Dennis DeConcini', 'John Glenn', 'John McCain', 'Donald W. Riegle']), JSON.stringify(five.keating()), 'A Keating five should be the five US Senators accused of corruption in 1989.');
+
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));
 

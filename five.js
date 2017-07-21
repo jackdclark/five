@@ -168,6 +168,10 @@
     return ['Julian', 'Dick', 'George', 'Anne', 'Timmy'];
   };
 
+  five.keating = function() {
+    return ['Alan Cranston', 'Dennis DeConcini', 'John Glenn', 'John McCain', 'Donald W. Riegle'];
+  };
+
   /**
    * References "I got 5 on it" by Luniz.
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
