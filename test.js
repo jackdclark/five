@@ -95,6 +95,7 @@ assert.equal('S', five.smooth(), 'A smooth five should be S');
 assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
 assert.equal('🍺', five.oclockSomewhere(), 'A unicode symbol for \'It\'s five o\'clock somewhere\' should be U+1F37A');
 assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
+assert.equal('⭐️', five.pointedStar(), 'A unicode symbol for a five pointed star should be U+2B50');
 
 assert.equal('o/', five.high(), 'A High five should be o/');
 

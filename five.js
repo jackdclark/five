@@ -196,6 +196,8 @@
 
   five.guys = function() { return '🍔'; };
 
+  five.pointedStar = function() { return '⭐️'; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
