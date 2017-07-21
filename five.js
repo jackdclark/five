@@ -32,6 +32,7 @@
     switch(type) {
       case 'pinyin': return 'wǔ';
       case 'financial': return '伍';
+      case 'cantonese': return 'ng5';
       default: return '五';
     }
   };
