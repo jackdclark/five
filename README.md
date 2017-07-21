@@ -85,7 +85,9 @@ five.czech() // pět
 five.dothraki() // mek
 five.dovah() // hen
 five.dutch() // vijf
-five.elvish() // lempe
+five.elvish() // lempë
+five.elvish('quenya') // lempë
+five.elvish('sindarin') // leben
 five.english() // five
 five.esperanto() // kvin
 five.estonian() // viis
