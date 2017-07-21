@@ -61,6 +61,7 @@ assert.equal('पाँच', five.nepali(), 'A nepali five should be पाँ�
 assert.equal('fem', five.norwegian(), 'A norwegian five should be fem');
 assert.equal('پنج', five.persian(), 'A persian five should be پنج');
 assert.equal('ivefay', five.piglatin(), 'A piglatin five should be ivefay');
+assert.equal('wu', five.pinyin(), 'A pinyin five should be wu');
 assert.equal('pięć', five.polish(), 'A polish five should be pięć');
 assert.equal('cinco', five.portuguese(), 'A portuguese five should be cinco');
 assert.equal('ਪੰਜ', five.punjabi(), 'A punjabi five should be ਪੰਜ');
@@ -131,6 +132,16 @@ assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked fiv
 
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));
+
+assert.equal(true, five.isFiveBy(function(a) {
+  return a / five();
+})(five() * five()));
+assert.equal(false, five.isFiveBy(function(a) {
+  return a + five();
+})(five()));
+
+assert.equal(true, five.isMultipleOfFive(five() + five()));
+assert.equal(false, five.isMultipleOfFive(five() + (five() / five())));
 
 assert.equal(JSON.stringify([5, 5]), JSON.stringify(five.filter([5, true, 5])));
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));

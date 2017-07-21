@@ -116,6 +116,7 @@ five.nepali() // पाँच
 five.norwegian() // fem
 five.persian() // پنج
 five.piglatin() // ivefay
+five.pinyin() // wu
 five.polish() // pięć
 five.portuguese() // cinco
 five.punjabi() // ਪੰਜ
@@ -147,6 +148,8 @@ five.base(3); // 12
 ##### Assertion
 ```javascript
 five.isFive(10); // false
+five.isMultipleOfFive(10); // true
+five.isFiveBy(function(x) { return x / 2; })(10); // true
 ```
 
 ##### Filter, Map and Reduce

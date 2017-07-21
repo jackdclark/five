@@ -75,6 +75,7 @@
   five.norwegian = function() { return 'fem'; };
   five.persian = function() { return 'پنج'; };
   five.piglatin = function() { return 'ivefay'; };
+  five.pinyin = function() { return 'wu'; };
   five.polish = function() { return 'pięć'; };
   five.portuguese = function () { return 'cinco'; };
   five.punjabi = function () { return 'ਪੰਜ'; };
@@ -135,6 +136,16 @@
   five.high = function() { return "o/"; };
 
   five.isFive = function(a) { return a === five(); };
+
+  five.isFiveBy = function(f) {
+    return function(a) {
+      return five.isFive(f(a));
+    };
+  };
+
+  five.isMultipleOfFive = five.isFiveBy(function(a) {
+    return (a % five()) + five();
+  });
 
   five.map = function(array) { return array.map(five); };
   five.filter = function(array) { return array.filter(five.isFive); };
