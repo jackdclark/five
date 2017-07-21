@@ -1,6 +1,8 @@
 (function () {
 
-  var five = function() { return 5; };
+  var numberone = require('numberone');
+
+  var five = function() { return numberone+numberone+numberone+numberone+numberone; };
 
   // Quote: Malaclypse the Younger, Principia Discordia, Page 00016
   five.law = function() { return 'The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.'; };
@@ -147,7 +149,7 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
-  
+
   five.members = function() {
     return ['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love'];
   };
@@ -187,9 +189,9 @@
   };
 
   five.r = function () { return '£5'; };
-  
+
   five.euro = function() { return '5€' };
-  
+
   five.dollar = function() { return '$5' };
 
   five.rot = function(word) {
@@ -209,11 +211,11 @@
   };
 
   five.oclock = function() { return '🕔'; };
-  
+
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
-  
+
   five.bucks = function() { return '$' + five() + '.00'; };
 
   five.valueOf = five;
