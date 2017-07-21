@@ -160,8 +160,8 @@
     return ['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday'];
   }
   
-  five.movies = function() {
-    return ['Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'];
+  five.fiveFiveFive = function() {
+    return 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem';
   }
 
   five.furious = function() {
