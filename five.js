@@ -197,6 +197,10 @@
   five.guys = function() { return '🍔'; };
 
   five.valueOf = five;
+  
+  five.star = function() {return '☆';}
+  
+  five.starFull = function() {return '★';}
 
   if(typeof module !== 'undefined' && module.exports) {
     module.exports = five;
