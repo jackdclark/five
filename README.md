@@ -47,6 +47,10 @@ five() / five(); // 1
 ```javascript
 five.factorial(); // 120
 ```
+##### 5 to Power of 'x'
+```javascript
+five.powerUp(3); // 125
+```
 
 ##### Different sorts of 5
 ```javascript
