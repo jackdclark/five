@@ -110,7 +110,7 @@
     var almostFive = (five() * five() - five()) / (five() * five()) * five();
     var moreThanHalfOfFive = (five() + five() + five()) / (five() * five()) * five();
     var lessThanHalfOfFive = (five() + five()) / (five() * five()) * five();
-    var definitelyNotFive = (five()) / (five() * five()) * five();
+    var definitelyNotFive = five() / five();
 
     return five() * almostFive * moreThanHalfOfFive * lessThanHalfOfFive * definitelyNotFive;
   }
