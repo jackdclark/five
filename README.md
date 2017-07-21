@@ -79,6 +79,7 @@ five.catalan() // cinc
 five.chinese() // 五
 five.chinese('pinyin') // wǔ
 five.chinese('financial') // 伍
+five.chinese('cantonese') // ng5
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
