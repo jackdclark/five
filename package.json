@@ -17,5 +17,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jackdcrawford/five/issues"
-  }
+  },
+  "dependencies" :
+    { 
+      "numberone" : "2.0.0"
+    }
 }
