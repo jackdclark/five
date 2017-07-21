@@ -196,6 +196,8 @@
   
   five.dollar = function() { return '$5' };
 
+  five.rr = function () { return 'https://www.fiverr.com'; };
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
