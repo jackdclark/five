@@ -141,6 +141,7 @@ assert.equal(five + five, 10);
 assert.equal(five / five, 1);
 assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
+assert.equal(120, five.factorial());
 
 var fiveEmitter = five.emitter();
 var emitterTested = false;
