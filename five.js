@@ -52,6 +52,7 @@
   five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
+  five.filipino = function() { return 'lima'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };
   five.greek = function() { return 'πέντε'; };
