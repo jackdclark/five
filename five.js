@@ -147,7 +147,7 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
-  
+
   five.members = function() {
     return ['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love'];
   };
@@ -213,12 +213,24 @@
   };
 
   five.oclock = function() { return '🕔'; };
-  
+
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
   
   five.bucks = function() { return '$' + five() + '.00'; };
+
+  five.pillars = function(god) {
+    var god;
+    god = god.toLowerCase();
+    if (god === "christianity") {
+      return ['Faith','Atonement','Inspiration','Trinity','Holiness'];
+    } else if (god === "islam") {
+      return ['Faith','Prayer','Charity','Fasting','Hajj'];
+    } else {
+      return 'You must be an Atheist or Jewish or Buddhist or Hindu or something else.';
+    }
+  };
 
   five.valueOf = five;
 

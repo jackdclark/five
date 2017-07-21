@@ -172,6 +172,13 @@ five.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
 five.fiveFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
 ```
 
+##### Tenets
+```javascript
+five.pillars("Islam"); // ['Faith','Prayer','Charity','Fasting','Hajj']
+five.pillars("Christianity"); // ['Faith','Atonement','Inspiration','Trinity','Holiness']
+five.pillars("Other"); //You must be an Atheist or Jewish or Buddhist or Hindu or something else.
+```
+
 ##### Rotation
 ```javascript
 five.rot("five.js"); //"knaj.ox"
