@@ -183,6 +183,12 @@ five.async(function(err, five) {
 	// five === 5
 });
 ```
+```javascript
+ five.tooSlowAsync(function(err, five) {
+	//called after a ~500 millisecond delay
+	// five === 5 
+})
+```
 
 ##### Unicode
 ```javascript
