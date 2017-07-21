@@ -140,6 +140,11 @@
   five.filter = function(array) { return array.filter(five.isFive); };
   five.reduce = function(array) { return array.reduce(five); };
 
+  five.random = function() {
+    var fives = [5, 5, 5, 5, 5];
+    return fives[Math.floor(Math.random() * fives.length)];
+  };
+
   five.fab = function() {
     return ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber'];
   };

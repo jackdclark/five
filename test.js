@@ -170,6 +170,8 @@ setTimeout(function() {
   process.exit(0);
 }, 100);
 
+assert.equal(5, five.random());
+
 var asyncTests = 1;
 five.async(function(err, five) {
 	assert.equal(err, null, 'Async should not result in an error.');
