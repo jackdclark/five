@@ -21,6 +21,7 @@
     return anotherNumber;
   };
 
+  five.amharic = function() { return 'አምስት'; };
   five.arabic = function() { return 'خمسة'; };
   five.azerbaijani = function() { return 'beş'; };
   five.basque = function() { return 'bost'; };
