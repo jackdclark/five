@@ -59,7 +59,7 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
-five.bucks() // $5.00
+five.bucks() // $5.0
 ```
 
 ##### Cryptography
