@@ -122,9 +122,9 @@ assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song tit
 
 assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
 
-assert.equal(JSON.stringify(['Fajr','Dhuhr','Asr','Maghrib','Isha\'a']), JSON.stringify(five.prayer('islam')), 'A prayer five should be the 5 daily prayers');
+assert.equal(JSON.stringify(['Fajr','Dhuhr','Asr','Maghrib','Isha\'a']), JSON.stringify(five.prayer("islam")), 'A prayer five should be the 5 daily prayers');
 
-assert.equal('That religion does not seem to have 5 prayers', JSON.stringify(five.prayer('other')), 'A prayer five should be the 5 daily prayers');
+assert.equal('That religion does not seem to have 5 prayers', five.prayer('other'), 'A prayer five should be the 5 daily prayers');
 
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));

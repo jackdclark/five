@@ -158,7 +158,7 @@
     var religion;
     religion = religion.toLowerCase();
     if(religion === 'islam'){
-      return ('Fajr','Dhuhr','Asr','Maghrib','Isha\'a');
+      return ['Fajr','Dhuhr','Asr','Maghrib','Isha\'a'];
     }else{
       return 'That religion does not seem to have 5 prayers';
     }
