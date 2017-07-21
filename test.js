@@ -123,6 +123,8 @@ assert.equal(JSON.stringify(['Tigress','Viper','Crane','Monkey','Mantis']), JSON
 
 assert.equal(JSON.stringify(['Julian', 'Dick', 'George', 'Anne', 'Timmy']), JSON.stringify(five.famous()), 'A Famous five should be the five central characters of the series of Enid Blighton novels');
 
+assert.equal('Interstella 5555: The 5tory of the 5ecret 5tar 5ystem', five.fiveFiveFive(), 'FiveFiveFiveFive should be Interstella 5555: The 5tory of the 5ecret 5tar 5ystem');
+
 assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song title of their most famous hit');
 
 assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
