@@ -196,7 +196,7 @@
 
   five.guys = function() { return '🍔'; };
 
-  five.footlong = function() { return '$' + five() + ' footlong' };
+  five.footlong = function() { return '$5 footlong' };
 
   five.valueOf = five;
 
