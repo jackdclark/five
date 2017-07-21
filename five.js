@@ -106,8 +106,13 @@
     return Math.pow(five(), pointFive) * pointFive + pointFive;
   };
   five.factorial = function() {
-    // returns 5*4*3*2*1 optimized at 500% normal factorial runtime;
-    return 120;
+    // returns 5*4*3*2*1
+    var almostFive = (five() * five() - five()) / (five() * five()) * five();
+    var moreThanHalfOfFive = (five() + five() + five()) / (five() * five()) * five();
+    var lessThanHalfOfFive = (five() + five()) / (five() * five()) * five();
+    var definitelyNotFive = five() / five();
+
+    return five() * almostFive * moreThanHalfOfFive * lessThanHalfOfFive * definitelyNotFive;
   }
 
   five.negative = function() { return -five(); };
@@ -147,7 +152,7 @@
   five.jackson = function() {
     return ['Jackie','Tito','Jermaine','Marlon','Michael'];
   };
-  
+
   five.members = function() {
     return ['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love'];
   };
@@ -191,9 +196,9 @@
   };
 
   five.r = function () { return '£5'; };
-  
+
   five.euro = function() { return '5€' };
-  
+
   five.dollar = function() { return '$5' };
 
   five.rot = function(word) {
@@ -213,11 +218,11 @@
   };
 
   five.oclock = function() { return '🕔'; };
-  
+
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
-  
+
   five.bucks = function() { return '$' + five() + '.00'; };
 
   five.valueOf = five;
