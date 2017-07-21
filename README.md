@@ -192,6 +192,13 @@ five.oclockSomewhere(); // '🍺'
 five.guys(); // '🍔'
 ```
 
+##### Money
+```javascript
+five.euro(); // '5€'
+five.dollar(); // '$5'
+```
+
+
 ### Development
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
