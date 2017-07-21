@@ -160,6 +160,8 @@ five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
 five.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
 five.luniz(); // ‘I Got 5 on It’
 five.r(); // '£5'
+five.euro(); // '5€'
+five.dollar(); // '$5'
 five.funk(); // '5 bad boys with the power to rock you'
 five.high(); // 'o/'
 five.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
@@ -187,6 +189,16 @@ five.oclockSomewhere(); // '🍺'
 
 five.guys(); // '🍔'
 ```
+
+##### Money
+```javascript
+five.oclock(); // '🕔'
+
+five.oclockSomewhere(); // '🍺'
+
+five.guys(); // '🍔'
+```
+
 
 ### Development
 ##### The code
