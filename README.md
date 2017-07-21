@@ -71,6 +71,7 @@ five.golden() // 1.618033988749895
 ##### 5 goes multilingual
 ```javascript
 five.arabic() // خمسة
+five.armenian() // հինգ
 five.azerbaijani() // beş
 five.basque() // bost
 five.belarusian() // пяць
@@ -94,6 +95,7 @@ five.esperanto() // kvin
 five.estonian() // viis
 five.finnish() // viisi
 five.french() // cinq
+five.georgian() // ხუთი
 five.german() // fünf
 five.greek() // πέντε
 five.hebrew() // חמש
