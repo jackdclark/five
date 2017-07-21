@@ -83,7 +83,7 @@ assert.equal('10', five.base(5), 'A quinary five should be 10');
 assert.equal('11', five.base(4), 'An quaternary five should be 11')
 assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
-assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
+assert.equal('5', five.hex(), 'A hexadecimal five should be 5');
 
 assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
 assert.equal('1.618033988749895', five.golden(), 'A golden five is Phive');
@@ -93,6 +93,11 @@ assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
 assert.equal('IVEFAY', five.loud('piglatin'), 'A loud five in Pig Latin should be IVEFAY');
 assert.equal('ПЯТЬ', five.loud('russian'), 'A loud five in Russian should be ПЯТЬ');
 assert.equal('S', five.smooth(), 'A smooth five should be S');
+assert.equal([' -',
+              '|',
+              ' -',
+              '  |',
+              ' -'].join('\n'), five.lcd(), 'An LCD for 5');
 
 assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
 assert.equal('🍺', five.oclockSomewhere(), 'A unicode symbol for \'It\'s five o\'clock somewhere\' should be U+1F37A');

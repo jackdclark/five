@@ -59,6 +59,12 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+
+console.log(five.lcd()) /* -
+                          |
+                           -
+                            |
+                           -  */
 ```
 
 ##### Cryptography
