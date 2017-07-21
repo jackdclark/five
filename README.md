@@ -182,6 +182,10 @@ five.rot("five.js"); //"knaj.ox"
 five.async(function(err, five) {
 	// five === 5
 });
+// or
+five.async().then(function(five) {
+        // five === 5
+});
 ```
 
 ##### Unicode
