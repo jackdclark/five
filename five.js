@@ -220,6 +220,8 @@
   
   five.bucks = function() { return '$' + five() + '.00'; };
 
+  five.pointedStar = function() { return '⭐️'; };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
