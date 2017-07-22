@@ -48,6 +48,11 @@ five() * five(); // 25
 five() / five(); // 1
 ```
 
+##### Square Root
+```javascript
+five.sqrt(); // 2.23606797749979
+```
+
 ##### Different sorts of 5
 ```javascript
 five.upHigh() // ⁵
@@ -129,6 +134,7 @@ five.telugu() // ఐదు
 five.thai() // ห้า
 five.turkish() // beş
 five.ukrainian() // п’ять
+five.valyrian() // tōma
 five.welsh() // pump
 ```
 
