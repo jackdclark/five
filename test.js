@@ -98,8 +98,7 @@ assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should b
 assert.equal('🍺', five.oclockSomewhere(), 'A unicode symbol for \'It\'s five o\'clock somewhere\' should be U+1F37A');
 assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
 assert.equal('$5.00', five.bucks(), 'Five bucks in USD should be $5.00');
-assert.equal('$5.00', five.bucksLocalized('$'), 'Five bucks in USD should be $5.00');
-assert.equal('Br5.00', five.bucksLocalized('Br'), 'Five bucks in Belarus Ruble\'s should be Br5.00');
+assert.equal('Br5.00', five.bucks('Br'), 'Five bucks in USD should be Br5.00');
 
 assert.equal('o/', five.high(), 'A High five should be o/');
 

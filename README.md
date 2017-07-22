@@ -197,8 +197,7 @@ five.guys(); // '🍔'
 five.euro(); // '5€'
 five.dollar(); // '$5'
 five.bucks() // $5.00
-five.bucksLocalized('$') // $5.00
-five.bucksLocalized('Br') // Br5.00
+five.bucks('Br') // Br5.00 - optional currency symbol
 ```
 
 

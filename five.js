@@ -217,25 +217,20 @@
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
+
+  five.aLotOfCurrencySymbols = [ 'лв','Z$','₭','؋','£','ƒ','$','ман',
+  'ден','Br','RM','﷼','KM','₨','zł','₽','J$','kr','₩','€','Дин.','BZ$',
+  'P','₡','S','MT','R','kn','₦','Q','CHF','B/.','៛','S/.','Ft','₪','NT$',
+  'lei','฿','','Kč','R$','¥','₴','₱','L','RD$','$U','₮','C$','Rp','₫','Bs',
+  '¢','TT$','$b','Gs' ];
   
-  five.bucks = function() { return '$' + five() + '.00'; };
-
-  five.aLotOfCurrencySymbols = [
-    'лв','Z$','₭','؋','£','ƒ','$','ман','ден','Br','RM','$','﷼','KM',
-    '₨','£','zł','£','﷼','₽','J$','kr','₩','лв','€','Дин.','BZ$','₨','P',
-    '₡','kr','S','MT','R','kn','₨','₦','₨','Q','CHF','B/.','៛','S/.','Ft',
-    '₪','NT$','lei','฿','Kč','₨','R$','¥','¥','₴','₱','L','₱','лв',
-    'RD$','$U','₮','C$','Rp','₫','Bs','лв','¢','TT$','$b','Gs'
-  ];
-
-  five.bucksLocalized = function(currencySymbol) { 
+  five.bucks = function(currencySymbol) { 
     var result;
 
-    if (this.aLotOfCurrencySymbols.indexOf(currencySymbol) > 0) {
+    if (currencySymbol && this.aLotOfCurrencySymbols.indexOf(currencySymbol) > 0) {
       result = currencySymbol + five() + '.00'; 
     } else {
-      console.warn('Unsupported Symbol : Your money has no currency symbol!')
-      result = five() + '.00';
+      result = '$' + five() + '.00';
     }
 
     return result;
