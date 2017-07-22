@@ -59,7 +59,6 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
-five.bucks() // $5.00
 ```
 
 ##### Cryptography
@@ -197,6 +196,9 @@ five.guys(); // '🍔'
 ```javascript
 five.euro(); // '5€'
 five.dollar(); // '$5'
+five.bucks() // $5.00
+five.bucksLocalized('$') // $5.00
+five.bucksLocalized('Br') // Br5.00
 ```
 
 
