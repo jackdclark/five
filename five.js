@@ -91,6 +91,7 @@
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
+  five.valyrian = function () { return 'tōma'; };
   five.welsh = function() { return 'pump'; };
 
   five.morseCode = function() { return '.....'; };
@@ -99,6 +100,7 @@
   five.octal = function() { return five.base(8); };
   five.hex = function() { return five.base(16); };
 
+  five.sqrt = function () { return Math.sqrt(five()); };
   five.mdFive = function() { return '30056e1cab7a61d256fc8edd970d14f5'; };
   five.golden = function() {
     // Φ or 'Phive' = 5 ^ .5 * .5 + .5

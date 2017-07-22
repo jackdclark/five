@@ -77,6 +77,8 @@ assert.equal('ఐదు', five.telugu(), 'A telugu five should be ఐదు');
 assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 assert.equal('beş', five.turkish(), 'A turkish five should be beş');
 assert.equal('п’ять', five.ukrainian(), 'A ukrainian five should be п’ять');
+assert.equal('tōma', five.valyrian(), 'A valyrian five should be tōma');
+assert.equal('pump', five.welsh(), 'A welsh five should be pump');
 
 assert.equal('.....', five.morseCode(), 'A five in morse code should be .....');
 assert.equal('10', five.base(5), 'A quinary five should be 10');
@@ -85,6 +87,7 @@ assert.equal('101', five.binary(), 'A binary five should be 101');
 assert.equal('5', five.octal(), 'An octal five should be 5');
 assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 
+assert.equal('2.23606797749979', five.sqrt(), 'Square root of five should be 2.23606797749979');
 assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
 assert.equal('1.618033988749895', five.golden(), 'A golden five is Phive');
 
