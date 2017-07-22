@@ -152,6 +152,10 @@
     return ['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love'];
   };
 
+  five.powerRangers = function() {
+    return ['Jason Lee Scott', 'Kimberly Hart', 'Zack Taylor', 'Trini Kwan', 'Billy Cranston'];
+  };
+
   five.discography = function() {
     return ['5ive', 'Invincible', 'Kingsize'];
   };
