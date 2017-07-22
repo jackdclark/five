@@ -41,7 +41,13 @@
   five.dothraki = function() { return 'mek'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
-  five.elvish = function() { return 'lempe'; };
+  five.elvish = function(type) {
+    switch(type) {
+      case 'quenya': return 'lempë';
+      case 'sindarin': return 'leben';
+      default: return 'lempë';
+    }
+  };
   five.english = function() { return 'five'; };
   five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
@@ -99,8 +105,12 @@
     var pointFive = five() / (five() + five())
     return Math.pow(five(), pointFive) * pointFive + pointFive;
   };
+  five.factorial = function() {
+    // returns 5*4*3*2*1 optimized at 500% normal factorial runtime;
+    return 120;
+  }
 
-  five.negative = function() { return -5; };
+  five.negative = function() { return -five(); };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
   five.smooth = function() { return 'S'; };
 
@@ -149,9 +159,17 @@
   five.singles = function() {
     return ['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday'];
   }
+  
+  five.fiveFiveFive = function() {
+    return 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem';
+  }
 
   five.furious = function() {
     return ['Tigress','Viper','Crane','Monkey','Mantis'];
+  };
+
+  five.famous = function() {
+    return ['Julian', 'Dick', 'George', 'Anne', 'Timmy'];
   };
 
   /**
@@ -173,6 +191,10 @@
   };
 
   five.r = function () { return '£5'; };
+  
+  five.euro = function() { return '5€' };
+  
+  five.dollar = function() { return '$5' };
 
   five.rot = function(word) {
     if(typeof(word) != 'string') {
@@ -195,6 +217,8 @@
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
+  
+  five.bucks = function() { return '$' + five() + '.00'; };
 
   five.pointedStar = function() { return '⭐️'; };
 

@@ -8,10 +8,6 @@ A library to overcomplicate `5`.
 
 <img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo" />
 
-DONATE: [Give us five](https://www.paypal.me/fivejs/5/)
-
-> *Seriously, we'll be printing stickers and mailing to all contributors of the project. All remaining money will be passed on to a charity.*
-
 ### Usage
 ##### Require the module
 ```javascript
@@ -47,6 +43,10 @@ five() * five(); // 25
 ```javascript
 five() / five(); // 1
 ```
+##### Combinatorics
+```javascript
+five.factorial(); // 120
+```
 
 ##### Different sorts of 5
 ```javascript
@@ -59,6 +59,7 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+five.bucks() // $5.00
 ```
 
 ##### Cryptography
@@ -85,7 +86,9 @@ five.czech() // pět
 five.dothraki() // mek
 five.dovah() // hen
 five.dutch() // vijf
-five.elvish() // lempe
+five.elvish() // lempë
+five.elvish('quenya') // lempë
+five.elvish('sindarin') // leben
 five.english() // five
 five.esperanto() // kvin
 five.estonian() // viis
@@ -165,6 +168,8 @@ five.high(); // 'o/'
 five.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
 five.discography(); //['5ive', 'Invincible', 'Kingsize']
 five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
+five.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
+five.fiveFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
 ```
 
 ##### Rotation
@@ -189,6 +194,13 @@ five.guys(); // '🍔'
 
 five.pointedStar(); // '⭐️'
 ```
+
+##### Money
+```javascript
+five.euro(); // '5€'
+five.dollar(); // '$5'
+```
+
 
 ### Development
 ##### The code
