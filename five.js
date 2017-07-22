@@ -27,6 +27,7 @@
   five.belarusian = function() { return 'пяць'; };
   five.bosnian = function() { return 'pet'; };
   five.bulgarian = function() { return 'пет'; };
+   five.canadian = function() { return 'five eh'; };
   five.catalan = function() { return 'cinc'; };
   five.chinese = function(type) {
     switch(type) {

@@ -76,6 +76,7 @@ five.basque() // bost
 five.belarusian() // пяць
 five.bosnian() // pet
 five.bulgarian() // пет
+five.canadian() // five eh
 five.catalan() // cinc
 five.chinese() // 五
 five.chinese('pinyin') // wǔ
