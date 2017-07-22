@@ -217,6 +217,10 @@
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
+
+  five.tastes = function() { 
+    return ['sweet', 'salty', 'sour', 'bitter', 'umami']; // 5 basic tastes https://en.wikipedia.org/wiki/Taste
+  }
   
   five.bucks = function() { return '$' + five() + '.00'; };
 
