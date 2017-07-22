@@ -217,8 +217,24 @@
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
+
+  five.aLotOfCurrencySymbols = [ 'лв','Z$','₭','؋','£','ƒ','$','ман',
+  'ден','Br','RM','﷼','KM','₨','zł','₽','J$','kr','₩','€','Дин.','BZ$',
+  'P','₡','S','MT','R','kn','₦','Q','CHF','B/.','៛','S/.','Ft','₪','NT$',
+  'lei','฿','','Kč','R$','¥','₴','₱','L','RD$','$U','₮','C$','Rp','₫','Bs',
+  '¢','TT$','$b','Gs' ];
   
-  five.bucks = function() { return '$' + five() + '.00'; };
+  five.bucks = function(currencySymbol) { 
+    var result;
+
+    if (currencySymbol && this.aLotOfCurrencySymbols.indexOf(currencySymbol) > 0) {
+      result = currencySymbol + five() + '.00'; 
+    } else {
+      result = '$' + five() + '.00';
+    }
+
+    return result;
+  };
 
   five.valueOf = five;
 
