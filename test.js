@@ -154,6 +154,30 @@ assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
 assert.equal(120, five.factorial());
 
+assert.deepEqual(five.universities('arwu'), [
+  'Harvard University',
+  'Stanford University',
+  'University of California, Berkeley',
+  'University of Cambridge',
+  'Massachusetts Institute of Technology (MIT)'
+]);
+
+assert.deepEqual(five.universities('qs'), [
+  'Massachusetts Institute of Technology (MIT)',
+  'Stanford University',
+  'Harvard University',
+  'California Institute of Technology (Caltech)',
+  'University of Cambridge'
+]);
+
+assert.deepEqual(five.universities(), [
+  'Princeton University',
+  'Harvard University',
+  'University of Chicago',
+  'Yale University',
+  'Columbia University'
+]);
+
 var fiveEmitter = five.emitter();
 var emitterTested = false;
 
