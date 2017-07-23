@@ -220,6 +220,36 @@
   
   five.bucks = function() { return '$' + five() + '.00'; };
 
+  five.universities = function (type) {
+    switch (type) {
+      case 'arwu':        
+        return ['Harvard University',
+          'Stanford University',
+          'University of California, Berkeley',
+          'University of Cambridge',
+          'Massachusetts Institute of Technology (MIT)'
+        ];
+
+      case 'qs':
+        return [
+          'Massachusetts Institute of Technology (MIT)',
+          'Stanford University',
+          'Harvard University',
+          'California Institute of Technology (Caltech)',
+          'University of Cambridge'
+        ];
+      default:
+        // Return nationwide
+        return [
+          'Princeton University',
+          'Harvard University',
+          'University of Chicago',
+          'Yale University',
+          'Columbia University'
+        ];
+    }
+  };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
