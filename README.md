@@ -172,6 +172,11 @@ five.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
 five.fiveFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
 ```
 
+##### Devout
+```javascript
+five.prayer(); // ['Fajr','Dhuhr','Asr','Maghrib','Isha\'a']
+```
+
 ##### Rotation
 ```javascript
 five.rot("five.js"); //"knaj.ox"

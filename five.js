@@ -168,6 +168,16 @@
     return ['Tigress','Viper','Crane','Monkey','Mantis'];
   };
 
+  five.prayer = function(religion) {
+    var religion;
+    religion = religion.toLowerCase();
+    if(religion === 'islam'){
+      return ['Fajr','Dhuhr','Asr','Maghrib','Isha\'a'];
+    }else{
+      return 'That religion does not seem to have 5 prayers';
+    }
+  };
+
   five.famous = function() {
     return ['Julian', 'Dick', 'George', 'Anne', 'Timmy'];
   };
