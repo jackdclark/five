@@ -115,7 +115,7 @@
   five.smooth = function() { return 'S'; };
 
   five.tooSlow = function() {
-    var returnIn = new Date(new Date().valueOf() + 555);
+    var returnIn = new Date(new Date().valueOf() + parseInt("" + this() + this() + this()));
 
     do {} while(new Date() < returnIn);
 
