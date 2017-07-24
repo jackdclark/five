@@ -185,7 +185,17 @@
   }
 
   five.async = function(callback) {
-    process.nextTick(function() {
+    var fn = null;
+    if(typeof process !== 'object' || typeof process.nextTick !== 'function')
+    {
+        fn = setTimeout;
+    }
+    else
+    {
+        fn = process.nextTick
+    }
+
+    fn(function() {
       callback(null, five());
     });
   };
