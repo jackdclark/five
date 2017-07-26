@@ -197,6 +197,7 @@ five.guys(); // '🍔'
 ```javascript
 five.euro(); // '5€'
 five.dollar(); // '$5'
+five.yen(); // '5¥'
 ```
 
 
