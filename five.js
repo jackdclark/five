@@ -110,6 +110,8 @@
     return 120;
   }
 
+  five.almost = function() { return five() - (Number.EPSILON + Number.EPSILON + Number.EPSILON); };
+  
   five.negative = function() { return -five(); };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
   five.smooth = function() { return 'S'; };
