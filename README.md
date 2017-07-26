@@ -195,8 +195,10 @@ five.guys(); // '🍔'
 
 ##### Money
 ```javascript
+five.r(); // '£5'
 five.euro(); // '5€'
 five.dollar(); // '$5'
+five.yen(); // '5¥'
 ```
 
 
