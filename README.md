@@ -70,6 +70,7 @@ five.golden() // 1.618033988749895
 
 ##### 5 goes multilingual
 ```javascript
+five.afrikaans() // vyf
 five.arabic() // خمسة
 five.azerbaijani() // beş
 five.basque() // bost
