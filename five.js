@@ -92,7 +92,7 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-  five.kurdish = function () {
+  five.kurdish = function (type) {
     switch (type) {
       case 'sorani': return 'پێنج';
       case 'ardalan': return 'پەنج';
