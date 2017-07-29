@@ -126,6 +126,7 @@ five.sinhala() // පහ
 five.slovakian() // päť
 five.slovenian() // pet
 five.spanish() // cinco
+five.swahili() // tano
 five.swedish() // fem
 five.tamil() // ஐந்து
 five.telugu() // ఐదు
