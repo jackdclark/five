@@ -195,6 +195,8 @@
   five.euro = function() { return '5€' };
   
   five.dollar = function() { return '$5' };
+  
+  five.shekels = function() { return '₪5' };
 
   five.rot = function(word) {
     if(typeof(word) != 'string') {
