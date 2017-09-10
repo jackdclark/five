@@ -147,7 +147,7 @@
   };
 
   five.elements = function() {
-    return ['Air', 'Earth', 'Fire', 'Water', 'Wind'];
+    return ['Void', 'Earth', 'Fire', 'Water', 'Wind']; // https://en.wikipedia.org/wiki/Five_elements_(Japanese_philosophy)
   };
 
   five.singles = function() {
