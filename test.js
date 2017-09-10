@@ -117,6 +117,8 @@ assert.equal(JSON.stringify(['Sean Conlon', 'Ritchie Neville', 'Scott Robinson',
 
 assert.equal(JSON.stringify(['5ive', 'Invincible', 'Kingsize']), JSON.stringify(five.discography()), 'A five discography should be the studio albums released by the 90\'s boy band 5ive');
 
+assert.equal(JSON.stringify(['Void', 'Earth', 'Fire', 'Water', 'Wind']), JSON.stringify(five.elements()), 'The five elements should be Void, Earth, Fire, Water and Wind');
+
 assert.equal(JSON.stringify(['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']), JSON.stringify(five.singles()), 'A five singles should be the singles released by the 90\'s boy band 5ive');
 
 assert.equal(JSON.stringify(['Tigress','Viper','Crane','Monkey','Mantis']), JSON.stringify(five.furious()), 'A Furious five should be the five fictional members of the ninja group Furious Five from the movie Kung-Fu Panda');

@@ -167,6 +167,7 @@ five.funk(); // '5 bad boys with the power to rock you'
 five.high(); // 'o/'
 five.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
 five.discography(); //['5ive', 'Invincible', 'Kingsize']
+five.elements(); //['Void', 'Earth', 'Fire', 'Water', 'Wind']
 five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
 five.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
 five.fiveFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
