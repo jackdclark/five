@@ -172,6 +172,10 @@
     return ['Julian', 'Dick', 'George', 'Anne', 'Timmy'];
   };
 
+  five.kings = function(){
+    return ['Joffrey Baratheon', 'Stannis Baratheon', 'Renly Baratheon', 'Robb Stark', 'Balon Greyjoy'];
+  };
+
   /**
    * References "I got 5 on it" by Luniz.
    * http://en.wikipedia.org/wiki/I_Got_5_on_It
