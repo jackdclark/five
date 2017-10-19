@@ -38,6 +38,7 @@ assert.equal('five', five.english(), 'A english five should be five');
 assert.equal('kvin', five.esperanto(), 'An esperanto five should be kvin');
 assert.equal('viis', five.estonian(), 'An estonian five should be viis');
 assert.equal('viisi', five.finnish(), 'A finnish five should be viisi');
+assert.equal('viisi', five.flatgerman(), 'A flatgerman five should be fief');
 assert.equal('cinq', five.french(), 'A french five should be cinq');
 assert.equal('fünf', five.german(), 'A german five should be fünf');
 assert.equal('πέντε', five.greek(), 'A greek five should be πέντε');
