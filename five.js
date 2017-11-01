@@ -214,6 +214,10 @@
 
   five.oclock = function() { return '🕔'; };
   
+  five.times = function (x) {
+    return [ x, x, x, x, x ];
+  };
+  
   five.oclockSomewhere = function() { return '🍺'; };
 
   five.guys = function() { return '🍔'; };
