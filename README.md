@@ -92,6 +92,7 @@ five.elvish('quenya') // lempë
 five.elvish('sindarin') // leben
 five.english() // five
 five.esperanto() // kvin
+five.faroese() // fimm
 five.estonian() // viis
 five.finnish() // viisi
 five.french() // cinq
