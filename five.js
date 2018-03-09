@@ -38,6 +38,7 @@
   five.choctaw = function() { return 'tahlapi'; };
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
+  five.danish = function() { return 'fem'; };
   five.dothraki = function() { return 'mek'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
@@ -51,6 +52,7 @@
   five.english = function() { return 'five'; };
   five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
+  five.faroese = function() { return 'fimm'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };

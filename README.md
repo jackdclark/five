@@ -83,6 +83,7 @@ five.chinese('financial') // 伍
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
+five.danish() // fem
 five.dothraki() // mek
 five.dovah() // hen
 five.dutch() // vijf
@@ -91,6 +92,7 @@ five.elvish('quenya') // lempë
 five.elvish('sindarin') // leben
 five.english() // five
 five.esperanto() // kvin
+five.faroese() // fimm
 five.estonian() // viis
 five.finnish() // viisi
 five.french() // cinq
