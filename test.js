@@ -88,6 +88,8 @@ assert.equal('5', five.hex(), 'An hexadecimal five should be 5');
 assert.equal('30056e1cab7a61d256fc8edd970d14f5', five.mdFive(), 'md5 checksum of "five" should be 30056e1cab7a61d256fc8edd970d14f5');
 assert.equal('1.618033988749895', five.golden(), 'A golden five is Phive');
 
+assert.equal('Boron', five.atomic(), 'An atomic five should be boron');
+
 assert.equal('-5', five.negative(), 'A negative five should be -5');
 assert.equal('FIVE', five.loud(), 'A loud five should be FIVE');
 assert.equal('IVEFAY', five.loud('piglatin'), 'A loud five in Pig Latin should be IVEFAY');
