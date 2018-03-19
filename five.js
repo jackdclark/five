@@ -109,6 +109,8 @@
     // returns 5*4*3*2*1 optimized at 500% normal factorial runtime;
     return 120;
   }
+  
+  five.atomic = function() { return 'Boron'; };
 
   five.negative = function() { return -five(); };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
