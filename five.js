@@ -62,7 +62,13 @@
   five.indonesian = function() { return 'lima'; };
   five.irish = function() { return 'cúig'; };
   five.italian = function() { return 'cinque'; };
-  five.japanese = function() { return '五'; };
+  five.japanese = function(type) {
+    switch(type) {
+      case 'hiragana': return 'ご';
+      case 'katakana': return 'ゴ';
+      default: return '五';
+    }
+  };
   five.kannada = function() { return 'ಐದು'; };
   five.klingon = function() { return 'vagh'; };
   five.korean = function() { return '오'; };

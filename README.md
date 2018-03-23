@@ -104,6 +104,8 @@ five.indonesian() // lima
 five.irish() // cúig
 five.italian() // cinque
 five.japanese() // 五
+five.japanese('hiragana') // ご
+five.japanese('katakana') // ゴ
 five.kannada() // ಐದು
 five.klingon() // vagh
 five.korean() // 오
