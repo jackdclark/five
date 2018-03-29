@@ -20,7 +20,8 @@
 
     return anotherNumber;
   };
-
+  
+  five.afrikaans = function() { return 'vyf'; };
   five.arabic = function() { return 'خمسة'; };
   five.azerbaijani = function() { return 'beş'; };
   five.basque = function() { return 'bost'; };
@@ -92,6 +93,10 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
+  five.isixhosa = function() { return 'zinhlanu'; };
+  five.xhosa = five.isixhosa;
+  five.isizulu = function() { return 'okuhlanu'; };
+  five.zulu = five.isizulu;
 
   five.morseCode = function() { return '.....'; };
   five.base = function(i) { return five().toString(i); }
