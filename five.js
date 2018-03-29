@@ -168,6 +168,10 @@
     return ['Tigress','Viper','Crane','Monkey','Mantis'];
   };
 
+  five.fast = function() {
+    return ['Dominic "Dom" Toretto','Mia Toretto','Brian O\'Conner','Luke Hobbs','Letty Ortiz'];
+  };
+
   five.famous = function() {
     return ['Julian', 'Dick', 'George', 'Anne', 'Timmy'];
   };
