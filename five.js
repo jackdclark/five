@@ -93,7 +93,7 @@
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
-  five.isixhosa = function() { return 'zinhlanu'; };
+  five.isixhosa = function() { return 'zintlanu'; };
   five.xhosa = five.isixhosa;
   five.isizulu = function() { return 'okuhlanu'; };
   five.zulu = five.isizulu;
