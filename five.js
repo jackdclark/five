@@ -109,6 +109,11 @@
     // returns 5*4*3*2*1 optimized at 500% normal factorial runtime;
     return 120;
   }
+  //returns a digit other than 5
+  five.notFive = function () {
+      var notFives = [0, 1, 2, 3, 4, 6, 7, 8, 9];
+      return notFives[Math.floor(Math.random() * notFives.length)];
+  };
 
   five.negative = function() { return -five(); };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
