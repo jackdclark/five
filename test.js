@@ -182,3 +182,11 @@ setInterval(function() {
 		process.exit(0);
 	}
 }, 100);
+
+var d = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //times we get back each digit from calling notFive()
+const t = 5; //threshold for number of times each digit must appear before we are confident in our sample size
+while ((d[0] < t || d[1] < t || d[2] < t || d[3] < t || d[4] < t || d[6] < t || d[7] < t || d[8] < t || d[9] < t) && d[5] == 0)
+{
+    d[five.notFive()]++; //count each time we get a digit back
+}
+assert(d[5] == 0,'notFive should not return 5'); //we should never get back the number 5
