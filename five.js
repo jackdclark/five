@@ -220,6 +220,18 @@
   
   five.bucks = function() { return '$' + five() + '.00'; };
 
+  five.game = function() { 
+    var res = String.trim(prompt('Type ' + five.english() + ':'));
+    var mesg = 'You lose! ' + this.negative() + ' points';
+
+    if (res == this || res == this.english()) {
+        mesg = 'You won! +' + this + ' points';
+    }
+
+    alert(mesg);
+    return mesg;
+  }
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {

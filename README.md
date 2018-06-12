@@ -193,12 +193,16 @@ five.oclockSomewhere(); // '🍺'
 five.guys(); // '🍔'
 ```
 
+##### Game
+```javascript
+five.game(); // Type '5' or 'five' to win.
+```
+
 ##### Money
 ```javascript
 five.euro(); // '5€'
 five.dollar(); // '$5'
 ```
-
 
 ### Development
 ##### The code
