@@ -134,6 +134,8 @@
 
   five.high = function() { return "o/"; };
 
+  five.againstOne = function() { return 'handjob'; };
+
   five.isFive = function(a) { return a === five(); };
 
   five.map = function(array) { return array.map(five); };
