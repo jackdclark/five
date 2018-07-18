@@ -53,6 +53,7 @@
   five.estonian = function() { return 'viis'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
+  five.galician = function() { return 'cinco' };
   five.german = function() { return 'fünf'; };
   five.greek = function() { return 'πέντε'; };
   five.hebrew = function() { return 'חמש'; };
@@ -108,7 +109,7 @@
   five.factorial = function() {
     // returns 5*4*3*2*1 optimized at 500% normal factorial runtime;
     return 120;
-  }
+  };
 
   five.negative = function() { return -five(); };
   five.loud = function (lang) { return (lang && typeof five[lang] === 'function') ? five[lang]().toUpperCase() : five.english().toUpperCase();};
