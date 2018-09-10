@@ -81,7 +81,7 @@ assert.equal('zintlanu', five.xhosa(), 'A xhosa five should be zintlanu');
 assert.equal('zintlanu', five.isixhosa(), 'An isixhosa five should be zintlanu');
 assert.equal('okuhlanu', five.zulu(), 'A zulu five should be okuhlanu');
 assert.equal('okuhlanu', five.isizulu(), 'An isizulu five should be okuhlanu');
-assert.equal('afrikaans', five.afrikaans(), 'An afrikaans five should be vyf');
+assert.equal('vyf', five.afrikaans(), 'An afrikaans five should be vyf');
 
 assert.equal('.....', five.morseCode(), 'A five in morse code should be .....');
 assert.equal('10', five.base(5), 'A quinary five should be 10');
