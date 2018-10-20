@@ -135,6 +135,21 @@
   five.high = function() { return "o/"; };
 
   five.isFive = function(a) { return a === five(); };
+  
+  five.isDivisibleByFive = function(number) {
+    if (typeof number !== 'number') return false;
+    return number % five() === 0;
+  };
+  
+  five.containsFive = function(candidate) {
+    if (!candidate) return false;
+    
+    if (Object.prototype.toString.call(candidate) === '[object Array]') {
+      candidate = candidate.map(function(item) { return item.toString();}).join(' ');
+    }
+    
+    return candidate.toString().indexOf('5') !== -1;
+  }
 
   five.map = function(array) { return array.map(five); };
   five.filter = function(array) { return array.filter(five.isFive); };

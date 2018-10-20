@@ -147,6 +147,12 @@ five.base(3); // 12
 ##### Assertion
 ```javascript
 five.isFive(10); // false
+five.isDivisibleByFive(8); // false
+five.isDivisibleByFive(15); // true
+five.containsFive(154); // true
+five.containsFive('this string contains 5, or not?'); // true
+five.containsFive([ 2, 5, 17 ]); // true
+five.containsFive([ 8, 14, 53 ]); // true
 ```
 
 ##### Filter, Map and Reduce
