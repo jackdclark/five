@@ -132,6 +132,22 @@ assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked fiv
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));
 
+assert.equal(false, five.isDivisibleByFive('foo'));
+assert.equal(true, five.isDivisibleByFive(five()));
+assert.equal(true, five.isDivisibleByFive(10));
+assert.equal(false, five.isDivisibleByFive(42));
+
+assert.equal(true, five.containsFive(153));
+assert.equal(true, five.containsFive('this string contains number 5, for sure!'));
+assert.equal(true, five.containsFive([1, 6, 15, 3]));
+assert.equal(false, five.containsFive());
+assert.equal(false, five.containsFive(null));
+assert.equal(false, five.containsFive(''));
+assert.equal(false, five.containsFive(false));
+assert.equal(false, five.containsFive(143));
+assert.equal(false, five.containsFive('this string does not contain...'));
+assert.equal(false, five.containsFive([1, 6, 8, 3]));
+
 assert.equal(JSON.stringify([5, 5]), JSON.stringify(five.filter([5, true, 5])));
 assert.equal(JSON.stringify([5, 5, 5]), JSON.stringify(five.map([1, 2, 3])));
 assert.equal(5, five.reduce([1, 2, 3]));
