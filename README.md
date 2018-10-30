@@ -89,6 +89,7 @@ five.dutch() // vijf
 five.elvish() // lempë
 five.elvish('quenya') // lempë
 five.elvish('sindarin') // leben
+five.elvish('tengwar') //  (not supported by most fonts, use Code2001 for example)
 five.english() // five
 five.esperanto() // kvin
 five.estonian() // viis

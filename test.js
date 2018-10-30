@@ -34,6 +34,7 @@ assert.equal('vijf', five.dutch(), 'A dutch five should be vijf');
 assert.equal('lempë', five.elvish(), 'An elvish five should be lempë');
 assert.equal('lempë', five.elvish('quenya'), 'An elvish five in Quenya should be lempë');
 assert.equal('leben', five.elvish('sindarin'), 'An elvish five in Sindarin should be leben');
+assert.equal('', five.elvish('tengwar'), 'A five in tengwar should be the corresponding unicode character');
 assert.equal('five', five.english(), 'A english five should be five');
 assert.equal('kvin', five.esperanto(), 'An esperanto five should be kvin');
 assert.equal('viis', five.estonian(), 'An estonian five should be viis');

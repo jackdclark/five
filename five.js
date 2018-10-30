@@ -45,6 +45,7 @@
     switch(type) {
       case 'quenya': return 'lempë';
       case 'sindarin': return 'leben';
+      case 'tengwar': return '\ue065';
       default: return 'lempë';
     }
   };
