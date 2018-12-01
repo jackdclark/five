@@ -23,6 +23,7 @@
 
   five.arabic = function() { return 'خمسة'; };
   five.azerbaijani = function() { return 'beş'; };
+  five.bangla = function() { return 'পাঁচ'; };
   five.basque = function() { return 'bost'; };
   five.belarusian = function() { return 'пяць'; };
   five.bosnian = function() { return 'pet'; };
