@@ -39,6 +39,7 @@
   five.croatian = function() { return 'pet'; };
   five.czech = function() { return 'pět'; };
   five.dothraki = function() { return 'mek'; };
+  five.danish = function() { return 'tre'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
   five.elvish = function(type) {
