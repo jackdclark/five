@@ -97,6 +97,7 @@ assert.equal('S', five.smooth(), 'A smooth five should be S');
 assert.equal('🕔', five.oclock(), 'A unicode symbol for five o\'clock should be U+1F554');
 assert.equal('🍺', five.oclockSomewhere(), 'A unicode symbol for \'It\'s five o\'clock somewhere\' should be U+1F37A');
 assert.equal('🍔', five.guys(), 'A unicode symbol for Five Guys should be U+1F354');
+assert.equal('👮‍♀️', five.o(), 'A unicode symbol for FiVe-O should be U+1F46E')
 assert.equal('$5.00', five.bucks(), 'Five bucks in USD should be $5.00');
 
 assert.equal('o/', five.high(), 'A High five should be o/');
