@@ -192,7 +192,7 @@ five.oclockSomewhere(); // '🍺'
 
 five.guys(); // '🍔'
 
-five.o(); // '👮‍♀️'
+five.o(); // '👮'
 ```
 
 ##### Money
