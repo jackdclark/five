@@ -41,6 +41,7 @@
   five.dothraki = function() { return 'mek'; };
   five.dovah = function() { return 'hen'; };
   five.dutch = function() { return 'vijf'; };
+  five.danish = function() { return 'fem'; };
   five.elvish = function(type) {
     switch(type) {
       case 'quenya': return 'lempë';
