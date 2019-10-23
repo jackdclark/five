@@ -1,6 +1,7 @@
 (function () {
 
-  var five = function() { return 5; };
+  // derive 5 from first principles (language syntax)
+  var five = function() { return --((typeof []).length); };
 
   // Quote: Malaclypse the Younger, Principia Discordia, Page 00016
   five.law = function() { return 'The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.'; };
