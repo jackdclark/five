@@ -142,6 +142,8 @@ assert.equal('5€', five.euro());
 
 assert.equal('$5', five.dollar());
 
+assert.equal('R$5', five.real());
+
 assert.equal('5678901234', five.rot('0123456789'), 'Numbers should be rotated');
 assert.equal('fghijklmnopqrstuvwxyzabcde', five.rot('abcdefghijklmnopqrstuvwxyz'), 'Small letters should be rotated');
 assert.equal('FGHIJKLMNOPQRSTUVWXYZABCDE', five.rot('ABCDEFGHIJKLMNOPQRSTUVWXYZ'), 'Capital letters too');
