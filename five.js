@@ -196,6 +196,8 @@
   
   five.dollar = function() { return '$5' };
 
+  five.real = function() { return 'R$5' };
+
   five.rot = function(word) {
     if(typeof(word) != 'string') {
       return word;
