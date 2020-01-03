@@ -61,6 +61,7 @@ assert.equal('पाँच', five.nepali(), 'A nepali five should be पाँ�
 assert.equal('fem', five.norwegian(), 'A norwegian five should be fem');
 assert.equal('پنج', five.persian(), 'A persian five should be پنج');
 assert.equal('ivefay', five.piglatin(), 'A piglatin five should be ivefay');
+assert.equal('five, ye landlubbarrr', five.pirate(), 'A pirate five should be five, and an insult');
 assert.equal('pięć', five.polish(), 'A polish five should be pięć');
 assert.equal('cinco', five.portuguese(), 'A portuguese five should be cinco');
 assert.equal('ਪੰਜ', five.punjabi(), 'A punjabi five should be ਪੰਜ');
