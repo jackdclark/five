@@ -116,6 +116,7 @@ five.nepali() // पाँच
 five.norwegian() // fem
 five.persian() // پنج
 five.piglatin() // ivefay
+five.pirate() // five, ye landlubbarrr
 five.polish() // pięć
 five.portuguese() // cinco
 five.punjabi() // ਪੰਜ
