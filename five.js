@@ -179,6 +179,9 @@
   five.luniz = function() {
     return "I Got " + five() + " on It";
   }
+  five.nightsAtFreddys = function(){
+    return five.loud() + " NIGHTS AT FREDDYS"
+  }
 
   five.funk = function(){
     return five() + " bad boys with the power to rock you"
