@@ -129,6 +129,8 @@ assert.equal(five.luniz(), 'I Got 5 on It', 'A Luniz five should be the song tit
 
 assert.equal(five.funk(), '5 bad boys with the power to rock you', 'A funked five should be a group of bad boys with the power to rock you');
 
+assert.equal(five.nightsAtFreddys(), 'FIVE NIGHTS AT FREDDYS', 'A game that is really popular for some reason'
+
 assert.equal(true, five.isFive(five()));
 assert.equal(false, five.isFive(10));
 
