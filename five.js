@@ -8,6 +8,8 @@
   five.upHigh = function() { return '⁵'; };
   five.downLow = function() { return '₅'; };
   five.roman = function() { return 'V'; };
+  five.arabicNumber = function() { return '٥';};
+  five.persianNumber = function() { return '۵';};
 
   five.convertTo = function(anotherNumber) {
     // If you need other numbers I'd strongly suggest you call
