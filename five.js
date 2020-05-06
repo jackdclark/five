@@ -218,6 +218,8 @@
 
   five.guys = function() { return '🍔'; };
   
+  five.deMayo = function() { return '🇲🇽'; };
+  
   five.bucks = function() { return '$' + five() + '.00'; };
 
   five.valueOf = five;

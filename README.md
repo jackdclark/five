@@ -191,6 +191,8 @@ five.oclock(); // '🕔'
 five.oclockSomewhere(); // '🍺'
 
 five.guys(); // '🍔'
+
+five.deMayo(); // '🇲🇽'
 ```
 
 ##### Money
