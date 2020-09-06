@@ -1,6 +1,6 @@
 # five.js
 
-A library to overcomplicate `5`.
+A library to simplify `5`.
 
 [![Build Status](https://travis-ci.org/jackdcrawford/five.svg?branch=master)](https://travis-ci.org/jackdcrawford/five)
 [![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
