@@ -182,3 +182,5 @@ setInterval(function() {
 		process.exit(0);
 	}
 }, 100);
+
+assert.equal(five.downUnder(), 'ϛ');
