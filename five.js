@@ -218,6 +218,8 @@
 
   five.guys = function() { return '🍔'; };
   
+  five.schfifty = function() { return 'https://www.youtube.com/watch?v=-XccUMOQ978' };
+  
   five.bucks = function() { return '$' + five() + '.00'; };
 
   five.valueOf = five;
