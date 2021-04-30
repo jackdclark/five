@@ -220,6 +220,23 @@
   
   five.bucks = function() { return '$' + five() + '.00'; };
 
+  five.five = function () {
+    var self = {
+        total: "55",
+    };
+
+    function five() {
+        self.total += "5";
+        return self;
+    }
+
+    self.five = five;
+    self.toString = function () {
+        return self.total
+    };
+    return self;
+  };
+
   five.valueOf = five;
 
   if(typeof module !== 'undefined' && module.exports) {
