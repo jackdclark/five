@@ -154,6 +154,9 @@ assert.equal(five - five, 0);
 assert.equal((five / five) * (five), five);
 assert.equal(120, five.factorial());
 
+assert.equal(five.five().toString(), "55", "Five and five makes fifty-five");
+assert.equal(five.five().five().toString(), "555", "Three fives makes five hundred and fifty-five");
+
 var fiveEmitter = five.emitter();
 var emitterTested = false;
 
