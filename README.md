@@ -132,6 +132,7 @@ five.telugu() // ఐదు
 five.thai() // ห้า
 five.turkish() // beş
 five.ukrainian() // п’ять
+five.urdu() // پانچ
 five.welsh() // pump
 ```
 
@@ -197,6 +198,9 @@ five.guys(); // '🍔'
 ```javascript
 five.euro(); // '5€'
 five.dollar(); // '$5'
+five.rupee('pakistani'); // '5 Rs.'
+five.rupee('indian'); // '₹ 5'
+five.rupee(); // '5 Rs.' for the default case
 ```
 
 
