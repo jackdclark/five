@@ -202,12 +202,12 @@
     }
     function replaceLetter(z) {
       if('0' <= z && z <= '9') {
-        return ((parseInt(z)+5)%10).toString();
+        return ((parseInt(z) + five()) % (five() + five())).toString();
       }
-      var aLetter = (z <= 'Z' ? 'A': 'a').charCodeAt(0);
-      var x = 5 + z.charCodeAt(0) - aLetter;
-      x %= 26;
-      return String.fromCharCode(x+aLetter);
+      var aLetter = (z <= 'Z' ? 'A': 'a').charCodeAt(five() - five());
+      var x = five() + z.charCodeAt(five() - five()) - aLetter;
+      x %= five() * five() + five() / five();
+      return String.fromCharCode(x + aLetter);
     }
     return word.replace(/[a-zA-Z0-9]/g, replaceLetter);
   };
