@@ -92,6 +92,7 @@ five.elvish('sindarin') // leben
 five.english() // five
 five.esperanto() // kvin
 five.estonian() // viis
+five.fijian() // lima
 five.finnish() // viisi
 five.french() // cinq
 five.german() // fünf
@@ -111,6 +112,7 @@ five.latin() // quinque
 five.latvian() // pieci
 five.lithuanian() // penki
 five.maltese() // ħamsa
+five.maori() // rima
 five.mongolian() // таван
 five.nepali() // पाँच
 five.norwegian() // fem
@@ -131,6 +133,7 @@ five.tamil() // ஐந்து
 five.telugu() // ఐదు
 five.thai() // ห้า
 five.turkish() // beş
+five.urdu() // پاںچ
 five.ukrainian() // п’ять
 five.welsh() // pump
 ```
