@@ -51,6 +51,7 @@
   five.english = function() { return 'five'; };
   five.esperanto = function() { return 'kvin'; };
   five.estonian = function() { return 'viis'; };
+  five.fijian = function() { return 'lima'; };
   five.finnish = function() { return 'viisi'; };
   five.french = function() { return 'cinq'; };
   five.german = function() { return 'fünf'; };
@@ -70,6 +71,7 @@
   five.latvian = function() { return 'pieci'; };
   five.lithuanian = function() { return 'penki'; };
   five.maltese = function() { return 'ħamsa'; };
+  five.maori = function() { return 'rima'; };
   five.mongolian = function() { return 'таван'; };
   five.nepali = function() { return 'पाँच'; };
   five.norwegian = function() { return 'fem'; };
@@ -90,6 +92,7 @@
   five.telugu = function() { return 'ఐదు'; };
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
+  five.urdu = function() { return 'پاںچ'; };
   five.ukrainian = function() { return 'п’ять'; };
   five.welsh = function() { return 'pump'; };
 
