@@ -135,6 +135,7 @@
   five.high = function() { return "o/"; };
 
   five.isFive = function(a) { return a === five(); };
+  five.couldBeFive = function(a) { return Math.round(five()) === five() || Math.floor(five()) === five() };
 
   five.map = function(array) { return array.map(five); };
   five.filter = function(array) { return array.filter(five.isFive); };
