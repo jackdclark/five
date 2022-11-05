@@ -77,6 +77,7 @@ assert.equal('ఐదు', five.telugu(), 'A telugu five should be ఐదు');
 assert.equal('ห้า', five.thai(), 'A thai five should be ห้า');
 assert.equal('beş', five.turkish(), 'A turkish five should be beş');
 assert.equal('п’ять', five.ukrainian(), 'A ukrainian five should be п’ять');
+assert.equal('پانچ', five.urdu(), 'An urdu five should be پانچ');
 
 assert.equal('.....', five.morseCode(), 'A five in morse code should be .....');
 assert.equal('10', five.base(5), 'A quinary five should be 10');
@@ -141,6 +142,10 @@ assert.equal('£5', five.r(), 'A fiver should be 5 GBP');
 assert.equal('5€', five.euro());
 
 assert.equal('$5', five.dollar());
+
+assert.equal('5 Rs.', five.rupee('pakistani'));
+assert.equal('₹ 5', five.rupee('indian'));
+assert.equal('5 Rs.', five.rupee());
 
 assert.equal('5678901234', five.rot('0123456789'), 'Numbers should be rotated');
 assert.equal('fghijklmnopqrstuvwxyzabcde', five.rot('abcdefghijklmnopqrstuvwxyz'), 'Small letters should be rotated');

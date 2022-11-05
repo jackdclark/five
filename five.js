@@ -91,6 +91,7 @@
   five.turkish = function() { return 'beş'; };
   five.thai = function() { return 'ห้า'; };
   five.ukrainian = function() { return 'п’ять'; };
+  five.urdu = function() {return 'پانچ';};
   five.welsh = function() { return 'pump'; };
 
   five.morseCode = function() { return '.....'; };
@@ -195,6 +196,14 @@
   five.euro = function() { return '5€' };
   
   five.dollar = function() { return '$5' };
+
+  five.rupee = function(type) {
+  switch (type) {
+  case 'pakistani': return '5 Rs.';
+  case 'indian': return '₹ 5';
+  default: return '5 Rs.';
+  }
+  };
 
   five.rot = function(word) {
     if(typeof(word) != 'string') {
