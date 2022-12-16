@@ -8,10 +8,6 @@ A library to overcomplicate `5`.
 
 <img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo" />
 
-DONATE: [Give us five](https://www.paypal.me/fivejs/5/)
-
-> *Seriously, we'll be printing stickers and mailing to all contributors of the project. All remaining money will be passed on to a charity.*
-
 ### Usage
 ##### Require the module
 ```javascript
@@ -28,6 +24,11 @@ var five = require('five');
 five(); // 5
 ```
 
+## The Law of Fives
+```javascript
+five.law(); // The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.
+```
+
 ##### Addition
 ```javascript
 five() + five(); // 10
@@ -42,6 +43,10 @@ five() * five(); // 25
 ```javascript
 five() / five(); // 1
 ```
+##### Combinatorics
+```javascript
+five.factorial(); // 120
+```
 
 ##### Different sorts of 5
 ```javascript
@@ -54,7 +59,13 @@ five.negative() // -5
 five.loud() // FIVE
 five.loud('piglatin') // IVEFAY
 five.smooth() // S
+five.bucks() // $5.00
+```
+
+##### Cryptography
+```javascript
 five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
+five.golden() // 1.618033988749895
 ```
 
 ##### 5 goes multilingual
@@ -67,14 +78,19 @@ five.bosnian() // pet
 five.bulgarian() // пет
 five.catalan() // cinc
 five.chinese() // 五
+five.chinese('pinyin') // wǔ
+five.chinese('financial') // 伍
 five.choctaw() // tahlapi
 five.croatian() // pet
 five.czech() // pět
 five.dothraki() // mek
 five.dovah() // hen
 five.dutch() // vijf
-five.elvish() // lempe
-five.english() // Five
+five.elvish() // lempë
+five.elvish('quenya') // lempë
+five.elvish('sindarin') // leben
+five.english() // five
+five.esperanto() // kvin
 five.estonian() // viis
 five.finnish() // viisi
 five.french() // cinq
@@ -94,15 +110,19 @@ five.korean() // 오
 five.latin() // quinque
 five.latvian() // pieci
 five.lithuanian() // penki
+five.maltese() // ħamsa
 five.mongolian() // таван
+five.nepali() // पाँच
 five.norwegian() // fem
 five.persian() // پنج
 five.piglatin() // ivefay
 five.polish() // pięć
 five.portuguese() // cinco
+five.punjabi() // ਪੰਜ
 five.romanian() // cinci
 five.russian() // пять
 five.serbian() // pet
+five.sinhala() // පහ
 five.slovakian() // päť
 five.slovenian() // pet
 five.spanish() // cinco
@@ -140,7 +160,16 @@ five.reduce([1, 2, 3]); // 5
 ```javascript
 five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
+five.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
 five.luniz(); // ‘I Got 5 on It’
+five.r(); // '£5'
+five.funk(); // '5 bad boys with the power to rock you'
+five.high(); // 'o/'
+five.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
+five.discography(); //['5ive', 'Invincible', 'Kingsize']
+five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
+five.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
+five.fiveFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
 ```
 
 ##### Rotation
@@ -158,7 +187,18 @@ five.async(function(err, five) {
 ##### Unicode
 ```javascript
 five.oclock(); // '🕔'
+
+five.oclockSomewhere(); // '🍺'
+
+five.guys(); // '🍔'
 ```
+
+##### Money
+```javascript
+five.euro(); // '5€'
+five.dollar(); // '$5'
+```
+
 
 ### Development
 ##### The code
